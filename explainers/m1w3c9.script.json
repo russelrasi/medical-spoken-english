@@ -1,0 +1,291 @@
+{
+ "classId": "m1w3c9",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class nine. Future Plans and College Schedule.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. be going to is for plans you already made.",
+     "show": {
+      "kind": "text",
+      "text": "be going to is for plans you already made.",
+      "bn": "নিয়ম ১: be going to আগেই করে ফেলা পরিকল্পনার জন্য।"
+     }
+    },
+    {
+     "say": "I am going to specialise in cardiology.",
+     "show": {
+      "kind": "example",
+      "text": "I am going to specialise in cardiology.",
+      "bn": "আমি কার্ডিওলজিতে বিশেষজ্ঞ হতে যাচ্ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice going, and to.",
+     "show": {
+      "kind": "example",
+      "text": "I am going to specialise in cardiology.",
+      "bn": "আমি কার্ডিওলজিতে বিশেষজ্ঞ হতে যাচ্ছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "going",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We are going to start the practical next week.",
+     "show": {
+      "kind": "example",
+      "text": "We are going to start the practical next week.",
+      "bn": "আমরা আগামী সপ্তাহে প্র্যাকটিক্যাল শুরু করতে যাচ্ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice going, and to.",
+     "show": {
+      "kind": "example",
+      "text": "We are going to start the practical next week.",
+      "bn": "আমরা আগামী সপ্তাহে প্র্যাকটিক্যাল শুরু করতে যাচ্ছি।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "going",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. will is for decisions made right now, offers, promises and predictions.",
+     "show": {
+      "kind": "text",
+      "text": "will is for decisions made right now, offers, promises and predictions.",
+      "bn": "নিয়ম ২: will এখনই নেওয়া সিদ্ধান্ত, প্রস্তাব, প্রতিশ্রুতি ও ভবিষ্যদ্বাণীর জন্য।"
+     }
+    },
+    {
+     "say": "I will help you with the notes.",
+     "show": {
+      "kind": "example",
+      "text": "I will help you with the notes.",
+      "bn": "আমি নোটের ব্যাপারে তোমাকে সাহায্য করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice will.",
+     "show": {
+      "kind": "example",
+      "text": "I will help you with the notes.",
+      "bn": "আমি নোটের ব্যাপারে তোমাকে সাহায্য করব।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "will",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I will not be late again, sir.",
+     "show": {
+      "kind": "example",
+      "text": "I will not be late again, sir.",
+      "bn": "আমি আর দেরি করব না, স্যার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice will.",
+     "show": {
+      "kind": "example",
+      "text": "I will not be late again, sir.",
+      "bn": "আমি আর দেরি করব না, স্যার।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "will",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I going to study tonight. Say: I am going to study tonight.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "am"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "The surgery will be tomorrow.",
+     "show": {
+      "kind": "example",
+      "text": "The surgery will be tomorrow.",
+      "bn": "অস্ত্রোপচারটি আগামীকাল হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Surgery.",
+     "show": {
+      "kind": "example",
+      "text": "The surgery will be tomorrow.",
+      "bn": "অস্ত্রোপচারটি আগামীকাল হবে।",
+      "focus": [
+       {
+        "w": "surgery",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a follow-up next week.",
+     "show": {
+      "kind": "example",
+      "text": "I have a follow-up next week.",
+      "bn": "আগামী সপ্তাহে আমার ফলো-আপ অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Follow-up.",
+     "show": {
+      "kind": "example",
+      "text": "I have a follow-up next week.",
+      "bn": "আগামী সপ্তাহে আমার ফলো-আপ অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": [
+       {
+        "w": "follow-up",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. I'll and won't.",
+     "show": {
+      "kind": "text",
+      "text": "I'll and won't.",
+      "bn": "উচ্চারণ অনুশীলন: “I’ll” ও “won’t”।"
+     }
+    },
+    {
+     "say": "I'll call you tomorrow.",
+     "show": {
+      "kind": "example",
+      "text": "I'll call you tomorrow.",
+      "bn": "আমি আগামীকাল আপনাকে ফোন করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Won't rhymes with don't. Want is a different word.",
+     "show": {
+      "kind": "example",
+      "text": "I'll call you tomorrow.",
+      "bn": "আমি আগামীকাল আপনাকে ফোন করব।",
+      "focus": [
+       {
+        "w": "i'll",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

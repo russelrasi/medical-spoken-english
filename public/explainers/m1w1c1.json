@@ -1,0 +1,349 @@
+{
+ "classId": "m1w1c1",
+ "classNo": 1,
+ "title": "Self-Introduction & the Verb 'To Be'",
+ "titleBn": "নিজের পরিচয় ও 'To Be' ক্রিয়া",
+ "fps": 30,
+ "totalFrames": 2770,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 208,
+   "lines": [
+    {
+     "say": "Welcome to Class 1. Your starter pack, and the verb to be.",
+     "audio": "m1w1c1/l000.mp3",
+     "from": 0,
+     "frames": 208,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1: Subject + Verb + Object",
+   "from": 208,
+   "frames": 496,
+   "lines": [
+    {
+     "say": "Rule one. English sentences follow this order: subject, verb, object.",
+     "audio": "m1w1c1/l001.mp3",
+     "from": 0,
+     "frames": 238,
+     "lead": 12,
+     "show": {
+      "kind": "svo",
+      "reveal": 3,
+      "labels": true
+     }
+    },
+    {
+     "say": "The verb sits in the middle, right after the subject. For example: I am a medical student.",
+     "audio": "m1w1c1/l002.mp3",
+     "from": 238,
+     "frames": 258,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       0,
+       1
+      ],
+      "focus": [
+       {
+        "w": "I",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "text": "I am a medical student.",
+      "bn": "আমি একজন মেডিকেল শিক্ষার্থী।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2: Choose am, is or are",
+   "from": 704,
+   "frames": 730,
+   "lines": [
+    {
+     "say": "Rule two. Match am, is or are to the subject.",
+     "audio": "m1w1c1/l003.mp3",
+     "from": 0,
+     "frames": 177,
+     "lead": 12,
+     "show": {
+      "kind": "table",
+      "row": -1
+     }
+    },
+    {
+     "say": "I, am.",
+     "audio": "m1w1c1/l004.mp3",
+     "from": 177,
+     "frames": 87,
+     "lead": 12,
+     "show": {
+      "kind": "table",
+      "row": 0,
+      "keep": true
+     }
+    },
+    {
+     "say": "He, she, it, is.",
+     "audio": "m1w1c1/l005.mp3",
+     "from": 264,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "table",
+      "row": 1,
+      "keep": true
+     }
+    },
+    {
+     "say": "You, we, they, are.",
+     "audio": "m1w1c1/l006.mp3",
+     "from": 379,
+     "frames": 132,
+     "lead": 12,
+     "show": {
+      "kind": "table",
+      "row": 2,
+      "keep": true
+     }
+    },
+    {
+     "say": "Careful. He is for a male. She is for a female.",
+     "audio": "m1w1c1/l007.mp3",
+     "from": 511,
+     "frames": 219,
+     "lead": 12,
+     "show": {
+      "kind": "hesshe"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Examples: match the subject",
+   "from": 1434,
+   "frames": 236,
+   "lines": [
+    {
+     "say": "The patient is in the ward.",
+     "audio": "m1w1c1/l008.mp3",
+     "from": 0,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       1,
+       1
+      ],
+      "focus": [],
+      "text": "The patient is in the ward.",
+      "bn": "রোগী ওয়ার্ডে আছেন।"
+     }
+    },
+    {
+     "say": "One person, so we use is.",
+     "audio": "m1w1c1/l009.mp3",
+     "from": 101,
+     "frames": 135,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       1,
+       1
+      ],
+      "focus": [
+       {
+        "w": "patient",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true,
+      "text": "The patient is in the ward.",
+      "bn": "রোগী ওয়ার্ডে আছেন।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 3: Classroom language",
+   "from": 1670,
+   "frames": 302,
+   "lines": [
+    {
+     "say": "Classroom language. Could you repeat that, please?",
+     "audio": "m1w1c1/l010.mp3",
+     "from": 0,
+     "frames": 176,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       2,
+       0
+      ],
+      "focus": [],
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?"
+     }
+    },
+    {
+     "say": "Say this when you did not hear.",
+     "audio": "m1w1c1/l011.mp3",
+     "from": 176,
+     "frames": 126,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       2,
+       0
+      ],
+      "focus": [
+       {
+        "w": "repeat",
+        "role": "verb"
+       }
+      ],
+      "keep": true,
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner: v and w",
+   "from": 1972,
+   "frames": 256,
+   "lines": [
+    {
+     "say": "The vein is very visible.",
+     "audio": "m1w1c1/l012.mp3",
+     "from": 0,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       3,
+       0
+      ],
+      "focus": [],
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।"
+     }
+    },
+    {
+     "say": "For v, touch your top teeth to your lip.",
+     "audio": "m1w1c1/l013.mp3",
+     "from": 105,
+     "frames": 151,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "ref": [
+       3,
+       0
+      ],
+      "focus": [
+       {
+        "w": "vein",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       },
+       {
+        "w": "visible",
+        "role": "key"
+       }
+      ],
+      "keep": true,
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistakes",
+   "from": 2228,
+   "frames": 250,
+   "lines": [
+    {
+     "say": "Never drop the verb. Not: I student. Say: I am a student.",
+     "audio": "m1w1c1/l014.mp3",
+     "from": 0,
+     "frames": 250,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "am",
+      "wrong": "I student.",
+      "right": "I am a student."
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2478,
+   "frames": 292,
+   "lines": [
+    {
+     "say": "Remember: keep the verb in the middle, and match it to the subject.",
+     "audio": "m1w1c1/l015.mp3",
+     "from": 0,
+     "frames": 180,
+     "lead": 12,
+     "show": {
+      "kind": "table",
+      "row": -1
+     }
+    },
+    {
+     "say": "Now try the lesson!",
+     "audio": "m1w1c1/l016.mp3",
+     "from": 180,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

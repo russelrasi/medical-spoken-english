@@ -1,0 +1,275 @@
+{
+ "classId": "m1w4c11",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class eleven. Describing People, Places and Things.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. The adjective goes before the noun and never takes -s.",
+     "show": {
+      "kind": "text",
+      "text": "The adjective goes before the noun and never takes -s.",
+      "bn": "নিয়ম ১: বিশেষণ বিশেষ্যের আগে বসে এবং কখনো -s নেয় না।"
+     }
+    },
+    {
+     "say": "My room is small but clean.",
+     "show": {
+      "kind": "example",
+      "text": "My room is small but clean.",
+      "bn": "আমার ঘরটি ছোট কিন্তু পরিষ্কার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "show": {
+      "kind": "example",
+      "text": "My room is small but clean.",
+      "bn": "আমার ঘরটি ছোট কিন্তু পরিষ্কার।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The library is very quiet.",
+     "show": {
+      "kind": "example",
+      "text": "The library is very quiet.",
+      "bn": "লাইব্রেরিটি খুব শান্ত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, and quiet.",
+     "show": {
+      "kind": "example",
+      "text": "The library is very quiet.",
+      "bn": "লাইব্রেরিটি খুব শান্ত।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "quiet",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. There is or There are introduces something that exists.",
+     "show": {
+      "kind": "text",
+      "text": "There is / There are introduces something that exists.",
+      "bn": "নিয়ম ২: There is / There are দিয়ে কোনো কিছুর অস্তিত্ব জানানো হয়।"
+     }
+    },
+    {
+     "say": "There is a small table in my room.",
+     "show": {
+      "kind": "example",
+      "text": "There is a small table in my room.",
+      "bn": "আমার ঘরে একটি ছোট টেবিল আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice there, and is.",
+     "show": {
+      "kind": "example",
+      "text": "There is a small table in my room.",
+      "bn": "আমার ঘরে একটি ছোট টেবিল আছে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "verb"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "There are two beds and one cupboard.",
+     "show": {
+      "kind": "example",
+      "text": "There are two beds and one cupboard.",
+      "bn": "দুইটি বিছানা ও একটি আলমারি আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice there, and are.",
+     "show": {
+      "kind": "example",
+      "text": "There are two beds and one cupboard.",
+      "bn": "দুইটি বিছানা ও একটি আলমারি আছে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "verb"
+       },
+       {
+        "w": "are",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I have two helpfuls teachers. Say: I have two helpful teachers.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "helpful"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "The pain is sharp.",
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Sharp.",
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": [
+       {
+        "w": "sharp",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "There is a dull ache in my back.",
+     "show": {
+      "kind": "example",
+      "text": "There is a dull ache in my back.",
+      "bn": "আমার পিঠে মৃদু, ভোঁতা ধরনের ব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Dull.",
+     "show": {
+      "kind": "example",
+      "text": "There is a dull ache in my back.",
+      "bn": "আমার পিঠে মৃদু, ভোঁতা ধরনের ব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "dull",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Stressing adjectives.",
+     "show": {
+      "kind": "text",
+      "text": "stressing adjectives.",
+      "bn": "উচ্চারণ অনুশীলন: বিশেষণের ওপর জোর দেওয়া।"
+     }
+    },
+    {
+     "say": "There is a spacious room.",
+     "show": {
+      "kind": "example",
+      "text": "There is a spacious room.",
+      "bn": "এখানে একটি প্রশস্ত ঘর আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Stress the first syllable: SPA-cious.",
+     "show": {
+      "kind": "example",
+      "text": "There is a spacious room.",
+      "bn": "এখানে একটি প্রশস্ত ঘর আছে।",
+      "focus": [
+       {
+        "w": "spacious",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

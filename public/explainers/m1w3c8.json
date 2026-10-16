@@ -1,0 +1,379 @@
+{
+ "classId": "m1w3c8",
+ "classNo": 8,
+ "title": "Irregular Past Verbs & Weekend Stories",
+ "titleBn": "অনিয়মিত অতীত ক্রিয়া ও সপ্তাহান্তের গল্প",
+ "fps": 30,
+ "totalFrames": 2628,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 220,
+   "lines": [
+    {
+     "say": "Welcome to Class eight. Irregular Past Verbs and Weekend Stories.",
+     "audio": "m1w3c8/l000.mp3",
+     "from": 0,
+     "frames": 220,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 220,
+   "frames": 608,
+   "lines": [
+    {
+     "say": "Rule one. Irregular verbs do not take -ed.",
+     "audio": "m1w3c8/l001.mp3",
+     "from": 0,
+     "frames": 175,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Irregular verbs do not take -ed.",
+      "bn": "নিয়ম ১: অনিয়মিত ক্রিয়ায় -ed বসে না। এদের অতীত রূপ মুখস্থ করতে হয়।"
+     }
+    },
+    {
+     "say": "I went to the market last Friday.",
+     "audio": "m1w3c8/l002.mp3",
+     "from": 175,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I went to the market last Friday.",
+      "bn": "আমি গত শুক্রবার বাজারে গিয়েছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice went.",
+     "audio": "m1w3c8/l003.mp3",
+     "from": 290,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I went to the market last Friday.",
+      "bn": "আমি গত শুক্রবার বাজারে গিয়েছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "went",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I bought a lab coat and two notebooks.",
+     "audio": "m1w3c8/l004.mp3",
+     "from": 384,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I bought a lab coat and two notebooks.",
+      "bn": "আমি একটি ল্যাব কোট ও দুইটি খাতা কিনেছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice bought.",
+     "audio": "m1w3c8/l005.mp3",
+     "from": 505,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I bought a lab coat and two notebooks.",
+      "bn": "আমি একটি ল্যাব কোট ও দুইটি খাতা কিনেছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "bought",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 828,
+   "frames": 634,
+   "lines": [
+    {
+     "say": "Rule two. With did and did not, even irregular verbs go back to their plain form.",
+     "audio": "m1w3c8/l006.mp3",
+     "from": 0,
+     "frames": 241,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "With did and did not, even irregular verbs go back to their plain form.",
+      "bn": "নিয়ম ২: did ও did not-এর সাথে অনিয়মিত ক্রিয়াও সাধারণ রূপে ফিরে যায়।"
+     }
+    },
+    {
+     "say": "Did you go to the market?",
+     "audio": "m1w3c8/l007.mp3",
+     "from": 241,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Did you go to the market?",
+      "bn": "তুমি কি বাজারে গিয়েছিলে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice did.",
+     "audio": "m1w3c8/l008.mp3",
+     "from": 338,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Did you go to the market?",
+      "bn": "তুমি কি বাজারে গিয়েছিলে?",
+      "focus": [
+       {
+        "w": "did",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I did not see the notice.",
+     "audio": "m1w3c8/l009.mp3",
+     "from": 431,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I did not see the notice.",
+      "bn": "আমি নোটিশটি দেখিনি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice did.",
+     "audio": "m1w3c8/l010.mp3",
+     "from": 533,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I did not see the notice.",
+      "bn": "আমি নোটিশটি দেখিনি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "did",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1462,
+   "frames": 210,
+   "lines": [
+    {
+     "say": "Not: I goed to the market. Say: I went to the market.",
+     "audio": "m1w3c8/l011.mp3",
+     "from": 0,
+     "frames": 210,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "went",
+      "wrong": "I goed to the market.",
+      "right": "I went to the market."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1672,
+   "frames": 388,
+   "lines": [
+    {
+     "say": "I felt dizzy yesterday.",
+     "audio": "m1w3c8/l012.mp3",
+     "from": 0,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I felt dizzy yesterday.",
+      "bn": "গতকাল আমার মাথা ঘুরেছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Felt.",
+     "audio": "m1w3c8/l013.mp3",
+     "from": 102,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I felt dizzy yesterday.",
+      "bn": "গতকাল আমার মাথা ঘুরেছিল।",
+      "focus": [
+       {
+        "w": "felt",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "He broke his arm.",
+     "audio": "m1w3c8/l014.mp3",
+     "from": 195,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He broke his arm.",
+      "bn": "তার হাতের হাড় ভেঙেছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Broke.",
+     "audio": "m1w3c8/l015.mp3",
+     "from": 287,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He broke his arm.",
+      "bn": "তার হাতের হাড় ভেঙেছিল।",
+      "focus": [
+       {
+        "w": "broke",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2060,
+   "frames": 415,
+   "lines": [
+    {
+     "say": "Sound corner. Linking words.",
+     "audio": "m1w3c8/l016.mp3",
+     "from": 0,
+     "frames": 152,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "linking words.",
+      "bn": "উচ্চারণ অনুশীলন: শব্দ জুড়ে উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I went to the market.",
+     "audio": "m1w3c8/l017.mp3",
+     "from": 152,
+     "frames": 95,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I went to the market.",
+      "bn": "আমি বাজারে গিয়েছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the words as one smooth group, not one at a time.",
+     "audio": "m1w3c8/l018.mp3",
+     "from": 247,
+     "frames": 168,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I went to the market.",
+      "bn": "আমি বাজারে গিয়েছিলাম।",
+      "focus": [
+       {
+        "w": "went",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2475,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w3c8/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

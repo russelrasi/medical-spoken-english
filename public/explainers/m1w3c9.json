@@ -1,0 +1,391 @@
+{
+ "classId": "m1w3c9",
+ "classNo": 9,
+ "title": "Future Plans & College Schedule",
+ "titleBn": "ভবিষ্যৎ পরিকল্পনা ও কলেজের সময়সূচি",
+ "fps": 30,
+ "totalFrames": 2760,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 203,
+   "lines": [
+    {
+     "say": "Welcome to Class nine. Future Plans and College Schedule.",
+     "audio": "m1w3c9/l000.mp3",
+     "from": 0,
+     "frames": 203,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 203,
+   "frames": 678,
+   "lines": [
+    {
+     "say": "Rule one. be going to is for plans you already made.",
+     "audio": "m1w3c9/l001.mp3",
+     "from": 0,
+     "frames": 187,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "be going to is for plans you already made.",
+      "bn": "নিয়ম ১: be going to আগেই করে ফেলা পরিকল্পনার জন্য।"
+     }
+    },
+    {
+     "say": "I am going to specialise in cardiology.",
+     "audio": "m1w3c9/l002.mp3",
+     "from": 187,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am going to specialise in cardiology.",
+      "bn": "আমি কার্ডিওলজিতে বিশেষজ্ঞ হতে যাচ্ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice going, and to.",
+     "audio": "m1w3c9/l003.mp3",
+     "from": 315,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am going to specialise in cardiology.",
+      "bn": "আমি কার্ডিওলজিতে বিশেষজ্ঞ হতে যাচ্ছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "going",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We are going to start the practical next week.",
+     "audio": "m1w3c9/l004.mp3",
+     "from": 428,
+     "frames": 129,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We are going to start the practical next week.",
+      "bn": "আমরা আগামী সপ্তাহে প্র্যাকটিক্যাল শুরু করতে যাচ্ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice going, and to.",
+     "audio": "m1w3c9/l005.mp3",
+     "from": 557,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We are going to start the practical next week.",
+      "bn": "আমরা আগামী সপ্তাহে প্র্যাকটিক্যাল শুরু করতে যাচ্ছি।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "going",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 881,
+   "frames": 664,
+   "lines": [
+    {
+     "say": "Rule two. will is for decisions made right now, offers, promises and predictions.",
+     "audio": "m1w3c9/l006.mp3",
+     "from": 0,
+     "frames": 251,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "will is for decisions made right now, offers, promises and predictions.",
+      "bn": "নিয়ম ২: will এখনই নেওয়া সিদ্ধান্ত, প্রস্তাব, প্রতিশ্রুতি ও ভবিষ্যদ্বাণীর জন্য।"
+     }
+    },
+    {
+     "say": "I will help you with the notes.",
+     "audio": "m1w3c9/l007.mp3",
+     "from": 251,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I will help you with the notes.",
+      "bn": "আমি নোটের ব্যাপারে তোমাকে সাহায্য করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice will.",
+     "audio": "m1w3c9/l008.mp3",
+     "from": 353,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I will help you with the notes.",
+      "bn": "আমি নোটের ব্যাপারে তোমাকে সাহায্য করব।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "will",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I will not be late again, sir.",
+     "audio": "m1w3c9/l009.mp3",
+     "from": 446,
+     "frames": 117,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I will not be late again, sir.",
+      "bn": "আমি আর দেরি করব না, স্যার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice will.",
+     "audio": "m1w3c9/l010.mp3",
+     "from": 563,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I will not be late again, sir.",
+      "bn": "আমি আর দেরি করব না, স্যার।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "will",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1545,
+   "frames": 230,
+   "lines": [
+    {
+     "say": "Not: I going to study tonight. Say: I am going to study tonight.",
+     "audio": "m1w3c9/l011.mp3",
+     "from": 0,
+     "frames": 230,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "am",
+      "wrong": "I going to study tonight.",
+      "right": "I am going to study tonight."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1775,
+   "frames": 410,
+   "lines": [
+    {
+     "say": "The surgery will be tomorrow.",
+     "audio": "m1w3c9/l012.mp3",
+     "from": 0,
+     "frames": 106,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The surgery will be tomorrow.",
+      "bn": "অস্ত্রোপচারটি আগামীকাল হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Surgery.",
+     "audio": "m1w3c9/l013.mp3",
+     "from": 106,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The surgery will be tomorrow.",
+      "bn": "অস্ত্রোপচারটি আগামীকাল হবে।",
+      "focus": [
+       {
+        "w": "surgery",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a follow-up next week.",
+     "audio": "m1w3c9/l014.mp3",
+     "from": 199,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a follow-up next week.",
+      "bn": "আগামী সপ্তাহে আমার ফলো-আপ অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Follow-up.",
+     "audio": "m1w3c9/l015.mp3",
+     "from": 309,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a follow-up next week.",
+      "bn": "আগামী সপ্তাহে আমার ফলো-আপ অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": [
+       {
+        "w": "follow-up",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2185,
+   "frames": 422,
+   "lines": [
+    {
+     "say": "Sound corner. I'll and won't.",
+     "audio": "m1w3c9/l016.mp3",
+     "from": 0,
+     "frames": 149,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "I'll and won't.",
+      "bn": "উচ্চারণ অনুশীলন: “I’ll” ও “won’t”।"
+     }
+    },
+    {
+     "say": "I'll call you tomorrow.",
+     "audio": "m1w3c9/l017.mp3",
+     "from": 149,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I'll call you tomorrow.",
+      "bn": "আমি আগামীকাল আপনাকে ফোন করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Won't rhymes with don't. Want is a different word.",
+     "audio": "m1w3c9/l018.mp3",
+     "from": 245,
+     "frames": 177,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I'll call you tomorrow.",
+      "bn": "আমি আগামীকাল আপনাকে ফোন করব।",
+      "focus": [
+       {
+        "w": "i'll",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2607,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w3c9/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "classId": "m1w4c12",
+ "classNo": 12,
+ "title": "Month 1 Revision & Evaluation Test",
+ "titleBn": "প্রথম মাসের পুনরালোচনা ও মূল্যায়ন পরীক্ষা",
+ "fps": 30,
+ "totalFrames": 2387,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 224,
+   "lines": [
+    {
+     "say": "Welcome to Class twelve. Month 1 Revision and Evaluation Test.",
+     "audio": "m1w4c12/l000.mp3",
+     "from": 0,
+     "frames": 224,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 1 skills",
+   "from": 224,
+   "frames": 895,
+   "lines": [
+    {
+     "say": "In Month 1 you learned to introduce yourself and your family.",
+     "audio": "m1w4c12/l001.mp3",
+     "from": 0,
+     "frames": 159,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Introduce yourself and your family"
+     }
+    },
+    {
+     "say": "You learned to talk about your daily routine, and what is happening now.",
+     "audio": "m1w4c12/l002.mp3",
+     "from": 159,
+     "frames": 175,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Talk about your day and now"
+     }
+    },
+    {
+     "say": "You learned to ask questions, and to talk about your likes and dislikes.",
+     "audio": "m1w4c12/l003.mp3",
+     "from": 334,
+     "frames": 187,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Ask questions, share likes"
+     }
+    },
+    {
+     "say": "You learned to talk about the past, and to make plans for the future.",
+     "audio": "m1w4c12/l004.mp3",
+     "from": 521,
+     "frames": 178,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Past and future"
+     }
+    },
+    {
+     "say": "You learned to make polite requests, and to describe people and places.",
+     "audio": "m1w4c12/l005.mp3",
+     "from": 699,
+     "frames": 196,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Polite requests and descriptions"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 1119,
+   "frames": 263,
+   "lines": [
+    {
+     "say": "Rule one. Revision checklist: everything the student must be able to do by the end of Month 1.",
+     "audio": "m1w4c12/l006.mp3",
+     "from": 0,
+     "frames": 263,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Revision checklist: everything the student must be able to do by the end of Month 1.",
+      "bn": "পুনরালোচনার তালিকা: প্রথম মাস শেষে শিক্ষার্থী যা যা করতে পারতে হবে।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1382,
+   "frames": 401,
+   "lines": [
+    {
+     "say": "The nurse is very kind.",
+     "audio": "m1w4c12/l007.mp3",
+     "from": 0,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The nurse is very kind.",
+      "bn": "নার্স খুবই সদয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Nurse.",
+     "audio": "m1w4c12/l008.mp3",
+     "from": 102,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The nurse is very kind.",
+      "bn": "নার্স খুবই সদয়।",
+      "focus": [
+       {
+        "w": "nurse",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The surgeon is in the theatre.",
+     "audio": "m1w4c12/l009.mp3",
+     "from": 195,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The surgeon is in the theatre.",
+      "bn": "শল্যচিকিৎসক অপারেশন থিয়েটারে আছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Surgeon.",
+     "audio": "m1w4c12/l010.mp3",
+     "from": 300,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The surgeon is in the theatre.",
+      "bn": "শল্যচিকিৎসক অপারেশন থিয়েটারে আছেন।",
+      "focus": [
+       {
+        "w": "surgeon",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1783,
+   "frames": 451,
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, w and th.",
+     "audio": "m1w4c12/l011.mp3",
+     "from": 0,
+     "frames": 201,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "review of v, w and th.",
+      "bn": "উচ্চারণ অনুশীলন: v, w ও th ধ্বনির পুনরালোচনা।"
+     }
+    },
+    {
+     "say": "The vein is very visible.",
+     "audio": "m1w4c12/l012.mp3",
+     "from": 201,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "audio": "m1w4c12/l013.mp3",
+     "from": 306,
+     "frames": 145,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": [
+       {
+        "w": "vein",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2234,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w4c12/l014.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

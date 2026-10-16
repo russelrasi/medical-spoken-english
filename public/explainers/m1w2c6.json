@@ -1,0 +1,371 @@
+{
+ "classId": "m1w2c6",
+ "classNo": 6,
+ "title": "WH-Questions & Prepositions of Time",
+ "titleBn": "WH-প্রশ্ন ও সময়ের Preposition",
+ "fps": 30,
+ "totalFrames": 2692,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 224,
+   "lines": [
+    {
+     "say": "Welcome to Class six. WH-Questions and Prepositions of Time.",
+     "audio": "m1w2c6/l000.mp3",
+     "from": 0,
+     "frames": 224,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 224,
+   "frames": 647,
+   "lines": [
+    {
+     "say": "Rule one. A WH-question keeps the helping verb before the subject.",
+     "audio": "m1w2c6/l001.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "A WH-question keeps the helping verb before the subject.",
+      "bn": "নিয়ম ১: WH-প্রশ্নে সহায়ক ক্রিয়া কর্তার আগেই থাকে।"
+     }
+    },
+    {
+     "say": "What time does the anatomy class start?",
+     "audio": "m1w2c6/l002.mp3",
+     "from": 226,
+     "frames": 124,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "What time does the anatomy class start?",
+      "bn": "অ্যানাটমি ক্লাস কয়টায় শুরু হয়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice what.",
+     "audio": "m1w2c6/l003.mp3",
+     "from": 350,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "What time does the anatomy class start?",
+      "bn": "অ্যানাটমি ক্লাস কয়টায় শুরু হয়?",
+      "focus": [
+       {
+        "w": "what",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Where is the dissection hall?",
+     "audio": "m1w2c6/l004.mp3",
+     "from": 444,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the dissection hall?",
+      "bn": "ডিসেকশন হল কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice where.",
+     "audio": "m1w2c6/l005.mp3",
+     "from": 546,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the dissection hall?",
+      "bn": "ডিসেকশন হল কোথায়?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 871,
+   "frames": 662,
+   "lines": [
+    {
+     "say": "Rule two. at for clock times, on for days and dates, in for longer periods.",
+     "audio": "m1w2c6/l006.mp3",
+     "from": 0,
+     "frames": 240,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "at for clock times, on for days and dates, in for longer periods.",
+      "bn": "নিয়ম ২: ঘড়ির সময়ে at, দিন ও তারিখে on, দীর্ঘ সময়ে in।"
+     }
+    },
+    {
+     "say": "The lecture starts at eight o'clock.",
+     "audio": "m1w2c6/l007.mp3",
+     "from": 240,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture starts at eight o'clock.",
+      "bn": "লেকচার আটটায় শুরু হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice at.",
+     "audio": "m1w2c6/l008.mp3",
+     "from": 355,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture starts at eight o'clock.",
+      "bn": "লেকচার আটটায় শুরু হয়।",
+      "focus": [
+       {
+        "w": "at",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We have the practical on Tuesday.",
+     "audio": "m1w2c6/l009.mp3",
+     "from": 449,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We have the practical on Tuesday.",
+      "bn": "আমাদের প্র্যাকটিক্যাল মঙ্গলবার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice on.",
+     "audio": "m1w2c6/l010.mp3",
+     "from": 561,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We have the practical on Tuesday.",
+      "bn": "আমাদের প্র্যাকটিক্যাল মঙ্গলবার।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "on",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1533,
+   "frames": 197,
+   "lines": [
+    {
+     "say": "Not: Where you are from? Say: Where are you from?",
+     "audio": "m1w2c6/l011.mp3",
+     "from": 0,
+     "frames": 197,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "from",
+      "wrong": "Where you are from?",
+      "right": "Where are you from?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1730,
+   "frames": 398,
+   "lines": [
+    {
+     "say": "Where is the clinic?",
+     "audio": "m1w2c6/l012.mp3",
+     "from": 0,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the clinic?",
+      "bn": "ক্লিনিকটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Clinic.",
+     "audio": "m1w2c6/l013.mp3",
+     "from": 92,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the clinic?",
+      "bn": "ক্লিনিকটি কোথায়?",
+      "focus": [
+       {
+        "w": "clinic",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The laboratory opens at eight.",
+     "audio": "m1w2c6/l014.mp3",
+     "from": 185,
+     "frames": 111,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The laboratory opens at eight.",
+      "bn": "ল্যাবরেটরি আটটায় খোলে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Laboratory.",
+     "audio": "m1w2c6/l015.mp3",
+     "from": 296,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The laboratory opens at eight.",
+      "bn": "ল্যাবরেটরি আটটায় খোলে।",
+      "focus": [
+       {
+        "w": "laboratory",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2128,
+   "frames": 411,
+   "lines": [
+    {
+     "say": "Sound corner. Question intonation.",
+     "audio": "m1w2c6/l016.mp3",
+     "from": 0,
+     "frames": 161,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "question intonation.",
+      "bn": "উচ্চারণ অনুশীলন: প্রশ্ন করার স্বরভঙ্গি।"
+     }
+    },
+    {
+     "say": "Where do you live?",
+     "audio": "m1w2c6/l017.mp3",
+     "from": 161,
+     "frames": 88,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where do you live?",
+      "bn": "আপনি কোথায় থাকেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Let your voice fall at the end of a wh-question.",
+     "audio": "m1w2c6/l018.mp3",
+     "from": 249,
+     "frames": 162,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where do you live?",
+      "bn": "আপনি কোথায় থাকেন?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "key"
+       },
+       {
+        "w": "live",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2539,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w2c6/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "classId": "m1w1c3",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class three. Daily Routine and the Present Simple Tense.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. The Present Simple is for things that happen regularly, not right now.",
+     "show": {
+      "kind": "text",
+      "text": "The Present Simple is for things that happen regularly, not right now.",
+      "bn": "নিয়ম ১: Present Simple নিয়মিত ঘটা কাজের জন্য, এই মুহূর্তের কাজের জন্য নয়।"
+     }
+    },
+    {
+     "say": "He brushes his teeth and takes a shower.",
+     "show": {
+      "kind": "example",
+      "text": "He brushes his teeth and takes a shower.",
+      "bn": "সে দাঁত ব্রাশ করে ও গোসল করে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice brushes.",
+     "show": {
+      "kind": "example",
+      "text": "He brushes his teeth and takes a shower.",
+      "bn": "সে দাঁত ব্রাশ করে ও গোসল করে।",
+      "focus": [
+       {
+        "w": "he",
+        "role": "subj"
+       },
+       {
+        "w": "brushes",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She studies in the library every evening.",
+     "show": {
+      "kind": "example",
+      "text": "She studies in the library every evening.",
+      "bn": "সে প্রতি সন্ধ্যায় লাইব্রেরিতে পড়ে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice studies.",
+     "show": {
+      "kind": "example",
+      "text": "She studies in the library every evening.",
+      "bn": "সে প্রতি সন্ধ্যায় লাইব্রেরিতে পড়ে।",
+      "focus": [
+       {
+        "w": "she",
+        "role": "subj"
+       },
+       {
+        "w": "studies",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use do and does for questions and negatives.",
+     "show": {
+      "kind": "text",
+      "text": "Use do and does for questions and negatives.",
+      "bn": "নিয়ম ২: প্রশ্ন ও নেতিবাচক বাক্যে do ও does ব্যবহার করুন। তখন মূল ক্রিয়া তার -s হারায়।"
+     }
+    },
+    {
+     "say": "Do you attend all the lectures?",
+     "show": {
+      "kind": "example",
+      "text": "Do you attend all the lectures?",
+      "bn": "তুমি কি সব লেকচারে উপস্থিত থাকো?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice do.",
+     "show": {
+      "kind": "example",
+      "text": "Do you attend all the lectures?",
+      "bn": "তুমি কি সব লেকচারে উপস্থিত থাকো?",
+      "focus": [
+       {
+        "w": "do",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Does he live in the hostel?",
+     "show": {
+      "kind": "example",
+      "text": "Does he live in the hostel?",
+      "bn": "সে কি হোস্টেলে থাকে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice does, and live.",
+     "show": {
+      "kind": "example",
+      "text": "Does he live in the hostel?",
+      "bn": "সে কি হোস্টেলে থাকে?",
+      "focus": [
+       {
+        "w": "does",
+        "role": "verb"
+       },
+       {
+        "w": "he",
+        "role": "subj"
+       },
+       {
+        "w": "live",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: He wake up at six. Say: He wakes up at six.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "wakes"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "The nurse checks the pulse.",
+     "show": {
+      "kind": "example",
+      "text": "The nurse checks the pulse.",
+      "bn": "নার্স নাড়ির স্পন্দন পরীক্ষা করেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pulse.",
+     "show": {
+      "kind": "example",
+      "text": "The nurse checks the pulse.",
+      "bn": "নার্স নাড়ির স্পন্দন পরীক্ষা করেন।",
+      "focus": [
+       {
+        "w": "pulse",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "My temperature is normal.",
+     "show": {
+      "kind": "example",
+      "text": "My temperature is normal.",
+      "bn": "আমার শরীরের তাপমাত্রা স্বাভাবিক।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Temperature.",
+     "show": {
+      "kind": "example",
+      "text": "My temperature is normal.",
+      "bn": "আমার শরীরের তাপমাত্রা স্বাভাবিক।",
+      "focus": [
+       {
+        "w": "temperature",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The three sounds of the -s ending.",
+     "show": {
+      "kind": "text",
+      "text": "the three sounds of the -s ending.",
+      "bn": "উচ্চারণ অনুশীলন: “-s” সমাপ্তির তিন ধরনের উচ্চারণ।"
+     }
+    },
+    {
+     "say": "She works in the hospital.",
+     "show": {
+      "kind": "example",
+      "text": "She works in the hospital.",
+      "bn": "তিনি হাসপাতালে কাজ করেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Add es and say the extra syllable.",
+     "show": {
+      "kind": "example",
+      "text": "She works in the hospital.",
+      "bn": "তিনি হাসপাতালে কাজ করেন।",
+      "focus": [
+       {
+        "w": "works",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

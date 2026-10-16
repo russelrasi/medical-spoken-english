@@ -1,0 +1,181 @@
+{
+ "classId": "m1w4c12",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class twelve. Month 1 Revision and Evaluation Test.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 1 skills",
+   "lines": [
+    {
+     "say": "In Month 1 you learned to introduce yourself and your family.",
+     "show": {
+      "kind": "text",
+      "text": "Introduce yourself and your family"
+     }
+    },
+    {
+     "say": "You learned to talk about your daily routine, and what is happening now.",
+     "show": {
+      "kind": "text",
+      "text": "Talk about your day and now"
+     }
+    },
+    {
+     "say": "You learned to ask questions, and to talk about your likes and dislikes.",
+     "show": {
+      "kind": "text",
+      "text": "Ask questions, share likes"
+     }
+    },
+    {
+     "say": "You learned to talk about the past, and to make plans for the future.",
+     "show": {
+      "kind": "text",
+      "text": "Past and future"
+     }
+    },
+    {
+     "say": "You learned to make polite requests, and to describe people and places.",
+     "show": {
+      "kind": "text",
+      "text": "Polite requests and descriptions"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Revision checklist: everything the student must be able to do by the end of Month 1.",
+     "show": {
+      "kind": "text",
+      "text": "Revision checklist: everything the student must be able to do by the end of Month 1.",
+      "bn": "পুনরালোচনার তালিকা: প্রথম মাস শেষে শিক্ষার্থী যা যা করতে পারতে হবে।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "The nurse is very kind.",
+     "show": {
+      "kind": "example",
+      "text": "The nurse is very kind.",
+      "bn": "নার্স খুবই সদয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Nurse.",
+     "show": {
+      "kind": "example",
+      "text": "The nurse is very kind.",
+      "bn": "নার্স খুবই সদয়।",
+      "focus": [
+       {
+        "w": "nurse",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The surgeon is in the theatre.",
+     "show": {
+      "kind": "example",
+      "text": "The surgeon is in the theatre.",
+      "bn": "শল্যচিকিৎসক অপারেশন থিয়েটারে আছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Surgeon.",
+     "show": {
+      "kind": "example",
+      "text": "The surgeon is in the theatre.",
+      "bn": "শল্যচিকিৎসক অপারেশন থিয়েটারে আছেন।",
+      "focus": [
+       {
+        "w": "surgeon",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, w and th.",
+     "show": {
+      "kind": "text",
+      "text": "review of v, w and th.",
+      "bn": "উচ্চারণ অনুশীলন: v, w ও th ধ্বনির পুনরালোচনা।"
+     }
+    },
+    {
+     "say": "The vein is very visible.",
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": [
+       {
+        "w": "vein",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

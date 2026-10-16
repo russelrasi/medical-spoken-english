@@ -1,0 +1,303 @@
+{
+ "classId": "m1w4c10",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class ten. Asking for Help and Polite Requests.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Could and Would are more polite than Can.",
+     "show": {
+      "kind": "text",
+      "text": "Could and Would are more polite than Can.",
+      "bn": "নিয়ম ১: Could ও Would, Can-এর চেয়ে বেশি বিনয়ী। May অনুমতির জন্য।"
+     }
+    },
+    {
+     "say": "Could you please repeat that?",
+     "show": {
+      "kind": "example",
+      "text": "Could you please repeat that?",
+      "bn": "আপনি কি দয়া করে আবার বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could, and please.",
+     "show": {
+      "kind": "example",
+      "text": "Could you please repeat that?",
+      "bn": "আপনি কি দয়া করে আবার বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "please",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you speak a little slowly, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you speak a little slowly, please?",
+      "bn": "আপনি কি দয়া করে একটু ধীরে বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could, and please.",
+     "show": {
+      "kind": "example",
+      "text": "Could you speak a little slowly, please?",
+      "bn": "আপনি কি দয়া করে একটু ধীরে বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "please",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Soften the request, and thank the person afterwards.",
+     "show": {
+      "kind": "text",
+      "text": "Soften the request, and thank the person afterwards.",
+      "bn": "নিয়ম ২: অনুরোধ নরম করুন, এবং পরে ধন্যবাদ দিন।"
+     }
+    },
+    {
+     "say": "Could you write it on the board, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you write it on the board, please?",
+      "bn": "আপনি কি দয়া করে এটি বোর্ডে লিখবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could, and please.",
+     "show": {
+      "kind": "example",
+      "text": "Could you write it on the board, please?",
+      "bn": "আপনি কি দয়া করে এটি বোর্ডে লিখবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "please",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Would it be possible to meet you after class?",
+     "show": {
+      "kind": "example",
+      "text": "Would it be possible to meet you after class?",
+      "bn": "ক্লাসের পরে আপনার সাথে দেখা করা কি সম্ভব হবে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "show": {
+      "kind": "example",
+      "text": "Would it be possible to meet you after class?",
+      "bn": "ক্লাসের পরে আপনার সাথে দেখা করা কি সম্ভব হবে?",
+      "focus": [
+       {
+        "w": "would",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Repeat it. Say: Could you please repeat that?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "could"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "Do you have any pain?",
+     "show": {
+      "kind": "example",
+      "text": "Do you have any pain?",
+      "bn": "আপনার কি কোথাও ব্যথা হচ্ছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pain.",
+     "show": {
+      "kind": "example",
+      "text": "Do you have any pain?",
+      "bn": "আপনার কি কোথাও ব্যথা হচ্ছে?",
+      "focus": [
+       {
+        "w": "pain",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Do you have a fever?",
+     "show": {
+      "kind": "example",
+      "text": "Do you have a fever?",
+      "bn": "আপনার কি জ্বর হয়েছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Fever.",
+     "show": {
+      "kind": "example",
+      "text": "Do you have a fever?",
+      "bn": "আপনার কি জ্বর হয়েছে?",
+      "focus": [
+       {
+        "w": "fever",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Polite intonation.",
+     "show": {
+      "kind": "text",
+      "text": "polite intonation.",
+      "bn": "উচ্চারণ অনুশীলন: ভদ্রভাবে কথা বলার স্বরভঙ্গি।"
+     }
+    },
+    {
+     "say": "Could you help me, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you help me, please?",
+      "bn": "দয়া করে কি আপনি আমাকে সাহায্য করবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Use polite words and a soft, rising voice.",
+     "show": {
+      "kind": "example",
+      "text": "Could you help me, please?",
+      "bn": "দয়া করে কি আপনি আমাকে সাহায্য করবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "key"
+       },
+       {
+        "w": "please",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

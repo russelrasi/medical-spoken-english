@@ -1,0 +1,379 @@
+{
+ "classId": "m1w2c5",
+ "classNo": 5,
+ "title": "Likes, Dislikes & Hobbies",
+ "titleBn": "পছন্দ, অপছন্দ ও শখ",
+ "fps": 30,
+ "totalFrames": 2680,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 211,
+   "lines": [
+    {
+     "say": "Welcome to Class five. Likes, Dislikes and Hobbies.",
+     "audio": "m1w2c5/l000.mp3",
+     "from": 0,
+     "frames": 211,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 211,
+   "frames": 694,
+   "lines": [
+    {
+     "say": "Rule one. After like, love, enjoy and hate, use verb-ing, not the plain verb.",
+     "audio": "m1w2c5/l001.mp3",
+     "from": 0,
+     "frames": 265,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "After like, love, enjoy and hate, use verb-ing, not the plain verb.",
+      "bn": "নিয়ম ১: like, love, enjoy, hate-এর পরে সাধারণ ক্রিয়া নয়, verb-ing ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I like reading medical books.",
+     "audio": "m1w2c5/l002.mp3",
+     "from": 265,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I like reading medical books.",
+      "bn": "আমি মেডিকেল বই পড়তে পছন্দ করি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice like.",
+     "audio": "m1w2c5/l003.mp3",
+     "from": 375,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I like reading medical books.",
+      "bn": "আমি মেডিকেল বই পড়তে পছন্দ করি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "like",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I love playing football on Fridays.",
+     "audio": "m1w2c5/l004.mp3",
+     "from": 469,
+     "frames": 123,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I love playing football on Fridays.",
+      "bn": "আমি শুক্রবারে ফুটবল খেলতে ভালোবাসি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice love.",
+     "audio": "m1w2c5/l005.mp3",
+     "from": 592,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I love playing football on Fridays.",
+      "bn": "আমি শুক্রবারে ফুটবল খেলতে ভালোবাসি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "love",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 905,
+   "frames": 573,
+   "lines": [
+    {
+     "say": "Rule two. Say why.",
+     "audio": "m1w2c5/l006.mp3",
+     "from": 0,
+     "frames": 142,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Say why.",
+      "bn": "নিয়ম ২: কারণ বলুন। কারণ ছাড়া পছন্দ জানালে কথা সেখানেই থেমে যায়।"
+     }
+    },
+    {
+     "say": "I prefer tea to coffee.",
+     "audio": "m1w2c5/l007.mp3",
+     "from": 142,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I prefer tea to coffee.",
+      "bn": "আমি কফির চেয়ে চা পছন্দ করি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice prefer.",
+     "audio": "m1w2c5/l008.mp3",
+     "from": 245,
+     "frames": 98,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I prefer tea to coffee.",
+      "bn": "আমি কফির চেয়ে চা পছন্দ করি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "prefer",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I prefer walking to taking a taxi.",
+     "audio": "m1w2c5/l009.mp3",
+     "from": 343,
+     "frames": 124,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I prefer walking to taking a taxi.",
+      "bn": "আমি ট্যাক্সি নেওয়ার চেয়ে হাঁটা পছন্দ করি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice prefer.",
+     "audio": "m1w2c5/l010.mp3",
+     "from": 467,
+     "frames": 106,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I prefer walking to taking a taxi.",
+      "bn": "আমি ট্যাক্সি নেওয়ার চেয়ে হাঁটা পছন্দ করি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "prefer",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1478,
+   "frames": 257,
+   "lines": [
+    {
+     "say": "Not: I like to play football very much. Say: I like playing football very much.",
+     "audio": "m1w2c5/l011.mp3",
+     "from": 0,
+     "frames": 257,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "playing",
+      "wrong": "I like to play football very much.",
+      "right": "I like playing football very much."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1735,
+   "frames": 410,
+   "lines": [
+    {
+     "say": "I have a good appetite.",
+     "audio": "m1w2c5/l012.mp3",
+     "from": 0,
+     "frames": 99,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a good appetite.",
+      "bn": "আমার ক্ষুধা ভালো আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Appetite.",
+     "audio": "m1w2c5/l013.mp3",
+     "from": 99,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a good appetite.",
+      "bn": "আমার ক্ষুধা ভালো আছে।",
+      "focus": [
+       {
+        "w": "appetite",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Exercise is good for the heart.",
+     "audio": "m1w2c5/l014.mp3",
+     "from": 192,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Exercise is good for the heart.",
+      "bn": "ব্যায়াম হৃদ্‌যন্ত্রের জন্য ভালো।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Exercise.",
+     "audio": "m1w2c5/l015.mp3",
+     "from": 305,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Exercise is good for the heart.",
+      "bn": "ব্যায়াম হৃদ্‌যন্ত্রের জন্য ভালো।",
+      "focus": [
+       {
+        "w": "exercise",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2145,
+   "frames": 382,
+   "lines": [
+    {
+     "say": "Sound corner. Word stress.",
+     "audio": "m1w2c5/l016.mp3",
+     "from": 0,
+     "frames": 151,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "word stress.",
+      "bn": "উচ্চারণ অনুশীলন: শব্দের কোন অংশে জোর পড়ে।"
+     }
+    },
+    {
+     "say": "My hobby is reading.",
+     "audio": "m1w2c5/l017.mp3",
+     "from": 151,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My hobby is reading.",
+      "bn": "বই পড়া আমার শখ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Stress the first syllable of hobby.",
+     "audio": "m1w2c5/l018.mp3",
+     "from": 248,
+     "frames": 134,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My hobby is reading.",
+      "bn": "বই পড়া আমার শখ।",
+      "focus": [
+       {
+        "w": "hobby",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2527,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w2c5/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

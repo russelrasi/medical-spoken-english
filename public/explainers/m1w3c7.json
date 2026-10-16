@@ -1,0 +1,375 @@
+{
+ "classId": "m1w3c7",
+ "classNo": 7,
+ "title": "Yesterday & Past Experiences: Past Simple",
+ "titleBn": "গতকাল ও অতীত অভিজ্ঞতা: Past Simple",
+ "fps": 30,
+ "totalFrames": 2664,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 235,
+   "lines": [
+    {
+     "say": "Welcome to Class seven. Yesterday and Past Experiences: Past Simple.",
+     "audio": "m1w3c7/l000.mp3",
+     "from": 0,
+     "frames": 235,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 235,
+   "frames": 606,
+   "lines": [
+    {
+     "say": "Rule one. was and were are the past of am, is and are.",
+     "audio": "m1w3c7/l001.mp3",
+     "from": 0,
+     "frames": 189,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "was and were are the past of am, is and are.",
+      "bn": "নিয়ম ১: was ও were হলো am, is, are-এর অতীত রূপ।"
+     }
+    },
+    {
+     "say": "I was in the library yesterday.",
+     "audio": "m1w3c7/l002.mp3",
+     "from": 189,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was in the library yesterday.",
+      "bn": "আমি গতকাল লাইব্রেরিতে ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "audio": "m1w3c7/l003.mp3",
+     "from": 301,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was in the library yesterday.",
+      "bn": "আমি গতকাল লাইব্রেরিতে ছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The lecture was very long.",
+     "audio": "m1w3c7/l004.mp3",
+     "from": 397,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture was very long.",
+      "bn": "লেকচারটি খুব দীর্ঘ ছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "audio": "m1w3c7/l005.mp3",
+     "from": 502,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture was very long.",
+      "bn": "লেকচারটি খুব দীর্ঘ ছিল।",
+      "focus": [
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 841,
+   "frames": 632,
+   "lines": [
+    {
+     "say": "Rule two. Regular verbs take -ed in the past.",
+     "audio": "m1w3c7/l006.mp3",
+     "from": 0,
+     "frames": 186,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Regular verbs take -ed in the past.",
+      "bn": "নিয়ম ২: নিয়মিত ক্রিয়া অতীতে -ed নেয়। did থাকলে -ed উঠে যায়।"
+     }
+    },
+    {
+     "say": "I attended all the lectures yesterday.",
+     "audio": "m1w3c7/l007.mp3",
+     "from": 186,
+     "frames": 123,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I attended all the lectures yesterday.",
+      "bn": "আমি গতকাল সব লেকচারে উপস্থিত ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice attended.",
+     "audio": "m1w3c7/l008.mp3",
+     "from": 309,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I attended all the lectures yesterday.",
+      "bn": "আমি গতকাল সব লেকচারে উপস্থিত ছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "attended",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "He studied for three hours last night.",
+     "audio": "m1w3c7/l009.mp3",
+     "from": 406,
+     "frames": 123,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He studied for three hours last night.",
+      "bn": "সে গত রাতে তিন ঘণ্টা পড়েছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice studied.",
+     "audio": "m1w3c7/l010.mp3",
+     "from": 529,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He studied for three hours last night.",
+      "bn": "সে গত রাতে তিন ঘণ্টা পড়েছে।",
+      "focus": [
+       {
+        "w": "he",
+        "role": "subj"
+       },
+       {
+        "w": "studied",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1473,
+   "frames": 192,
+   "lines": [
+    {
+     "say": "Not: We was late. Say: We were late.",
+     "audio": "m1w3c7/l011.mp3",
+     "from": 0,
+     "frames": 192,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "were",
+      "wrong": "We was late.",
+      "right": "We were late."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1665,
+   "frames": 418,
+   "lines": [
+    {
+     "say": "The patient was admitted yesterday.",
+     "audio": "m1w3c7/l012.mp3",
+     "from": 0,
+     "frames": 114,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The patient was admitted yesterday.",
+      "bn": "রোগীকে গতকাল হাসপাতালে ভর্তি করা হয়েছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Admitted.",
+     "audio": "m1w3c7/l013.mp3",
+     "from": 114,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The patient was admitted yesterday.",
+      "bn": "রোগীকে গতকাল হাসপাতালে ভর্তি করা হয়েছিল।",
+      "focus": [
+       {
+        "w": "admitted",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "He was discharged on Friday.",
+     "audio": "m1w3c7/l014.mp3",
+     "from": 207,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He was discharged on Friday.",
+      "bn": "শুক্রবার তাকে হাসপাতাল থেকে ছেড়ে দেওয়া হয়েছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Discharged.",
+     "audio": "m1w3c7/l015.mp3",
+     "from": 317,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "He was discharged on Friday.",
+      "bn": "শুক্রবার তাকে হাসপাতাল থেকে ছেড়ে দেওয়া হয়েছিল।",
+      "focus": [
+       {
+        "w": "discharged",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2083,
+   "frames": 428,
+   "lines": [
+    {
+     "say": "Sound corner. Three sounds of -ed.",
+     "audio": "m1w3c7/l016.mp3",
+     "from": 0,
+     "frames": 155,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "three sounds of -ed.",
+      "bn": "উচ্চারণ অনুশীলন: “-ed” সমাপ্তির তিন ধরনের উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I wanted a break.",
+     "audio": "m1w3c7/l017.mp3",
+     "from": 155,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I wanted a break.",
+      "bn": "আমি একটু বিরতি চেয়েছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the -ed ending. Wanted has two syllables.",
+     "audio": "m1w3c7/l018.mp3",
+     "from": 247,
+     "frames": 181,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I wanted a break.",
+      "bn": "আমি একটু বিরতি চেয়েছিলাম।",
+      "focus": [
+       {
+        "w": "wanted",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2511,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w3c7/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

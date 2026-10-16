@@ -1,0 +1,375 @@
+{
+ "classId": "m1w4c11",
+ "classNo": 11,
+ "title": "Describing People, Places & Things",
+ "titleBn": "ব্যক্তি, স্থান ও বস্তুর বর্ণনা",
+ "fps": 30,
+ "totalFrames": 2753,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 227,
+   "lines": [
+    {
+     "say": "Welcome to Class eleven. Describing People, Places and Things.",
+     "audio": "m1w4c11/l000.mp3",
+     "from": 0,
+     "frames": 227,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 227,
+   "frames": 652,
+   "lines": [
+    {
+     "say": "Rule one. The adjective goes before the noun and never takes -s.",
+     "audio": "m1w4c11/l001.mp3",
+     "from": 0,
+     "frames": 211,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "The adjective goes before the noun and never takes -s.",
+      "bn": "নিয়ম ১: বিশেষণ বিশেষ্যের আগে বসে এবং কখনো -s নেয় না।"
+     }
+    },
+    {
+     "say": "My room is small but clean.",
+     "audio": "m1w4c11/l002.mp3",
+     "from": 211,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My room is small but clean.",
+      "bn": "আমার ঘরটি ছোট কিন্তু পরিষ্কার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "audio": "m1w4c11/l003.mp3",
+     "from": 318,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My room is small but clean.",
+      "bn": "আমার ঘরটি ছোট কিন্তু পরিষ্কার।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The library is very quiet.",
+     "audio": "m1w4c11/l004.mp3",
+     "from": 414,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The library is very quiet.",
+      "bn": "লাইব্রেরিটি খুব শান্ত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, and quiet.",
+     "audio": "m1w4c11/l005.mp3",
+     "from": 524,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The library is very quiet.",
+      "bn": "লাইব্রেরিটি খুব শান্ত।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "quiet",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 879,
+   "frames": 669,
+   "lines": [
+    {
+     "say": "Rule two. There is or There are introduces something that exists.",
+     "audio": "m1w4c11/l006.mp3",
+     "from": 0,
+     "frames": 205,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "There is / There are introduces something that exists.",
+      "bn": "নিয়ম ২: There is / There are দিয়ে কোনো কিছুর অস্তিত্ব জানানো হয়।"
+     }
+    },
+    {
+     "say": "There is a small table in my room.",
+     "audio": "m1w4c11/l007.mp3",
+     "from": 205,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a small table in my room.",
+      "bn": "আমার ঘরে একটি ছোট টেবিল আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice there, and is.",
+     "audio": "m1w4c11/l008.mp3",
+     "from": 320,
+     "frames": 114,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a small table in my room.",
+      "bn": "আমার ঘরে একটি ছোট টেবিল আছে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "verb"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "There are two beds and one cupboard.",
+     "audio": "m1w4c11/l009.mp3",
+     "from": 434,
+     "frames": 114,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There are two beds and one cupboard.",
+      "bn": "দুইটি বিছানা ও একটি আলমারি আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice there, and are.",
+     "audio": "m1w4c11/l010.mp3",
+     "from": 548,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There are two beds and one cupboard.",
+      "bn": "দুইটি বিছানা ও একটি আলমারি আছে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "verb"
+       },
+       {
+        "w": "are",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1548,
+   "frames": 240,
+   "lines": [
+    {
+     "say": "Not: I have two helpfuls teachers. Say: I have two helpful teachers.",
+     "audio": "m1w4c11/l011.mp3",
+     "from": 0,
+     "frames": 240,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "helpful",
+      "wrong": "I have two helpfuls teachers.",
+      "right": "I have two helpful teachers."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1788,
+   "frames": 392,
+   "lines": [
+    {
+     "say": "The pain is sharp.",
+     "audio": "m1w4c11/l012.mp3",
+     "from": 0,
+     "frames": 91,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Sharp.",
+     "audio": "m1w4c11/l013.mp3",
+     "from": 91,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": [
+       {
+        "w": "sharp",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "There is a dull ache in my back.",
+     "audio": "m1w4c11/l014.mp3",
+     "from": 184,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a dull ache in my back.",
+      "bn": "আমার পিঠে মৃদু, ভোঁতা ধরনের ব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Dull.",
+     "audio": "m1w4c11/l015.mp3",
+     "from": 291,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a dull ache in my back.",
+      "bn": "আমার পিঠে মৃদু, ভোঁতা ধরনের ব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "dull",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2180,
+   "frames": 420,
+   "lines": [
+    {
+     "say": "Sound corner. Stressing adjectives.",
+     "audio": "m1w4c11/l016.mp3",
+     "from": 0,
+     "frames": 163,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "stressing adjectives.",
+      "bn": "উচ্চারণ অনুশীলন: বিশেষণের ওপর জোর দেওয়া।"
+     }
+    },
+    {
+     "say": "There is a spacious room.",
+     "audio": "m1w4c11/l017.mp3",
+     "from": 163,
+     "frames": 100,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a spacious room.",
+      "bn": "এখানে একটি প্রশস্ত ঘর আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Stress the first syllable: SPA-cious.",
+     "audio": "m1w4c11/l018.mp3",
+     "from": 263,
+     "frames": 157,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "There is a spacious room.",
+      "bn": "এখানে একটি প্রশস্ত ঘর আছে।",
+      "focus": [
+       {
+        "w": "spacious",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2600,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w4c11/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

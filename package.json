@@ -1,0 +1,31 @@
+{
+  "name": "medical-english-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "export": "python3 export_course.py",
+    "clips:studio": "remotion studio src/clips/Root.tsx",
+    "clips:render": "mkdir -p out && remotion render src/clips/Root.tsx Explainer-m1w1c1 out/explainer-m1w1c1.mp4 && remotion render src/clips/Root.tsx Celebrate out/celebrate.mp4"
+  },
+  "dependencies": {
+    "@remotion/player": "^4.0.536",
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^11.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.536"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.536",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}

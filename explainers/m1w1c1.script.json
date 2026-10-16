@@ -1,0 +1,245 @@
+{
+ "classId": "m1w1c1",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 1. Your starter pack, and the verb to be.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1: Subject + Verb + Object",
+   "lines": [
+    {
+     "say": "Rule one. English sentences follow this order: subject, verb, object.",
+     "show": {
+      "kind": "svo",
+      "reveal": 3,
+      "labels": true
+     }
+    },
+    {
+     "say": "The verb sits in the middle, right after the subject. For example: I am a medical student.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       0,
+       1
+      ],
+      "focus": [
+       {
+        "w": "I",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2: Choose am, is or are",
+   "lines": [
+    {
+     "say": "Rule two. Match am, is or are to the subject.",
+     "show": {
+      "kind": "table",
+      "row": -1
+     }
+    },
+    {
+     "say": "I, am.",
+     "show": {
+      "kind": "table",
+      "row": 0,
+      "keep": true
+     }
+    },
+    {
+     "say": "He, she, it, is.",
+     "show": {
+      "kind": "table",
+      "row": 1,
+      "keep": true
+     }
+    },
+    {
+     "say": "You, we, they, are.",
+     "show": {
+      "kind": "table",
+      "row": 2,
+      "keep": true
+     }
+    },
+    {
+     "say": "Careful. He is for a male. She is for a female.",
+     "show": {
+      "kind": "hesshe"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Examples: match the subject",
+   "lines": [
+    {
+     "say": "The patient is in the ward.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       1,
+       1
+      ],
+      "focus": []
+     }
+    },
+    {
+     "say": "One person, so we use is.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       1,
+       1
+      ],
+      "focus": [
+       {
+        "w": "patient",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 3: Classroom language",
+   "lines": [
+    {
+     "say": "Classroom language. Could you repeat that, please?",
+     "show": {
+      "kind": "example",
+      "ref": [
+       2,
+       0
+      ],
+      "focus": []
+     }
+    },
+    {
+     "say": "Say this when you did not hear.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       2,
+       0
+      ],
+      "focus": [
+       {
+        "w": "repeat",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner: v and w",
+   "lines": [
+    {
+     "say": "The vein is very visible.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       3,
+       0
+      ],
+      "focus": []
+     }
+    },
+    {
+     "say": "For v, touch your top teeth to your lip.",
+     "show": {
+      "kind": "example",
+      "ref": [
+       3,
+       0
+      ],
+      "focus": [
+       {
+        "w": "vein",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       },
+       {
+        "w": "visible",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistakes",
+   "lines": [
+    {
+     "say": "Never drop the verb. Not: I student. Say: I am a student.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "am"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Remember: keep the verb in the middle, and match it to the subject.",
+     "show": {
+      "kind": "table",
+      "row": -1
+     }
+    },
+    {
+     "say": "Now try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

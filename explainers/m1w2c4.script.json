@@ -1,0 +1,263 @@
+{
+ "classId": "m1w2c4",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class four. Present Continuous: What Is Happening Now.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. The Present Continuous is am or is or are plus verb-ing, for actions happening now.",
+     "show": {
+      "kind": "text",
+      "text": "The Present Continuous is am / is / are plus verb-ing, for actions happening now.",
+      "bn": "নিয়ম ১: Present Continuous হলো am / is / are + verb-ing, যা এখন ঘটছে এমন কাজের জন্য।"
+     }
+    },
+    {
+     "say": "I am studying anatomy right now.",
+     "show": {
+      "kind": "example",
+      "text": "I am studying anatomy right now.",
+      "bn": "আমি এখন অ্যানাটমি পড়ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am, and studying.",
+     "show": {
+      "kind": "example",
+      "text": "I am studying anatomy right now.",
+      "bn": "আমি এখন অ্যানাটমি পড়ছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       },
+       {
+        "w": "studying",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "He is waiting outside the lecture hall.",
+     "show": {
+      "kind": "example",
+      "text": "He is waiting outside the lecture hall.",
+      "bn": "সে লেকচার হলের বাইরে অপেক্ষা করছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, and waiting.",
+     "show": {
+      "kind": "example",
+      "text": "He is waiting outside the lecture hall.",
+      "bn": "সে লেকচার হলের বাইরে অপেক্ষা করছে।",
+      "focus": [
+       {
+        "w": "he",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "waiting",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Present Simple is for habits; Present Continuous is for this moment.",
+     "show": {
+      "kind": "text",
+      "text": "Present Simple is for habits; Present Continuous is for this moment.",
+      "bn": "নিয়ম ২: Present Simple অভ্যাসের জন্য; Present Continuous এই মুহূর্তের জন্য।"
+     }
+    },
+    {
+     "say": "What do you do? I am a medical student.",
+     "show": {
+      "kind": "example",
+      "text": "What do you do? I am a medical student.",
+      "bn": "তুমি কী করো? আমি একজন মেডিকেল শিক্ষার্থী।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am.",
+     "show": {
+      "kind": "example",
+      "text": "What do you do? I am a medical student.",
+      "bn": "তুমি কী করো? আমি একজন মেডিকেল শিক্ষার্থী।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I studying now. Say: I am studying now.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "am"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "The patient is breathing normally.",
+     "show": {
+      "kind": "example",
+      "text": "The patient is breathing normally.",
+      "bn": "রোগী স্বাভাবিকভাবে শ্বাস নিচ্ছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Breathing.",
+     "show": {
+      "kind": "example",
+      "text": "The patient is breathing normally.",
+      "bn": "রোগী স্বাভাবিকভাবে শ্বাস নিচ্ছেন।",
+      "focus": [
+       {
+        "w": "breathing",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She is coughing at night.",
+     "show": {
+      "kind": "example",
+      "text": "She is coughing at night.",
+      "bn": "রাতে তার কাশি হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Coughing.",
+     "show": {
+      "kind": "example",
+      "text": "She is coughing at night.",
+      "bn": "রাতে তার কাশি হচ্ছে।",
+      "focus": [
+       {
+        "w": "coughing",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The -ing ending.",
+     "show": {
+      "kind": "text",
+      "text": "the -ing ending.",
+      "bn": "উচ্চারণ অনুশীলন: “-ing” সমাপ্তির উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I am reading my notes.",
+     "show": {
+      "kind": "example",
+      "text": "I am reading my notes.",
+      "bn": "আমি আমার নোট পড়ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Do not drop the -ing ending.",
+     "show": {
+      "kind": "example",
+      "text": "I am reading my notes.",
+      "bn": "আমি আমার নোট পড়ছি।",
+      "focus": [
+       {
+        "w": "reading",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

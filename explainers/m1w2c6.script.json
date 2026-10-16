@@ -1,0 +1,271 @@
+{
+ "classId": "m1w2c6",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class six. WH-Questions and Prepositions of Time.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. A WH-question keeps the helping verb before the subject.",
+     "show": {
+      "kind": "text",
+      "text": "A WH-question keeps the helping verb before the subject.",
+      "bn": "নিয়ম ১: WH-প্রশ্নে সহায়ক ক্রিয়া কর্তার আগেই থাকে।"
+     }
+    },
+    {
+     "say": "What time does the anatomy class start?",
+     "show": {
+      "kind": "example",
+      "text": "What time does the anatomy class start?",
+      "bn": "অ্যানাটমি ক্লাস কয়টায় শুরু হয়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice what.",
+     "show": {
+      "kind": "example",
+      "text": "What time does the anatomy class start?",
+      "bn": "অ্যানাটমি ক্লাস কয়টায় শুরু হয়?",
+      "focus": [
+       {
+        "w": "what",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Where is the dissection hall?",
+     "show": {
+      "kind": "example",
+      "text": "Where is the dissection hall?",
+      "bn": "ডিসেকশন হল কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice where.",
+     "show": {
+      "kind": "example",
+      "text": "Where is the dissection hall?",
+      "bn": "ডিসেকশন হল কোথায়?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. at for clock times, on for days and dates, in for longer periods.",
+     "show": {
+      "kind": "text",
+      "text": "at for clock times, on for days and dates, in for longer periods.",
+      "bn": "নিয়ম ২: ঘড়ির সময়ে at, দিন ও তারিখে on, দীর্ঘ সময়ে in।"
+     }
+    },
+    {
+     "say": "The lecture starts at eight o'clock.",
+     "show": {
+      "kind": "example",
+      "text": "The lecture starts at eight o'clock.",
+      "bn": "লেকচার আটটায় শুরু হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice at.",
+     "show": {
+      "kind": "example",
+      "text": "The lecture starts at eight o'clock.",
+      "bn": "লেকচার আটটায় শুরু হয়।",
+      "focus": [
+       {
+        "w": "at",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We have the practical on Tuesday.",
+     "show": {
+      "kind": "example",
+      "text": "We have the practical on Tuesday.",
+      "bn": "আমাদের প্র্যাকটিক্যাল মঙ্গলবার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice on.",
+     "show": {
+      "kind": "example",
+      "text": "We have the practical on Tuesday.",
+      "bn": "আমাদের প্র্যাকটিক্যাল মঙ্গলবার।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "on",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Where you are from? Say: Where are you from?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "from"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "lines": [
+    {
+     "say": "Where is the clinic?",
+     "show": {
+      "kind": "example",
+      "text": "Where is the clinic?",
+      "bn": "ক্লিনিকটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Clinic.",
+     "show": {
+      "kind": "example",
+      "text": "Where is the clinic?",
+      "bn": "ক্লিনিকটি কোথায়?",
+      "focus": [
+       {
+        "w": "clinic",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The laboratory opens at eight.",
+     "show": {
+      "kind": "example",
+      "text": "The laboratory opens at eight.",
+      "bn": "ল্যাবরেটরি আটটায় খোলে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Laboratory.",
+     "show": {
+      "kind": "example",
+      "text": "The laboratory opens at eight.",
+      "bn": "ল্যাবরেটরি আটটায় খোলে।",
+      "focus": [
+       {
+        "w": "laboratory",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Question intonation.",
+     "show": {
+      "kind": "text",
+      "text": "question intonation.",
+      "bn": "উচ্চারণ অনুশীলন: প্রশ্ন করার স্বরভঙ্গি।"
+     }
+    },
+    {
+     "say": "Where do you live?",
+     "show": {
+      "kind": "example",
+      "text": "Where do you live?",
+      "bn": "আপনি কোথায় থাকেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Let your voice fall at the end of a wh-question.",
+     "show": {
+      "kind": "example",
+      "text": "Where do you live?",
+      "bn": "আপনি কোথায় থাকেন?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "key"
+       },
+       {
+        "w": "live",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

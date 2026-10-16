@@ -1,0 +1,371 @@
+{
+ "classId": "m1w1c2",
+ "classNo": 2,
+ "title": "Family & Personal Information",
+ "titleBn": "পরিবার ও ব্যক্তিগত তথ্য",
+ "fps": 30,
+ "totalFrames": 2506,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 199,
+   "lines": [
+    {
+     "say": "Welcome to Class two. Family and Personal Information.",
+     "audio": "m1w1c2/l000.mp3",
+     "from": 0,
+     "frames": 199,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 199,
+   "frames": 555,
+   "lines": [
+    {
+     "say": "Rule one. have and has mean 'to possess'.",
+     "audio": "m1w1c2/l001.mp3",
+     "from": 0,
+     "frames": 164,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "have and has mean 'to possess'.",
+      "bn": "নিয়ম ১: have ও has অর্থ 'থাকা' বা 'অধিকারে থাকা'। কর্তাই ঠিক করে কোনটি বসবে।"
+     }
+    },
+    {
+     "say": "I have two brothers.",
+     "audio": "m1w1c2/l002.mp3",
+     "from": 164,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have two brothers.",
+      "bn": "আমার দুইজন ভাই আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "audio": "m1w1c2/l003.mp3",
+     "from": 260,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have two brothers.",
+      "bn": "আমার দুইজন ভাই আছে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She has one sister.",
+     "audio": "m1w1c2/l004.mp3",
+     "from": 354,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "She has one sister.",
+      "bn": "তার একজন বোন আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice has.",
+     "audio": "m1w1c2/l005.mp3",
+     "from": 451,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "She has one sister.",
+      "bn": "তার একজন বোন আছে।",
+      "focus": [
+       {
+        "w": "she",
+        "role": "subj"
+       },
+       {
+        "w": "has",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 754,
+   "frames": 601,
+   "lines": [
+    {
+     "say": "Rule two. Possessive adjectives show who something belongs to.",
+     "audio": "m1w1c2/l006.mp3",
+     "from": 0,
+     "frames": 195,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Possessive adjectives show who something belongs to.",
+      "bn": "নিয়ম ২: সম্বন্ধবাচক বিশেষণ দেখায় জিনিসটি কার।"
+     }
+    },
+    {
+     "say": "My father is a businessman.",
+     "audio": "m1w1c2/l007.mp3",
+     "from": 195,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My father is a businessman.",
+      "bn": "আমার বাবা একজন ব্যবসায়ী।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice my.",
+     "audio": "m1w1c2/l008.mp3",
+     "from": 302,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My father is a businessman.",
+      "bn": "আমার বাবা একজন ব্যবসায়ী।",
+      "focus": [
+       {
+        "w": "my",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Her brother is an engineer.",
+     "audio": "m1w1c2/l009.mp3",
+     "from": 395,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Her brother is an engineer.",
+      "bn": "তার (মেয়ের) ভাই একজন ইঞ্জিনিয়ার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice her.",
+     "audio": "m1w1c2/l010.mp3",
+     "from": 500,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Her brother is an engineer.",
+      "bn": "তার (মেয়ের) ভাই একজন ইঞ্জিনিয়ার।",
+      "focus": [
+       {
+        "w": "her",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1355,
+   "frames": 220,
+   "lines": [
+    {
+     "say": "Not: She have two sisters. Say: She has two sisters.",
+     "audio": "m1w1c2/l011.mp3",
+     "from": 0,
+     "frames": 220,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "has",
+      "wrong": "She have two sisters.",
+      "right": "She has two sisters."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Medical corner",
+   "from": 1575,
+   "frames": 387,
+   "lines": [
+    {
+     "say": "My head hurts.",
+     "audio": "m1w1c2/l012.mp3",
+     "from": 0,
+     "frames": 88,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My head hurts.",
+      "bn": "আমার মাথা ব্যথা করছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Head.",
+     "audio": "m1w1c2/l013.mp3",
+     "from": 88,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My head hurts.",
+      "bn": "আমার মাথা ব্যথা করছে।",
+      "focus": [
+       {
+        "w": "head",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The pain is in my chest.",
+     "audio": "m1w1c2/l014.mp3",
+     "from": 181,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is in my chest.",
+      "bn": "আমার বুকে ব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Chest.",
+     "audio": "m1w1c2/l015.mp3",
+     "from": 286,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is in my chest.",
+      "bn": "আমার বুকে ব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "chest",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1962,
+   "frames": 391,
+   "lines": [
+    {
+     "say": "Sound corner. The h in have and has.",
+     "audio": "m1w1c2/l016.mp3",
+     "from": 0,
+     "frames": 166,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the h in have and has.",
+      "bn": "উচ্চারণ অনুশীলন: have ও has শব্দের “h” ধ্বনি।"
+     }
+    },
+    {
+     "say": "I have two brothers.",
+     "audio": "m1w1c2/l017.mp3",
+     "from": 166,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have two brothers.",
+      "bn": "আমার দুই ভাই আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the h at the start of have.",
+     "audio": "m1w1c2/l018.mp3",
+     "from": 262,
+     "frames": 129,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have two brothers.",
+      "bn": "আমার দুই ভাই আছে।",
+      "focus": [
+       {
+        "w": "have",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2353,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m1w1c2/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}
