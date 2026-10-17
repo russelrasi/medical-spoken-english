@@ -1,0 +1,251 @@
+{
+ "classId": "m2w5c15",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 15. Shopping and Money: Markets and Prices.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use some in positive sentences and any in questions and negatives.",
+     "show": {
+      "kind": "text",
+      "text": "Use some in positive sentences and any in questions and negatives.",
+      "bn": "ইতিবাচক বাক্যে some এবং প্রশ্ন ও নেতিবাচক বাক্যে any ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I need some water.",
+     "show": {
+      "kind": "example",
+      "text": "I need some water.",
+      "bn": "আমার কিছু পানি দরকার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice some.",
+     "show": {
+      "kind": "example",
+      "text": "I need some water.",
+      "bn": "আমার কিছু পানি দরকার।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "some",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Do you have any oranges?",
+     "show": {
+      "kind": "example",
+      "text": "Do you have any oranges?",
+      "bn": "আপনার কাছে কি কোনো কমলা আছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice any.",
+     "show": {
+      "kind": "example",
+      "text": "Do you have any oranges?",
+      "bn": "আপনার কাছে কি কোনো কমলা আছে?",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "any",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Add -er to short adjectives and use more with long ones to compare.",
+     "show": {
+      "kind": "text",
+      "text": "Add -er to short adjectives and use more with long ones to compare.",
+      "bn": "তুলনা করতে ছোট বিশেষণের সঙ্গে -er যোগ করুন এবং বড় বিশেষণের সঙ্গে more ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "This bag is cheaper than that bag.",
+     "show": {
+      "kind": "example",
+      "text": "This bag is cheaper than that bag.",
+      "bn": "এই ব্যাগটির দাম ওই ব্যাগটির চেয়ে কম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice cheaper.",
+     "show": {
+      "kind": "example",
+      "text": "This bag is cheaper than that bag.",
+      "bn": "এই ব্যাগটির দাম ওই ব্যাগটির চেয়ে কম।",
+      "focus": [
+       {
+        "w": "cheaper",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I do not have some money. Say: I do not have any money.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "any"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "What is the price of this?",
+     "show": {
+      "kind": "example",
+      "text": "What is the price of this?",
+      "bn": "এটার দাম কত?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Price.",
+     "show": {
+      "kind": "example",
+      "text": "What is the price of this?",
+      "bn": "এটার দাম কত?",
+      "focus": [
+       {
+        "w": "price",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The vegetables are cheap here.",
+     "show": {
+      "kind": "example",
+      "text": "The vegetables are cheap here.",
+      "bn": "এখানে সবজির দাম কম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Cheap.",
+     "show": {
+      "kind": "example",
+      "text": "The vegetables are cheap here.",
+      "bn": "এখানে সবজির দাম কম।",
+      "focus": [
+       {
+        "w": "cheap",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The sh sound in shop, cash and fresh.",
+     "show": {
+      "kind": "text",
+      "text": "the sh sound in shop, cash and fresh.",
+      "bn": "Sound corner: shop, cash এবং fresh শব্দে sh-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "The shop sells fresh fish.",
+     "show": {
+      "kind": "example",
+      "text": "The shop sells fresh fish.",
+      "bn": "দোকানটিতে তাজা মাছ বিক্রি হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Sh and ch are different sounds.",
+     "show": {
+      "kind": "example",
+      "text": "The shop sells fresh fish.",
+      "bn": "দোকানটিতে তাজা মাছ বিক্রি হয়।",
+      "focus": [
+       {
+        "w": "shop",
+        "role": "key"
+       },
+       {
+        "w": "fresh",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

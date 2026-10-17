@@ -1,0 +1,307 @@
+{
+ "classId": "m3w11c33",
+ "classNo": 33,
+ "title": "Ward Round Language: Possibilities and Plans",
+ "titleBn": "ওয়ার্ড রাউন্ডে ব্যবহৃত ভাষা: সম্ভাবনা ও পরিকল্পনা।",
+ "fps": 30,
+ "totalFrames": 2250,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 245,
+   "lines": [
+    {
+     "say": "Welcome to Class 33. Ward Round Language: Possibilities and Plans.",
+     "audio": "m3w11c33/l000.mp3",
+     "from": 0,
+     "frames": 245,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 245,
+   "frames": 583,
+   "lines": [
+    {
+     "say": "Rule one. Use may, might or could for possibility.",
+     "audio": "m3w11c33/l001.mp3",
+     "from": 0,
+     "frames": 190,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use may, might or could for possibility.",
+      "bn": "সম্ভাবনা বোঝাতে may, might অথবা could ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "It may be an infection.",
+     "audio": "m3w11c33/l002.mp3",
+     "from": 190,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It may be an infection.",
+      "bn": "এটি সংক্রমণ হতে পারে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice may.",
+     "audio": "m3w11c33/l003.mp3",
+     "from": 292,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It may be an infection.",
+      "bn": "এটি সংক্রমণ হতে পারে।",
+      "focus": [
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "may",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "It could be a virus.",
+     "audio": "m3w11c33/l004.mp3",
+     "from": 385,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It could be a virus.",
+      "bn": "এটি কোনো ভাইরাস হতে পারে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m3w11c33/l005.mp3",
+     "from": 482,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It could be a virus.",
+      "bn": "এটি কোনো ভাইরাস হতে পারে।",
+      "focus": [
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "could",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 828,
+   "frames": 226,
+   "lines": [
+    {
+     "say": "Rule two. Use if with the present simple, and will or can for the result.",
+     "audio": "m3w11c33/l006.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use if with the present simple, and will or can for the result.",
+      "bn": "নিয়ম ২: if-এর সঙ্গে present simple এবং ফলাফল বোঝাতে will অথবা can ব্যবহার করুন।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1054,
+   "frames": 213,
+   "lines": [
+    {
+     "say": "Not: It maybe a virus. Say: It may be a virus.",
+     "audio": "m3w11c33/l007.mp3",
+     "from": 0,
+     "frames": 213,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "may",
+      "wrong": "It maybe a virus.",
+      "right": "It may be a virus."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1267,
+   "frames": 409,
+   "lines": [
+    {
+     "say": "The ward round starts at eight.",
+     "audio": "m3w11c33/l008.mp3",
+     "from": 0,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The ward round starts at eight.",
+      "bn": "ওয়ার্ড রাউন্ড সকাল আটটায় শুরু হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Round.",
+     "audio": "m3w11c33/l009.mp3",
+     "from": 110,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The ward round starts at eight.",
+      "bn": "ওয়ার্ড রাউন্ড সকাল আটটায় শুরু হয়।",
+      "focus": [
+       {
+        "w": "round",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "It is a possible cause.",
+     "audio": "m3w11c33/l010.mp3",
+     "from": 203,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is a possible cause.",
+      "bn": "এটি একটি সম্ভাব্য কারণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Possible.",
+     "audio": "m3w11c33/l011.mp3",
+     "from": 308,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is a possible cause.",
+      "bn": "এটি একটি সম্ভাব্য কারণ।",
+      "focus": [
+       {
+        "w": "possible",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1676,
+   "frames": 421,
+   "lines": [
+    {
+     "say": "Sound corner. Linking words in fast speech.",
+     "audio": "m3w11c33/l012.mp3",
+     "from": 0,
+     "frames": 177,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "linking words in fast speech.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: দ্রুত কথা বলার সময় শব্দগুলোর সংযোগ।"
+     }
+    },
+    {
+     "say": "If it continues, call me.",
+     "audio": "m3w11c33/l013.mp3",
+     "from": 177,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "If it continues, call me.",
+      "bn": "এটা চলতে থাকলে আমাকে ফোন করবেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the words as one smooth group.",
+     "audio": "m3w11c33/l014.mp3",
+     "from": 289,
+     "frames": 132,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "If it continues, call me.",
+      "bn": "এটা চলতে থাকলে আমাকে ফোন করবেন।",
+      "focus": [
+       {
+        "w": "if",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2097,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w11c33/l015.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

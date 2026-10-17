@@ -1,0 +1,271 @@
+{
+ "classId": "m3w9c27",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 27. Body Systems and Locating Parts of the Body.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use location words to say where an organ is.",
+     "show": {
+      "kind": "text",
+      "text": "Use location words to say where an organ is.",
+      "bn": "কোনো অঙ্গ কোথায় অবস্থিত, তা বোঝাতে অবস্থান নির্দেশক শব্দ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The heart is in the chest.",
+     "show": {
+      "kind": "example",
+      "text": "The heart is in the chest.",
+      "bn": "হৃদ্‌যন্ত্র বুকের ভেতরে থাকে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice in.",
+     "show": {
+      "kind": "example",
+      "text": "The heart is in the chest.",
+      "bn": "হৃদ্‌যন্ত্র বুকের ভেতরে থাকে।",
+      "focus": [
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The stomach is below the diaphragm.",
+     "show": {
+      "kind": "example",
+      "text": "The stomach is below the diaphragm.",
+      "bn": "পাকস্থলী ডায়াফ্রামের নিচে থাকে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice below.",
+     "show": {
+      "kind": "example",
+      "text": "The stomach is below the diaphragm.",
+      "bn": "পাকস্থলী ডায়াফ্রামের নিচে থাকে।",
+      "focus": [
+       {
+        "w": "below",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use is or are with the past participle to describe where something is located or what it does.",
+     "show": {
+      "kind": "text",
+      "text": "Use is or are with the past participle to describe where something is located or what it does.",
+      "bn": "নিয়ম ২: কোনো কিছুর অবস্থান বা কাজ বোঝাতে is অথবা are-এর সঙ্গে past participle ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The heart is located in the chest.",
+     "show": {
+      "kind": "example",
+      "text": "The heart is located in the chest.",
+      "bn": "হৃৎপিণ্ড বুকের ভেতরে অবস্থিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, located, and in.",
+     "show": {
+      "kind": "example",
+      "text": "The heart is located in the chest.",
+      "bn": "হৃৎপিণ্ড বুকের ভেতরে অবস্থিত।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "located",
+        "role": "verb"
+       },
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Food is digested in the stomach.",
+     "show": {
+      "kind": "example",
+      "text": "Food is digested in the stomach.",
+      "bn": "পাকস্থলীতে খাবার হজম হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice in.",
+     "show": {
+      "kind": "example",
+      "text": "Food is digested in the stomach.",
+      "bn": "পাকস্থলীতে খাবার হজম হয়।",
+      "focus": [
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: The heart is at the chest. Say: The heart is in the chest.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "in"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The heart pumps blood.",
+     "show": {
+      "kind": "example",
+      "text": "The heart pumps blood.",
+      "bn": "হৃৎপিণ্ড রক্ত পাম্প করে সারা শরীরে পাঠায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Heart.",
+     "show": {
+      "kind": "example",
+      "text": "The heart pumps blood.",
+      "bn": "হৃৎপিণ্ড রক্ত পাম্প করে সারা শরীরে পাঠায়।",
+      "focus": [
+       {
+        "w": "heart",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The lungs help us breathe.",
+     "show": {
+      "kind": "example",
+      "text": "The lungs help us breathe.",
+      "bn": "ফুসফুস আমাদের শ্বাস নিতে সাহায্য করে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Lungs.",
+     "show": {
+      "kind": "example",
+      "text": "The lungs help us breathe.",
+      "bn": "ফুসফুস আমাদের শ্বাস নিতে সাহায্য করে।",
+      "focus": [
+       {
+        "w": "lungs",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The vowel in liver and live.",
+     "show": {
+      "kind": "text",
+      "text": "the vowel in liver and live.",
+      "bn": "Sound corner: liver এবং live শব্দের স্বরধ্বনি।"
+     }
+    },
+    {
+     "say": "The liver is large.",
+     "show": {
+      "kind": "example",
+      "text": "The liver is large.",
+      "bn": "যকৃৎটি বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Use a short i sound, like give.",
+     "show": {
+      "kind": "example",
+      "text": "The liver is large.",
+      "bn": "যকৃৎটি বড়।",
+      "focus": [
+       {
+        "w": "liver",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

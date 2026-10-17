@@ -5,10 +5,15 @@ about 90 seconds. Edit a generated script by hand, then run build_explainer.py <
 
 Usage: python3 make_explainer_scripts.py
 """
-import json, re
+import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "curriculum"))
+from month2 import MONTH2  # noqa: E402
+from month3 import MONTH3  # noqa: E402
+FOCUS_LATE = {c["no"]: [f.lower() for f in c["focus"]] for c in MONTH2 + MONTH3}
+STOP = {"sound", "the", "and", "in", "of", "a", "is", "to", "for", "say", "with", "your", "it", "at", "are", "an", "or", "not", "do", "use", "clearly", "words", "from", "after", "before", "does", "that", "this", "has", "have"}
 course = json.loads((ROOT / "public" / "course.json").read_text(encoding="utf-8"))
 units = [u for m in course["course"]["months"] for w in m["weeks"] for u in w["classes"]]
 
@@ -33,6 +38,21 @@ SOUND = {  # key words for the sound corner
  8: {"went", "took", "got", "up"}, 9: {"i'll", "she'll", "won't"}, 10: {"could", "please", "may", "would"},
  11: {"spacious", "clean", "quiet", "crowded"}, 12: {"vein", "very", "went", "west", "think", "third"},
 }
+RECAP = {
+ 12: ("Month 1", [("Introduce yourself and your family", "In Month 1 you learned to introduce yourself and your family."),
+                  ("Talk about your day and now", "You learned to talk about your daily routine, and what is happening now."),
+                  ("Ask questions, share likes", "You learned to ask questions, and to talk about your likes and dislikes."),
+                  ("Past and future", "You learned to talk about the past, and to make plans for the future."),
+                  ("Polite requests and descriptions", "You learned to make polite requests, and to describe people and places.")]),
+ 24: ("Month 2", [("Travel, directions and shopping", "In Month 2 you learned to travel, ask for directions and shop in Egypt."),
+                  ("Order food and compare things", "You learned to order food, and to compare places and prices."),
+                  ("Housing, health and phone calls", "You learned to report problems, describe symptoms and use the phone."),
+                  ("Plans, stories and experiences", "You learned to make plans, tell stories and talk about your experiences.")]),
+ 36: ("Month 3", [("Medical college English", "In Month 3 you learned the English of the medical college and the lecture hall."),
+                  ("Talk with patients", "You learned to take a patient history and describe symptoms and pain."),
+                  ("Explain and present", "You learned to explain procedures, present a case and give a short talk."),
+                  ("Write and call professionally", "You learned to write polite emails and make professional phone calls.")]),
+}
 NUM = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"]
 
 strip = lambda w: re.sub(r"[.,;:!?()\"]", "", w).lower()
@@ -42,7 +62,22 @@ def spoken(t):
     t = re.sub(r"\s+", " ", re.sub(r"[()\"“”]", "", t)).strip()
     return t
 
+def focus_late(no, sentence):
+    toks = sentence.split()
+    low = [strip(t) for t in toks]
+    hit = set()
+    for ph in FOCUS_LATE[no]:
+        p = ph.split()
+        for i in range(len(low) - len(p) + 1):
+            if low[i:i + len(p)] == p: hit.update(range(i, i + len(p)))
+    out = []
+    for i, w in enumerate(low):
+        if i in hit: out.append({"w": w, "role": "verb"})
+        elif w in PRON: out.append({"w": w, "role": "subj"})
+    return out if any(f["role"] == "verb" for f in out) else []
+
 def focus_words(no, sentence, vocab):
+    if no >= 13: return focus_late(no, sentence)
     toks = sentence.split()
     out, keys = [], FOCUS[no] | (vocab if no == 11 else set())
     for i, w in enumerate(toks):
@@ -67,7 +102,7 @@ def ex_beats(no, block, vocab, count=2):
     lines = []
     for e in cand[:count]:
         f = focus_words(no, e["en"], vocab)
-        keys = [x["w"] for x in f if x["role"] == "verb"]
+        keys = list(dict.fromkeys(x["w"] for x in f if x["role"] == "verb"))
         note = "Notice " + (", ".join(keys[:-1]) + ", and " + keys[-1] if len(keys) > 1 else keys[0]) + "."
         lines.append({"say": e["en"], "show": {"kind": "example", "text": e["en"], "bn": e["bn"], "focus": []}})
         lines.append({"say": note, "show": {"kind": "example", "text": e["en"], "bn": e["bn"], "focus": f, "keep": True}})
@@ -76,13 +111,16 @@ def ex_beats(no, block, vocab, count=2):
 def build(u):
     no, g = u["no"], u["guidebook"]
     vocab = {v["en"].lower() for v in g["vocab"]}
-    blocks, sound, med = g["grammar"][:-1][:2], g["grammar"][-1], g["vocab"][-6:]
-    scenes = [{"type": "title", "heading": "", "lines": [{"say": f"Welcome to Class {NUM[no]}. {spoken(u['title']['en'])}.", "show": {"kind": "title"}}]}]
+    blocks, sound = g["grammar"][:-1][:2], g["grammar"][-1]
+    med = g["vocab"][-6:] if no <= 12 else g["vocab"][:3]
+    corner = "Medical corner" if no <= 12 else "Key words"
+    cn = NUM[no] if no < len(NUM) else str(no)
+    scenes = [{"type": "title", "heading": "", "lines": [{"say": f"Welcome to Class {cn}. {spoken(u['title']['en'])}.", "show": {"kind": "title"}}]}]
     for bi, b in enumerate(blocks):
         n, body, first = rule_parts(b["rule"]["en"])
         say = f"Rule {NUM[bi + 1]}. {spoken(first)}"
         sc = {"type": "rule", "heading": f"Rule {bi + 1}", "lines": [{"say": say, "show": {"kind": "text", "text": first, "bn": b["rule"]["bn"]}}]}
-        sc["lines"] += ex_beats(no, b, vocab)
+        sc["lines"] += ex_beats(no, b, vocab, 1 if no in RECAP else 2)
         scenes.append(sc)
     mk = blocks[0]["mistakes"][0] if blocks[0]["mistakes"] else None
     if mk:
@@ -91,30 +129,31 @@ def build(u):
         scenes.append({"type": "mistakes", "heading": "Common mistake", "lines": [
             {"say": f"Not: {spoken(mk['wrong'])} Say: {spoken(mk['right'])}", "show": {"kind": "mistake", "ref": [0, 0], "focus": strip(diff[0])}}]})
     ml = []
-    for v in med[:2]:
+    for v in med[:2 if no <= 12 else 2]:
         key = [{"w": strip(w), "role": "verb"} for w in v["en"].split()]
         ml += [{"say": v["example_en"], "show": {"kind": "example", "text": v["example_en"], "bn": v["example_bn"], "focus": []}},
                {"say": spoken(v["en"]) + ".", "show": {"kind": "example", "text": v["example_en"], "bn": v["example_bn"], "focus": key, "keep": True}}]
-    scenes.append({"type": "examples", "heading": "Medical corner", "lines": ml})
+    scenes.append({"type": "examples", "heading": corner, "lines": ml})
     ex = sound["examples"][0]
-    sk = [{"w": strip(w), "role": "key"} for w in ex["en"].split() if strip(w) in SOUND[no]] or [{"w": strip(ex["en"].split()[0]), "role": "key"}]
+    if no <= 12:
+        keys = SOUND[no]
+    else:
+        txt = strip(sound["rule"]["en"] + " " + sound["points"][0]["en"]).replace("  ", " ")
+        keys = {w for w in re.findall(r"[a-z']+", txt) if len(w) > 2 and w not in STOP}
+    sk = [{"w": strip(w), "role": "key"} for w in ex["en"].split() if strip(w) in keys] or [{"w": strip(ex["en"].split()[0]), "role": "key"}]
     sline = sound["rule"]["en"].replace("Sound corner: ", "")
     scenes.append({"type": "examples", "heading": "Sound corner", "lines": [
         {"say": "Sound corner. " + spoken(sline[0].upper() + sline[1:]), "show": {"kind": "text", "text": sline, "bn": sound["rule"]["bn"]}},
         {"say": ex["en"], "show": {"kind": "example", "text": ex["en"], "bn": ex["bn"], "focus": []}},
         {"say": spoken(sound["mistakes"][0]["note_en"]), "show": {"kind": "example", "text": ex["en"], "bn": ex["bn"], "focus": sk, "keep": True}}]})
-    if no == 12:
-        skills = [("Introduce yourself and your family", "In Month 1 you learned to introduce yourself and your family."),
-                  ("Talk about your day and now", "You learned to talk about your daily routine, and what is happening now."),
-                  ("Ask questions, share likes", "You learned to ask questions, and to talk about your likes and dislikes."),
-                  ("Past and future", "You learned to talk about the past, and to make plans for the future."),
-                  ("Polite requests and descriptions", "You learned to make polite requests, and to describe people and places.")]
-        scenes.insert(1, {"type": "recap", "heading": "Month 1 skills", "lines": [{"say": say, "show": {"kind": "text", "text": t}} for t, say in skills]})
+    if no in RECAP:
+        mname, skills = RECAP[no]
+        scenes.insert(1, {"type": "recap", "heading": f"{mname} skills", "lines": [{"say": say, "show": {"kind": "text", "text": t}} for t, say in skills]})
     scenes.append({"type": "recap", "heading": "Recap", "lines": [{"say": "Review the examples, then try the lesson!", "show": {"kind": "outro"}}]})
     return {"classId": u["id"], "voice": "en-US-JennyNeural", "scenes": scenes}
 
 for u in units:
-    if u["no"] >= 2:
+    if u["no"] >= 2 and (len(sys.argv) < 2 or str(u["no"]) in sys.argv[1:]):
         s = build(u)
         (ROOT / "explainers" / f"{u['id']}.script.json").write_text(json.dumps(s, indent=1, ensure_ascii=False), encoding="utf-8")
         words = sum(len(l["say"].split()) for sc in s["scenes"] for l in sc["lines"])

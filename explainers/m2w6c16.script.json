@@ -1,0 +1,279 @@
+{
+ "classId": "m2w6c16",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 16. Food and Eating Out: Restaurants and Cafes.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use I would like or I'd like to order politely.",
+     "show": {
+      "kind": "text",
+      "text": "Use I would like or I'd like to order politely.",
+      "bn": "ভদ্রভাবে কোনো খাবার বা জিনিস অর্ডার করতে I would like অথবা I'd like ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I would like a chicken sandwich, please.",
+     "show": {
+      "kind": "example",
+      "text": "I would like a chicken sandwich, please.",
+      "bn": "আমি একটি চিকেন স্যান্ডউইচ চাই, দয়া করে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "show": {
+      "kind": "example",
+      "text": "I would like a chicken sandwich, please.",
+      "bn": "আমি একটি চিকেন স্যান্ডউইচ চাই, দয়া করে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "would",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I would like my tea without sugar.",
+     "show": {
+      "kind": "example",
+      "text": "I would like my tea without sugar.",
+      "bn": "আমি চিনি ছাড়া চা চাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "show": {
+      "kind": "example",
+      "text": "I would like my tea without sugar.",
+      "bn": "আমি চিনি ছাড়া চা চাই।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "would",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Ask about food with Is there and Does it have.",
+     "show": {
+      "kind": "text",
+      "text": "Ask about food with Is there and Does it have.",
+      "bn": "নিয়ম ২: Is there এবং Does it have ব্যবহার করে খাবার সম্পর্কে প্রশ্ন করুন।"
+     }
+    },
+    {
+     "say": "Is there any meat in this dish?",
+     "show": {
+      "kind": "example",
+      "text": "Is there any meat in this dish?",
+      "bn": "এই খাবারটিতে কি কোনো মাংস আছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, and there.",
+     "show": {
+      "kind": "example",
+      "text": "Is there any meat in this dish?",
+      "bn": "এই খাবারটিতে কি কোনো মাংস আছে?",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "there",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Does it have nuts?",
+     "show": {
+      "kind": "example",
+      "text": "Does it have nuts?",
+      "bn": "এই খাবারে কি বাদাম আছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice does.",
+     "show": {
+      "kind": "example",
+      "text": "Does it have nuts?",
+      "bn": "এই খাবারে কি বাদাম আছে?",
+      "focus": [
+       {
+        "w": "does",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I want a tea. Say: I would like a tea, please.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "would"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "Could I see the menu, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could I see the menu, please?",
+      "bn": "আমি কি মেনুটি দেখতে পারি, দয়া করে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Menu.",
+     "show": {
+      "kind": "example",
+      "text": "Could I see the menu, please?",
+      "bn": "আমি কি মেনুটি দেখতে পারি, দয়া করে?",
+      "focus": [
+       {
+        "w": "menu",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Are you ready to order?",
+     "show": {
+      "kind": "example",
+      "text": "Are you ready to order?",
+      "bn": "আপনি কি অর্ডার দেওয়ার জন্য প্রস্তুত?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Order.",
+     "show": {
+      "kind": "example",
+      "text": "Are you ready to order?",
+      "bn": "আপনি কি অর্ডার দেওয়ার জন্য প্রস্তুত?",
+      "focus": [
+       {
+        "w": "order",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The final t and d in food words.",
+     "show": {
+      "kind": "text",
+      "text": "the final t and d in food words.",
+      "bn": "Sound corner: খাবার-সম্পর্কিত শব্দের শেষে t এবং d-এর উচ্চারণ।"
+     }
+    },
+    {
+     "say": "The bread is hot.",
+     "show": {
+      "kind": "example",
+      "text": "The bread is hot.",
+      "bn": "রুটিটি গরম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Do not drop the last d or t.",
+     "show": {
+      "kind": "example",
+      "text": "The bread is hot.",
+      "bn": "রুটিটি গরম।",
+      "focus": [
+       {
+        "w": "bread",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

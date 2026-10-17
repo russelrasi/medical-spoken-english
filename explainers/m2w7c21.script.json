@@ -1,0 +1,219 @@
+{
+ "classId": "m2w7c21",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 21. Making Plans and Invitations.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use Would you like to .",
+     "show": {
+      "kind": "text",
+      "text": "Use Would you like to .",
+      "bn": "কাউকে আমন্ত্রণ জানাতে Would you like to ... এবং Do you want to ... ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Would you like to visit the pyramids on Friday?",
+     "show": {
+      "kind": "example",
+      "text": "Would you like to visit the pyramids on Friday?",
+      "bn": "তুমি কি শুক্রবার পিরামিডগুলো দেখতে যেতে চাও?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "show": {
+      "kind": "example",
+      "text": "Would you like to visit the pyramids on Friday?",
+      "bn": "তুমি কি শুক্রবার পিরামিডগুলো দেখতে যেতে চাও?",
+      "focus": [
+       {
+        "w": "would",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Let's have lunch after the lecture.",
+     "show": {
+      "kind": "example",
+      "text": "Let's have lunch after the lecture.",
+      "bn": "লেকচার শেষে চলো দুপুরের খাবার খাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice let's.",
+     "show": {
+      "kind": "example",
+      "text": "Let's have lunch after the lecture.",
+      "bn": "লেকচার শেষে চলো দুপুরের খাবার খাই।",
+      "focus": [
+       {
+        "w": "let's",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Accept with I'd love to.",
+     "show": {
+      "kind": "text",
+      "text": "Accept with I'd love to.",
+      "bn": "নিয়ম ২: আমন্ত্রণ গ্রহণ করতে I'd love to বলুন। ভদ্রভাবে প্রত্যাখ্যান করতে I'm sorry, I can't বলুন এবং একটি কারণ জানান।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Do you want come with me? Say: Do you want to come with me?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "to"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I want to invite you to lunch.",
+     "show": {
+      "kind": "example",
+      "text": "I want to invite you to lunch.",
+      "bn": "আমি আপনাকে দুপুরের খাবারের দাওয়াত দিতে চাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Invite.",
+     "show": {
+      "kind": "example",
+      "text": "I want to invite you to lunch.",
+      "bn": "আমি আপনাকে দুপুরের খাবারের দাওয়াত দিতে চাই।",
+      "focus": [
+       {
+        "w": "invite",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "What are you doing this weekend?",
+     "show": {
+      "kind": "example",
+      "text": "What are you doing this weekend?",
+      "bn": "এই সপ্তাহান্তে তুমি কী করছ?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Weekend.",
+     "show": {
+      "kind": "example",
+      "text": "What are you doing this weekend?",
+      "bn": "এই সপ্তাহান্তে তুমি কী করছ?",
+      "focus": [
+       {
+        "w": "weekend",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Question intonation in invitations.",
+     "show": {
+      "kind": "text",
+      "text": "question intonation in invitations.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: কাউকে আমন্ত্রণ জানানোর সময় প্রশ্নের সুর।"
+     }
+    },
+    {
+     "say": "Would you like to come?",
+     "show": {
+      "kind": "example",
+      "text": "Would you like to come?",
+      "bn": "তুমি কি আসতে চাও?",
+      "focus": []
+     }
+    },
+    {
+     "say": "A rising voice sounds friendly.",
+     "show": {
+      "kind": "example",
+      "text": "Would you like to come?",
+      "bn": "তুমি কি আসতে চাও?",
+      "focus": [
+       {
+        "w": "would",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "classId": "m3w12c36",
+ "classNo": 36,
+ "title": "Month 3 Revision and Final Evaluation",
+ "titleBn": "তৃতীয় মাসের পুনরালোচনা ও চূড়ান্ত মূল্যায়ন",
+ "fps": 30,
+ "totalFrames": 2673,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 233,
+   "lines": [
+    {
+     "say": "Welcome to Class 36. Month 3 Revision and Final Evaluation.",
+     "audio": "m3w12c36/l000.mp3",
+     "from": 0,
+     "frames": 233,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 3 skills",
+   "from": 233,
+   "frames": 724,
+   "lines": [
+    {
+     "say": "In Month 3 you learned the English of the medical college and the lecture hall.",
+     "audio": "m3w12c36/l001.mp3",
+     "from": 0,
+     "frames": 182,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Medical college English"
+     }
+    },
+    {
+     "say": "You learned to take a patient history and describe symptoms and pain.",
+     "audio": "m3w12c36/l002.mp3",
+     "from": 182,
+     "frames": 172,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Talk with patients"
+     }
+    },
+    {
+     "say": "You learned to explain procedures, present a case and give a short talk.",
+     "audio": "m3w12c36/l003.mp3",
+     "from": 354,
+     "frames": 189,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Explain and present"
+     }
+    },
+    {
+     "say": "You learned to write polite emails and make professional phone calls.",
+     "audio": "m3w12c36/l004.mp3",
+     "from": 543,
+     "frames": 181,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Write and call professionally"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 957,
+   "frames": 462,
+   "lines": [
+    {
+     "say": "Rule one. Final checklist: everything the student must be able to do by the end of Month 3.",
+     "audio": "m3w12c36/l005.mp3",
+     "from": 0,
+     "frames": 254,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Final checklist: everything the student must be able to do by the end of Month 3.",
+      "bn": "নিয়ম ১: চূড়ান্ত যাচাইতালিকা। তৃতীয় মাসের শেষে শিক্ষার্থীকে যেসব কাজ করতে সক্ষম হতে হবে, তার সবকিছু।"
+     }
+    },
+    {
+     "say": "Could you tell me where the lab is?",
+     "audio": "m3w12c36/l006.mp3",
+     "from": 254,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m3w12c36/l007.mp3",
+     "from": 361,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1419,
+   "frames": 206,
+   "lines": [
+    {
+     "say": "Not: I am agree with you. Say: I agree with you.",
+     "audio": "m3w12c36/l008.mp3",
+     "from": 0,
+     "frames": 206,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "you",
+      "wrong": "I am agree with you.",
+      "right": "I agree with you."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1625,
+   "frames": 419,
+   "lines": [
+    {
+     "say": "Fluency comes with practice.",
+     "audio": "m3w12c36/l009.mp3",
+     "from": 0,
+     "frames": 111,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Fluency comes with practice.",
+      "bn": "অনুশীলনের মাধ্যমে সাবলীলতা আসে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Fluency.",
+     "audio": "m3w12c36/l010.mp3",
+     "from": 111,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Fluency comes with practice.",
+      "bn": "অনুশীলনের মাধ্যমে সাবলীলতা আসে।",
+      "focus": [
+       {
+        "w": "fluency",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Accuracy matters in medicine.",
+     "audio": "m3w12c36/l011.mp3",
+     "from": 204,
+     "frames": 114,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Accuracy matters in medicine.",
+      "bn": "চিকিৎসাক্ষেত্রে নির্ভুলতা গুরুত্বপূর্ণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Accuracy.",
+     "audio": "m3w12c36/l012.mp3",
+     "from": 318,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Accuracy matters in medicine.",
+      "bn": "চিকিৎসাক্ষেত্রে নির্ভুলতা গুরুত্বপূর্ণ।",
+      "focus": [
+       {
+        "w": "accuracy",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2044,
+   "frames": 476,
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, w, th and word stress.",
+     "audio": "m3w12c36/l013.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "review of v, w, th and word stress.",
+      "bn": "Sound corner: v, w, th-এর উচ্চারণ এবং শব্দের ওপর জোর দেওয়ার নিয়ম পর্যালোচনা।"
+     }
+    },
+    {
+     "say": "The vein is very visible.",
+     "audio": "m3w12c36/l014.mp3",
+     "from": 226,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "audio": "m3w12c36/l015.mp3",
+     "from": 331,
+     "frames": 145,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2520,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w12c36/l016.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

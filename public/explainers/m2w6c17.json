@@ -1,0 +1,367 @@
+{
+ "classId": "m2w6c17",
+ "classNo": 17,
+ "title": "Comparing and Choosing: Comparatives and Superlatives",
+ "titleBn": "তুলনা করে বেছে নেওয়া: তুলনামূলক ও সর্বোচ্চ রূপ",
+ "fps": 30,
+ "totalFrames": 2866,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 247,
+   "lines": [
+    {
+     "say": "Welcome to Class 17. Comparing and Choosing: Comparatives and Superlatives.",
+     "audio": "m2w6c17/l000.mp3",
+     "from": 0,
+     "frames": 247,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 247,
+   "frames": 675,
+   "lines": [
+    {
+     "say": "Rule one. Use the comparative with than: bigger than, more interesting than.",
+     "audio": "m2w6c17/l001.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use the comparative with than: bigger than, more interesting than.",
+      "bn": "than ব্যবহার করে তুলনামূলক বাক্য গঠন করুন: bigger than, more interesting than।"
+     }
+    },
+    {
+     "say": "Cairo is bigger than Alexandria.",
+     "audio": "m2w6c17/l002.mp3",
+     "from": 226,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is bigger than Alexandria.",
+      "bn": "কায়রো আলেকজান্দ্রিয়ার চেয়ে বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice than.",
+     "audio": "m2w6c17/l003.mp3",
+     "from": 344,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is bigger than Alexandria.",
+      "bn": "কায়রো আলেকজান্দ্রিয়ার চেয়ে বড়।",
+      "focus": [
+       {
+        "w": "than",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The metro is cheaper than a taxi.",
+     "audio": "m2w6c17/l004.mp3",
+     "from": 437,
+     "frames": 120,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The metro is cheaper than a taxi.",
+      "bn": "মেট্রোর ভাড়া ট্যাক্সির চেয়ে কম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the, and than.",
+     "audio": "m2w6c17/l005.mp3",
+     "from": 557,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The metro is cheaper than a taxi.",
+      "bn": "মেট্রোর ভাড়া ট্যাক্সির চেয়ে কম।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       },
+       {
+        "w": "than",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 922,
+   "frames": 661,
+   "lines": [
+    {
+     "say": "Rule two. Use the superlative with the: the biggest, the most interesting.",
+     "audio": "m2w6c17/l006.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use the superlative with the: the biggest, the most interesting.",
+      "bn": "নিয়ম ২: the-এর সঙ্গে superlative ব্যবহার করুন: the biggest, the most interesting।"
+     }
+    },
+    {
+     "say": "Cairo is the biggest city in Egypt.",
+     "audio": "m2w6c17/l007.mp3",
+     "from": 226,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is the biggest city in Egypt.",
+      "bn": "কায়রো মিশরের সবচেয়ে বড় শহর।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "audio": "m2w6c17/l008.mp3",
+     "from": 347,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is the biggest city in Egypt.",
+      "bn": "কায়রো মিশরের সবচেয়ে বড় শহর।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "This is the cheapest restaurant near here.",
+     "audio": "m2w6c17/l009.mp3",
+     "from": 440,
+     "frames": 120,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "This is the cheapest restaurant near here.",
+      "bn": "এটি এখানকার কাছাকাছি সবচেয়ে সস্তা রেস্টুরেন্ট।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "audio": "m2w6c17/l010.mp3",
+     "from": 560,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "This is the cheapest restaurant near here.",
+      "bn": "এটি এখানকার কাছাকাছি সবচেয়ে সস্তা রেস্টুরেন্ট।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1583,
+   "frames": 264,
+   "lines": [
+    {
+     "say": "Not: Cairo is more big than Alexandria. Say: Cairo is bigger than Alexandria.",
+     "audio": "m2w6c17/l011.mp3",
+     "from": 0,
+     "frames": 264,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "bigger",
+      "wrong": "Cairo is more big than Alexandria.",
+      "right": "Cairo is bigger than Alexandria."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1847,
+   "frames": 416,
+   "lines": [
+    {
+     "say": "My room is bigger than yours.",
+     "audio": "m2w6c17/l012.mp3",
+     "from": 0,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My room is bigger than yours.",
+      "bn": "আমার ঘর তোমার ঘরের চেয়ে বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Bigger.",
+     "audio": "m2w6c17/l013.mp3",
+     "from": 107,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My room is bigger than yours.",
+      "bn": "আমার ঘর তোমার ঘরের চেয়ে বড়।",
+      "focus": [
+       {
+        "w": "bigger",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The bus is cheaper than the taxi.",
+     "audio": "m2w6c17/l014.mp3",
+     "from": 200,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The bus is cheaper than the taxi.",
+      "bn": "ট্যাক্সির চেয়ে বাসে যাতায়াতের খরচ কম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Cheaper.",
+     "audio": "m2w6c17/l015.mp3",
+     "from": 315,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The bus is cheaper than the taxi.",
+      "bn": "ট্যাক্সির চেয়ে বাসে যাতায়াতের খরচ কম।",
+      "focus": [
+       {
+        "w": "cheaper",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2263,
+   "frames": 450,
+   "lines": [
+    {
+     "say": "Sound corner. The weak sound in than and as.",
+     "audio": "m2w6c17/l016.mp3",
+     "from": 0,
+     "frames": 173,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the weak sound in than and as.",
+      "bn": "Sound corner: than এবং as শব্দের দুর্বল উচ্চারণ।"
+     }
+    },
+    {
+     "say": "Cairo is bigger than Giza.",
+     "audio": "m2w6c17/l017.mp3",
+     "from": 173,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is bigger than Giza.",
+      "bn": "কায়রো গিজার চেয়ে বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Do not stress than. It is a weak word.",
+     "audio": "m2w6c17/l018.mp3",
+     "from": 280,
+     "frames": 170,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Cairo is bigger than Giza.",
+      "bn": "কায়রো গিজার চেয়ে বড়।",
+      "focus": [
+       {
+        "w": "than",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2713,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w6c17/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

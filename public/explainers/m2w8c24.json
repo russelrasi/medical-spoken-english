@@ -1,0 +1,303 @@
+{
+ "classId": "m2w8c24",
+ "classNo": 24,
+ "title": "Month 2 Revision and Evaluation Test",
+ "titleBn": "দ্বিতীয় মাসের পুনরালোচনা ও মূল্যায়ন পরীক্ষা",
+ "fps": 30,
+ "totalFrames": 2715,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 231,
+   "lines": [
+    {
+     "say": "Welcome to Class 24. Month 2 Revision and Evaluation Test.",
+     "audio": "m2w8c24/l000.mp3",
+     "from": 0,
+     "frames": 231,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 2 skills",
+   "from": 231,
+   "frames": 750,
+   "lines": [
+    {
+     "say": "In Month 2 you learned to travel, ask for directions and shop in Egypt.",
+     "audio": "m2w8c24/l001.mp3",
+     "from": 0,
+     "frames": 191,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Travel, directions and shopping"
+     }
+    },
+    {
+     "say": "You learned to order food, and to compare places and prices.",
+     "audio": "m2w8c24/l002.mp3",
+     "from": 191,
+     "frames": 171,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Order food and compare things"
+     }
+    },
+    {
+     "say": "You learned to report problems, describe symptoms and use the phone.",
+     "audio": "m2w8c24/l003.mp3",
+     "from": 362,
+     "frames": 182,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Housing, health and phone calls"
+     }
+    },
+    {
+     "say": "You learned to make plans, tell stories and talk about your experiences.",
+     "audio": "m2w8c24/l004.mp3",
+     "from": 544,
+     "frames": 206,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Plans, stories and experiences"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 981,
+   "frames": 476,
+   "lines": [
+    {
+     "say": "Rule one. Revision checklist: everything the student must be able to do by the end of Month 2.",
+     "audio": "m2w8c24/l005.mp3",
+     "from": 0,
+     "frames": 256,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Revision checklist: everything the student must be able to do by the end of Month 2.",
+      "bn": "নিয়ম ১: পুনরালোচনার যাচাইতালিকা। দ্বিতীয় মাসের শেষে শিক্ষার্থীকে যেসব কাজ করতে সক্ষম হতে হবে, তার সবকিছু।"
+     }
+    },
+    {
+     "say": "You should drink more water and rest.",
+     "audio": "m2w8c24/l006.mp3",
+     "from": 256,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water and rest.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত এবং বিশ্রাম নেওয়া উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "audio": "m2w8c24/l007.mp3",
+     "from": 374,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water and rest.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত এবং বিশ্রাম নেওয়া উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1457,
+   "frames": 218,
+   "lines": [
+    {
+     "say": "Not: I have went to Luxor. Say: I have gone to Luxor.",
+     "audio": "m2w8c24/l008.mp3",
+     "from": 0,
+     "frames": 218,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "gone",
+      "wrong": "I have went to Luxor.",
+      "right": "I have gone to Luxor."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1675,
+   "frames": 415,
+   "lines": [
+    {
+     "say": "We have a revision class today.",
+     "audio": "m2w8c24/l009.mp3",
+     "from": 0,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We have a revision class today.",
+      "bn": "আজ আমাদের পড়া রিভিশনের ক্লাস আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Revision.",
+     "audio": "m2w8c24/l010.mp3",
+     "from": 110,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We have a revision class today.",
+      "bn": "আজ আমাদের পড়া রিভিশনের ক্লাস আছে।",
+      "focus": [
+       {
+        "w": "revision",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I practise English every day.",
+     "audio": "m2w8c24/l011.mp3",
+     "from": 203,
+     "frames": 111,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I practise English every day.",
+      "bn": "আমি প্রতিদিন ইংরেজি অনুশীলন করি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Practise.",
+     "audio": "m2w8c24/l012.mp3",
+     "from": 314,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I practise English every day.",
+      "bn": "আমি প্রতিদিন ইংরেজি অনুশীলন করি।",
+      "focus": [
+       {
+        "w": "practise",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2090,
+   "frames": 472,
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, th and final consonants.",
+     "audio": "m2w8c24/l013.mp3",
+     "from": 0,
+     "frames": 213,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "review of v, th and final consonants.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: v, th এবং শব্দের শেষের ব্যঞ্জনধ্বনির পুনরালোচনা।"
+     }
+    },
+    {
+     "say": "I have visited the third museum.",
+     "audio": "m2w8c24/l014.mp3",
+     "from": 213,
+     "frames": 114,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have visited the third museum.",
+      "bn": "আমি তৃতীয় জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "audio": "m2w8c24/l015.mp3",
+     "from": 327,
+     "frames": 145,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have visited the third museum.",
+      "bn": "আমি তৃতীয় জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2562,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w8c24/l016.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

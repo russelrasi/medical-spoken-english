@@ -1,0 +1,247 @@
+{
+ "classId": "m3w12c34",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 34. Giving a Short Presentation.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Open with a greeting, the topic and the plan: Today I will talk about .",
+     "show": {
+      "kind": "text",
+      "text": "Open with a greeting, the topic and the plan: Today I will talk about .",
+      "bn": "নিয়ম ১: শুভেচ্ছা, আলোচনার বিষয় এবং পরিকল্পনা দিয়ে উপস্থাপনা শুরু করুন: Today I will talk about ..."
+     }
+    },
+    {
+     "say": "Today I will talk about hand washing.",
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice today.",
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": [
+       {
+        "w": "today",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Firstly, why it is important.",
+     "show": {
+      "kind": "example",
+      "text": "Firstly, why it is important.",
+      "bn": "প্রথমত, এটি কেন গুরুত্বপূর্ণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice firstly.",
+     "show": {
+      "kind": "example",
+      "text": "Firstly, why it is important.",
+      "bn": "প্রথমত, এটি কেন গুরুত্বপূর্ণ।",
+      "focus": [
+       {
+        "w": "firstly",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use numbers and trends: increased, decreased, stayed the same.",
+     "show": {
+      "kind": "text",
+      "text": "Use numbers and trends: increased, decreased, stayed the same.",
+      "bn": "নিয়ম ২: সংখ্যা ও প্রবণতা বোঝাতে increased, decreased এবং stayed the same ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The number of cases increased from ten to twenty.",
+     "show": {
+      "kind": "example",
+      "text": "The number of cases increased from ten to twenty.",
+      "bn": "কেসের সংখ্যা দশ থেকে বেড়ে বিশ হয়েছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice increased.",
+     "show": {
+      "kind": "example",
+      "text": "The number of cases increased from ten to twenty.",
+      "bn": "কেসের সংখ্যা দশ থেকে বেড়ে বিশ হয়েছে।",
+      "focus": [
+       {
+        "w": "increased",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I talk now about hand washing. Say: Today I will talk about hand washing.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "today"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "My presentation is about hygiene.",
+     "show": {
+      "kind": "example",
+      "text": "My presentation is about hygiene.",
+      "bn": "আমার উপস্থাপনার বিষয় হলো স্বাস্থ্যবিধি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Presentation.",
+     "show": {
+      "kind": "example",
+      "text": "My presentation is about hygiene.",
+      "bn": "আমার উপস্থাপনার বিষয় হলো স্বাস্থ্যবিধি।",
+      "focus": [
+       {
+        "w": "presentation",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The topic is hand washing.",
+     "show": {
+      "kind": "example",
+      "text": "The topic is hand washing.",
+      "bn": "বিষয়টি হলো হাত ধোয়া।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Topic.",
+     "show": {
+      "kind": "example",
+      "text": "The topic is hand washing.",
+      "bn": "বিষয়টি হলো হাত ধোয়া।",
+      "focus": [
+       {
+        "w": "topic",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Pausing and stress in a talk.",
+     "show": {
+      "kind": "text",
+      "text": "pausing and stress in a talk.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: কথা বলার সময় বিরতি ও জোর দেওয়ার নিয়ম।"
+     }
+    },
+    {
+     "say": "Today I will talk about hand washing.",
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pause between ideas.",
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": [
+       {
+        "w": "talk",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

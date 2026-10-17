@@ -1,0 +1,235 @@
+{
+ "classId": "m3w10c29",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 29. Taking a Patient History: Basic Questions.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Open politely: Hello, my name is .",
+     "show": {
+      "kind": "text",
+      "text": "Open politely: Hello, my name is .",
+      "bn": "নিয়ম ১: ভদ্রভাবে কথা শুরু করুন: Hello, my name is ... What is the problem today?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use How long have you had .",
+     "show": {
+      "kind": "text",
+      "text": "Use How long have you had .",
+      "bn": "নিয়ম ২: সময়কাল ও কাজের পুনরাবৃত্তি সম্পর্কে জানতে How long have you had ... ? এবং How often do you ... ? ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "How long have you had this pain?",
+     "show": {
+      "kind": "example",
+      "text": "How long have you had this pain?",
+      "bn": "আপনার এই ব্যথা কত দিন ধরে হচ্ছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice how, long, have, and you.",
+     "show": {
+      "kind": "example",
+      "text": "How long have you had this pain?",
+      "bn": "আপনার এই ব্যথা কত দিন ধরে হচ্ছে?",
+      "focus": [
+       {
+        "w": "how",
+        "role": "verb"
+       },
+       {
+        "w": "long",
+        "role": "verb"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "How often do you get headaches?",
+     "show": {
+      "kind": "example",
+      "text": "How often do you get headaches?",
+      "bn": "আপনার কত ঘন ঘন মাথাব্যথা হয়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice how, and often.",
+     "show": {
+      "kind": "example",
+      "text": "How often do you get headaches?",
+      "bn": "আপনার কত ঘন ঘন মাথাব্যথা হয়?",
+      "focus": [
+       {
+        "w": "how",
+        "role": "verb"
+       },
+       {
+        "w": "often",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: What is your sickness? Say: What seems to be the problem?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "seems"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The patient is waiting.",
+     "show": {
+      "kind": "example",
+      "text": "The patient is waiting.",
+      "bn": "রোগী অপেক্ষা করছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Patient.",
+     "show": {
+      "kind": "example",
+      "text": "The patient is waiting.",
+      "bn": "রোগী অপেক্ষা করছেন।",
+      "focus": [
+       {
+        "w": "patient",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I am taking the patient history.",
+     "show": {
+      "kind": "example",
+      "text": "I am taking the patient history.",
+      "bn": "আমি রোগীর রোগের ইতিহাস নিচ্ছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "History.",
+     "show": {
+      "kind": "example",
+      "text": "I am taking the patient history.",
+      "bn": "আমি রোগীর রোগের ইতিহাস নিচ্ছি।",
+      "focus": [
+       {
+        "w": "history",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. A gentle, caring tone.",
+     "show": {
+      "kind": "text",
+      "text": "a gentle, caring tone.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: কোমল ও যত্নশীল কণ্ঠস্বর।"
+     }
+    },
+    {
+     "say": "How can I help you today?",
+     "show": {
+      "kind": "example",
+      "text": "How can I help you today?",
+      "bn": "আজ আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
+      "focus": []
+     }
+    },
+    {
+     "say": "A soft voice builds trust.",
+     "show": {
+      "kind": "example",
+      "text": "How can I help you today?",
+      "bn": "আজ আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
+      "focus": [
+       {
+        "w": "you",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

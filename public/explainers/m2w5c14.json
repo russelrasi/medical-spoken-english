@@ -1,0 +1,303 @@
+{
+ "classId": "m2w5c14",
+ "classNo": 14,
+ "title": "Getting Around: Directions and Public Transport",
+ "titleBn": "যাতায়াতের উপায়: পথনির্দেশনা ও গণপরিবহন।",
+ "fps": 30,
+ "totalFrames": 2470,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 237,
+   "lines": [
+    {
+     "say": "Welcome to Class 14. Getting Around: Directions and Public Transport.",
+     "audio": "m2w5c14/l000.mp3",
+     "from": 0,
+     "frames": 237,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 237,
+   "frames": 260,
+   "lines": [
+    {
+     "say": "Rule one. Use the base verb to give directions: go, turn, cross, take.",
+     "audio": "m2w5c14/l001.mp3",
+     "from": 0,
+     "frames": 260,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use the base verb to give directions: go, turn, cross, take.",
+      "bn": "পথনির্দেশ দিতে ক্রিয়ার মূল রূপ ব্যবহার করুন: go, turn, cross, take।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 497,
+   "frames": 744,
+   "lines": [
+    {
+     "say": "Rule two. Use prepositions: next to, opposite, between, behind, in front of, on the corner.",
+     "audio": "m2w5c14/l002.mp3",
+     "from": 0,
+     "frames": 293,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use prepositions: next to, opposite, between, behind, in front of, on the corner.",
+      "bn": "নিয়ম ২: next to, opposite, between, behind, in front of এবং on the corner এর মতো preposition ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The pharmacy is next to the bank.",
+     "audio": "m2w5c14/l003.mp3",
+     "from": 293,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is next to the bank.",
+      "bn": "ফার্মেসিটি ব্যাংকের পাশে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice next, and to.",
+     "audio": "m2w5c14/l004.mp3",
+     "from": 408,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is next to the bank.",
+      "bn": "ফার্মেসিটি ব্যাংকের পাশে।",
+      "focus": [
+       {
+        "w": "next",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The college is opposite the hospital.",
+     "audio": "m2w5c14/l005.mp3",
+     "from": 520,
+     "frames": 116,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The college is opposite the hospital.",
+      "bn": "কলেজটি হাসপাতালের বিপরীতে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice opposite.",
+     "audio": "m2w5c14/l006.mp3",
+     "from": 636,
+     "frames": 108,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The college is opposite the hospital.",
+      "bn": "কলেজটি হাসপাতালের বিপরীতে।",
+      "focus": [
+       {
+        "w": "opposite",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1241,
+   "frames": 203,
+   "lines": [
+    {
+     "say": "Not: You are going straight. Say: Go straight.",
+     "audio": "m2w5c14/l007.mp3",
+     "from": 0,
+     "frames": 203,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "go",
+      "wrong": "You are going straight.",
+      "right": "Go straight."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1444,
+   "frames": 434,
+   "lines": [
+    {
+     "say": "The metro station is near the hostel.",
+     "audio": "m2w5c14/l008.mp3",
+     "from": 0,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The metro station is near the hostel.",
+      "bn": "মেট্রো স্টেশনটি হোস্টেলের কাছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Station.",
+     "audio": "m2w5c14/l009.mp3",
+     "from": 121,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The metro station is near the hostel.",
+      "bn": "মেট্রো স্টেশনটি হোস্টেলের কাছে।",
+      "focus": [
+       {
+        "w": "station",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Which platform is the train to Giza?",
+     "audio": "m2w5c14/l010.mp3",
+     "from": 214,
+     "frames": 119,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Which platform is the train to Giza?",
+      "bn": "গিজাগামী ট্রেনটি কোন প্ল্যাটফর্ম থেকে ছাড়ে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Platform.",
+     "audio": "m2w5c14/l011.mp3",
+     "from": 333,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Which platform is the train to Giza?",
+      "bn": "গিজাগামী ট্রেনটি কোন প্ল্যাটফর্ম থেকে ছাড়ে?",
+      "focus": [
+       {
+        "w": "platform",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1878,
+   "frames": 439,
+   "lines": [
+    {
+     "say": "Sound corner. The th sound in the, this and there.",
+     "audio": "m2w5c14/l012.mp3",
+     "from": 0,
+     "frames": 196,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the th sound in the, this and there.",
+      "bn": "Sound corner: the, this এবং there শব্দে th-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "The pharmacy is there.",
+     "audio": "m2w5c14/l013.mp3",
+     "from": 196,
+     "frames": 98,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is there.",
+      "bn": "ফার্মেসিটি ওখানে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "audio": "m2w5c14/l014.mp3",
+     "from": 294,
+     "frames": 145,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is there.",
+      "bn": "ফার্মেসিটি ওখানে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2317,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w5c14/l015.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

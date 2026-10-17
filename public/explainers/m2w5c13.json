@@ -1,0 +1,379 @@
+{
+ "classId": "m2w5c13",
+ "classNo": 13,
+ "title": "Arriving in Egypt: Airport, Immigration and Taxis",
+ "titleBn": "মিশরে পৌঁছানো: বিমানবন্দর, ইমিগ্রেশন ও ট্যাক্সি",
+ "fps": 30,
+ "totalFrames": 2753,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 260,
+   "lines": [
+    {
+     "say": "Welcome to Class 13. Arriving in Egypt: Airport, Immigration and Taxis.",
+     "audio": "m2w5c13/l000.mp3",
+     "from": 0,
+     "frames": 260,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 260,
+   "frames": 635,
+   "lines": [
+    {
+     "say": "Rule one. Use How much for prices and How many for things you can count.",
+     "audio": "m2w5c13/l001.mp3",
+     "from": 0,
+     "frames": 217,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use How much for prices and How many for things you can count.",
+      "bn": "দামের ক্ষেত্রে How much এবং যেসব জিনিস গোনা যায়, সেগুলোর ক্ষেত্রে How many ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "How much is the taxi to the college?",
+     "audio": "m2w5c13/l002.mp3",
+     "from": 217,
+     "frames": 117,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "How much is the taxi to the college?",
+      "bn": "কলেজ পর্যন্ত ট্যাক্সিভাড়া কত?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice much.",
+     "audio": "m2w5c13/l003.mp3",
+     "from": 334,
+     "frames": 95,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "How much is the taxi to the college?",
+      "bn": "কলেজ পর্যন্ত ট্যাক্সিভাড়া কত?",
+      "focus": [
+       {
+        "w": "much",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "How many bags do you have?",
+     "audio": "m2w5c13/l004.mp3",
+     "from": 429,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "How many bags do you have?",
+      "bn": "আপনার কাছে কয়টি ব্যাগ আছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice many.",
+     "audio": "m2w5c13/l005.mp3",
+     "from": 532,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "How many bags do you have?",
+      "bn": "আপনার কাছে কয়টি ব্যাগ আছে?",
+      "focus": [
+       {
+        "w": "many",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 895,
+   "frames": 655,
+   "lines": [
+    {
+     "say": "Rule two. Use Could you or Can you to ask politely, and say please.",
+     "audio": "m2w5c13/l006.mp3",
+     "from": 0,
+     "frames": 221,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use Could you or Can you to ask politely, and say please.",
+      "bn": "নিয়ম ২: ভদ্রভাবে অনুরোধ করতে Could you অথবা Can you ব্যবহার করুন এবং please বলুন।"
+     }
+    },
+    {
+     "say": "Could you take me to the college, please?",
+     "audio": "m2w5c13/l007.mp3",
+     "from": 221,
+     "frames": 123,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you take me to the college, please?",
+      "bn": "আপনি কি দয়া করে আমাকে কলেজে নিয়ে যেতে পারবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m2w5c13/l008.mp3",
+     "from": 344,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you take me to the college, please?",
+      "bn": "আপনি কি দয়া করে আমাকে কলেজে নিয়ে যেতে পারবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you turn on the meter, please?",
+     "audio": "m2w5c13/l009.mp3",
+     "from": 437,
+     "frames": 117,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you turn on the meter, please?",
+      "bn": "আপনি কি দয়া করে মিটারটি চালু করবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m2w5c13/l010.mp3",
+     "from": 554,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you turn on the meter, please?",
+      "bn": "আপনি কি দয়া করে মিটারটি চালু করবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1550,
+   "frames": 214,
+   "lines": [
+    {
+     "say": "Not: How many is the ticket? Say: How much is the ticket?",
+     "audio": "m2w5c13/l011.mp3",
+     "from": 0,
+     "frames": 214,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "much",
+      "wrong": "How many is the ticket?",
+      "right": "How much is the ticket?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1764,
+   "frames": 424,
+   "lines": [
+    {
+     "say": "Here is my passport.",
+     "audio": "m2w5c13/l012.mp3",
+     "from": 0,
+     "frames": 100,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Here is my passport.",
+      "bn": "এই নিন আমার পাসপোর্ট।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Passport.",
+     "audio": "m2w5c13/l013.mp3",
+     "from": 100,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Here is my passport.",
+      "bn": "এই নিন আমার পাসপোর্ট।",
+      "focus": [
+       {
+        "w": "passport",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "My student visa is valid for one year.",
+     "audio": "m2w5c13/l014.mp3",
+     "from": 193,
+     "frames": 130,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My student visa is valid for one year.",
+      "bn": "আমার স্টুডেন্ট ভিসার মেয়াদ এক বছর।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Visa.",
+     "audio": "m2w5c13/l015.mp3",
+     "from": 323,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My student visa is valid for one year.",
+      "bn": "আমার স্টুডেন্ট ভিসার মেয়াদ এক বছর।",
+      "focus": [
+       {
+        "w": "visa",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2188,
+   "frames": 412,
+   "lines": [
+    {
+     "say": "Sound corner. The v sound in visa and very.",
+     "audio": "m2w5c13/l016.mp3",
+     "from": 0,
+     "frames": 176,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the v sound in visa and very.",
+      "bn": "Sound corner: visa এবং very শব্দে v-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "My visa is very new.",
+     "audio": "m2w5c13/l017.mp3",
+     "from": 176,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My visa is very new.",
+      "bn": "আমার ভিসাটি একেবারেই নতুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say v with your teeth on your lip.",
+     "audio": "m2w5c13/l018.mp3",
+     "from": 281,
+     "frames": 131,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My visa is very new.",
+      "bn": "আমার ভিসাটি একেবারেই নতুন।",
+      "focus": [
+       {
+        "w": "visa",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2600,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w5c13/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "classId": "m2w5c13",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 13. Arriving in Egypt: Airport, Immigration and Taxis.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use How much for prices and How many for things you can count.",
+     "show": {
+      "kind": "text",
+      "text": "Use How much for prices and How many for things you can count.",
+      "bn": "দামের ক্ষেত্রে How much এবং যেসব জিনিস গোনা যায়, সেগুলোর ক্ষেত্রে How many ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "How much is the taxi to the college?",
+     "show": {
+      "kind": "example",
+      "text": "How much is the taxi to the college?",
+      "bn": "কলেজ পর্যন্ত ট্যাক্সিভাড়া কত?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice much.",
+     "show": {
+      "kind": "example",
+      "text": "How much is the taxi to the college?",
+      "bn": "কলেজ পর্যন্ত ট্যাক্সিভাড়া কত?",
+      "focus": [
+       {
+        "w": "much",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "How many bags do you have?",
+     "show": {
+      "kind": "example",
+      "text": "How many bags do you have?",
+      "bn": "আপনার কাছে কয়টি ব্যাগ আছে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice many.",
+     "show": {
+      "kind": "example",
+      "text": "How many bags do you have?",
+      "bn": "আপনার কাছে কয়টি ব্যাগ আছে?",
+      "focus": [
+       {
+        "w": "many",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use Could you or Can you to ask politely, and say please.",
+     "show": {
+      "kind": "text",
+      "text": "Use Could you or Can you to ask politely, and say please.",
+      "bn": "নিয়ম ২: ভদ্রভাবে অনুরোধ করতে Could you অথবা Can you ব্যবহার করুন এবং please বলুন।"
+     }
+    },
+    {
+     "say": "Could you take me to the college, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you take me to the college, please?",
+      "bn": "আপনি কি দয়া করে আমাকে কলেজে নিয়ে যেতে পারবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you take me to the college, please?",
+      "bn": "আপনি কি দয়া করে আমাকে কলেজে নিয়ে যেতে পারবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you turn on the meter, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you turn on the meter, please?",
+      "bn": "আপনি কি দয়া করে মিটারটি চালু করবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you turn on the meter, please?",
+      "bn": "আপনি কি দয়া করে মিটারটি চালু করবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: How many is the ticket? Say: How much is the ticket?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "much"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "Here is my passport.",
+     "show": {
+      "kind": "example",
+      "text": "Here is my passport.",
+      "bn": "এই নিন আমার পাসপোর্ট।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Passport.",
+     "show": {
+      "kind": "example",
+      "text": "Here is my passport.",
+      "bn": "এই নিন আমার পাসপোর্ট।",
+      "focus": [
+       {
+        "w": "passport",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "My student visa is valid for one year.",
+     "show": {
+      "kind": "example",
+      "text": "My student visa is valid for one year.",
+      "bn": "আমার স্টুডেন্ট ভিসার মেয়াদ এক বছর।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Visa.",
+     "show": {
+      "kind": "example",
+      "text": "My student visa is valid for one year.",
+      "bn": "আমার স্টুডেন্ট ভিসার মেয়াদ এক বছর।",
+      "focus": [
+       {
+        "w": "visa",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The v sound in visa and very.",
+     "show": {
+      "kind": "text",
+      "text": "the v sound in visa and very.",
+      "bn": "Sound corner: visa এবং very শব্দে v-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "My visa is very new.",
+     "show": {
+      "kind": "example",
+      "text": "My visa is very new.",
+      "bn": "আমার ভিসাটি একেবারেই নতুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say v with your teeth on your lip.",
+     "show": {
+      "kind": "example",
+      "text": "My visa is very new.",
+      "bn": "আমার ভিসাটি একেবারেই নতুন।",
+      "focus": [
+       {
+        "w": "visa",
+        "role": "key"
+       },
+       {
+        "w": "very",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

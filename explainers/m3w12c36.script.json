@@ -1,0 +1,215 @@
+{
+ "classId": "m3w12c36",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 36. Month 3 Revision and Final Evaluation.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 3 skills",
+   "lines": [
+    {
+     "say": "In Month 3 you learned the English of the medical college and the lecture hall.",
+     "show": {
+      "kind": "text",
+      "text": "Medical college English"
+     }
+    },
+    {
+     "say": "You learned to take a patient history and describe symptoms and pain.",
+     "show": {
+      "kind": "text",
+      "text": "Talk with patients"
+     }
+    },
+    {
+     "say": "You learned to explain procedures, present a case and give a short talk.",
+     "show": {
+      "kind": "text",
+      "text": "Explain and present"
+     }
+    },
+    {
+     "say": "You learned to write polite emails and make professional phone calls.",
+     "show": {
+      "kind": "text",
+      "text": "Write and call professionally"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Final checklist: everything the student must be able to do by the end of Month 3.",
+     "show": {
+      "kind": "text",
+      "text": "Final checklist: everything the student must be able to do by the end of Month 3.",
+      "bn": "নিয়ম ১: চূড়ান্ত যাচাইতালিকা। তৃতীয় মাসের শেষে শিক্ষার্থীকে যেসব কাজ করতে সক্ষম হতে হবে, তার সবকিছু।"
+     }
+    },
+    {
+     "say": "Could you tell me where the lab is?",
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I am agree with you. Say: I agree with you.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "you"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "Fluency comes with practice.",
+     "show": {
+      "kind": "example",
+      "text": "Fluency comes with practice.",
+      "bn": "অনুশীলনের মাধ্যমে সাবলীলতা আসে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Fluency.",
+     "show": {
+      "kind": "example",
+      "text": "Fluency comes with practice.",
+      "bn": "অনুশীলনের মাধ্যমে সাবলীলতা আসে।",
+      "focus": [
+       {
+        "w": "fluency",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Accuracy matters in medicine.",
+     "show": {
+      "kind": "example",
+      "text": "Accuracy matters in medicine.",
+      "bn": "চিকিৎসাক্ষেত্রে নির্ভুলতা গুরুত্বপূর্ণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Accuracy.",
+     "show": {
+      "kind": "example",
+      "text": "Accuracy matters in medicine.",
+      "bn": "চিকিৎসাক্ষেত্রে নির্ভুলতা গুরুত্বপূর্ণ।",
+      "focus": [
+       {
+        "w": "accuracy",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, w, th and word stress.",
+     "show": {
+      "kind": "text",
+      "text": "review of v, w, th and word stress.",
+      "bn": "Sound corner: v, w, th-এর উচ্চারণ এবং শব্দের ওপর জোর দেওয়ার নিয়ম পর্যালোচনা।"
+     }
+    },
+    {
+     "say": "The vein is very visible.",
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "show": {
+      "kind": "example",
+      "text": "The vein is very visible.",
+      "bn": "শিরাটি খুব স্পষ্ট দেখা যাচ্ছে।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

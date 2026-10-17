@@ -1,0 +1,283 @@
+{
+ "classId": "m2w8c23",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 23. Life Experiences: The Present Perfect.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use have or has with the past participle for life experiences.",
+     "show": {
+      "kind": "text",
+      "text": "Use have or has with the past participle for life experiences.",
+      "bn": "জীবনের অভিজ্ঞতা বোঝাতে have বা has-এর সঙ্গে past participle ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I have visited the pyramids.",
+     "show": {
+      "kind": "example",
+      "text": "I have visited the pyramids.",
+      "bn": "আমি পিরামিডগুলো ঘুরে দেখেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "show": {
+      "kind": "example",
+      "text": "I have visited the pyramids.",
+      "bn": "আমি পিরামিডগুলো ঘুরে দেখেছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She has lived in Saudi Arabia.",
+     "show": {
+      "kind": "example",
+      "text": "She has lived in Saudi Arabia.",
+      "bn": "সে সৌদি আরবে বসবাস করেছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice has.",
+     "show": {
+      "kind": "example",
+      "text": "She has lived in Saudi Arabia.",
+      "bn": "সে সৌদি আরবে বসবাস করেছে।",
+      "focus": [
+       {
+        "w": "she",
+        "role": "subj"
+       },
+       {
+        "w": "has",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use already in positive sentences and yet in questions and negatives.",
+     "show": {
+      "kind": "text",
+      "text": "Use already in positive sentences and yet in questions and negatives.",
+      "bn": "নিয়ম ২: ইতিবাচক বাক্যে already এবং প্রশ্ন ও নেতিবাচক বাক্যে yet ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I have already finished my homework.",
+     "show": {
+      "kind": "example",
+      "text": "I have already finished my homework.",
+      "bn": "আমি ইতিমধ্যে আমার বাড়ির কাজ শেষ করেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have, and already.",
+     "show": {
+      "kind": "example",
+      "text": "I have already finished my homework.",
+      "bn": "আমি ইতিমধ্যে আমার বাড়ির কাজ শেষ করেছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       },
+       {
+        "w": "already",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Have you eaten yet?",
+     "show": {
+      "kind": "example",
+      "text": "Have you eaten yet?",
+      "bn": "আপনি কি ইতিমধ্যে খেয়েছেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "show": {
+      "kind": "example",
+      "text": "Have you eaten yet?",
+      "bn": "আপনি কি ইতিমধ্যে খেয়েছেন?",
+      "focus": [
+       {
+        "w": "have",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I have went to Alexandria. Say: I have gone to Alexandria.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "gone"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "Have you ever visited Luxor?",
+     "show": {
+      "kind": "example",
+      "text": "Have you ever visited Luxor?",
+      "bn": "আপনি কি কখনো লুক্সর ঘুরে দেখেছেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Ever.",
+     "show": {
+      "kind": "example",
+      "text": "Have you ever visited Luxor?",
+      "bn": "আপনি কি কখনো লুক্সর ঘুরে দেখেছেন?",
+      "focus": [
+       {
+        "w": "ever",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have never ridden a camel.",
+     "show": {
+      "kind": "example",
+      "text": "I have never ridden a camel.",
+      "bn": "আমি কখনো উটে চড়িনি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Never.",
+     "show": {
+      "kind": "example",
+      "text": "I have never ridden a camel.",
+      "bn": "আমি কখনো উটে চড়িনি।",
+      "focus": [
+       {
+        "w": "never",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The weak form of have in fast speech.",
+     "show": {
+      "kind": "text",
+      "text": "the weak form of have in fast speech.",
+      "bn": "Sound corner: দ্রুত কথা বলার সময় have-এর দুর্বল উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I've visited the museum.",
+     "show": {
+      "kind": "example",
+      "text": "I've visited the museum.",
+      "bn": "আমি জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Join the words smoothly.",
+     "show": {
+      "kind": "example",
+      "text": "I've visited the museum.",
+      "bn": "আমি জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": [
+       {
+        "w": "i've",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

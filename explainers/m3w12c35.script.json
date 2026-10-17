@@ -1,0 +1,275 @@
+{
+ "classId": "m3w12c35",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 35. Professional Communication: Emails, Messages and Phone Calls.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Open and close a formal email: Dear Dr.",
+     "show": {
+      "kind": "text",
+      "text": "Open and close a formal email: Dear Dr.",
+      "bn": "নিয়ম ১: একটি আনুষ্ঠানিক ইমেইল ভদ্রভাবে শুরু ও শেষ করুন: Dear Dr. ..., Yours sincerely।"
+     }
+    },
+    {
+     "say": "Dear Dr. Hassan,",
+     "show": {
+      "kind": "example",
+      "text": "Dear Dr. Hassan,",
+      "bn": "প্রিয় ডা. হাসান,",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice dear.",
+     "show": {
+      "kind": "example",
+      "text": "Dear Dr. Hassan,",
+      "bn": "প্রিয় ডা. হাসান,",
+      "focus": [
+       {
+        "w": "dear",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you please send me the schedule?",
+     "show": {
+      "kind": "example",
+      "text": "Could you please send me the schedule?",
+      "bn": "আপনি কি দয়া করে আমাকে সময়সূচিটি পাঠাতে পারবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you please send me the schedule?",
+      "bn": "আপনি কি দয়া করে আমাকে সময়সূচিটি পাঠাতে পারবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Choose formal words for teachers and patients, and informal words for friends.",
+     "show": {
+      "kind": "text",
+      "text": "Choose formal words for teachers and patients, and informal words for friends.",
+      "bn": "নিয়ম ২: শিক্ষক ও রোগীদের সঙ্গে কথা বলার সময় আনুষ্ঠানিক শব্দ এবং বন্ধুদের সঙ্গে অনানুষ্ঠানিক শব্দ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I would like to ask for an extension.",
+     "show": {
+      "kind": "example",
+      "text": "I would like to ask for an extension.",
+      "bn": "আমি সময় বাড়ানোর জন্য আবেদন করতে চাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "show": {
+      "kind": "example",
+      "text": "I would like to ask for an extension.",
+      "bn": "আমি সময় বাড়ানোর জন্য আবেদন করতে চাই।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "would",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you please confirm the time?",
+     "show": {
+      "kind": "example",
+      "text": "Could you please confirm the time?",
+      "bn": "আপনি কি দয়া করে সময়টি নিশ্চিত করতে পারবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you please confirm the time?",
+      "bn": "আপনি কি দয়া করে সময়টি নিশ্চিত করতে পারবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Hi doctor, give me the schedule. Say: Dear Dr. Hassan, could you please send me the schedule?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "dear"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I will send you an email.",
+     "show": {
+      "kind": "example",
+      "text": "I will send you an email.",
+      "bn": "আমি আপনাকে একটি ইমেইল পাঠাব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Email.",
+     "show": {
+      "kind": "example",
+      "text": "I will send you an email.",
+      "bn": "আমি আপনাকে একটি ইমেইল পাঠাব।",
+      "focus": [
+       {
+        "w": "email",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have attached the form.",
+     "show": {
+      "kind": "example",
+      "text": "I have attached the form.",
+      "bn": "আমি ফর্মটি সংযুক্ত করেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Attach.",
+     "show": {
+      "kind": "example",
+      "text": "I have attached the form.",
+      "bn": "আমি ফর্মটি সংযুক্ত করেছি।",
+      "focus": [
+       {
+        "w": "attach",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. A polite phone voice.",
+     "show": {
+      "kind": "text",
+      "text": "a polite phone voice.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: ফোনে ভদ্রভাবে কথা বলার ধরন।"
+     }
+    },
+    {
+     "say": "This is Samira speaking.",
+     "show": {
+      "kind": "example",
+      "text": "This is Samira speaking.",
+      "bn": "আমি সামিরা বলছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Speak slowly on the phone.",
+     "show": {
+      "kind": "example",
+      "text": "This is Samira speaking.",
+      "bn": "আমি সামিরা বলছি।",
+      "focus": [
+       {
+        "w": "this",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

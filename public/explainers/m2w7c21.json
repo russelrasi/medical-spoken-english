@@ -1,0 +1,303 @@
+{
+ "classId": "m2w7c21",
+ "classNo": 21,
+ "title": "Making Plans and Invitations",
+ "titleBn": "পরিকল্পনা ও আমন্ত্রণ জানানো",
+ "fps": 30,
+ "totalFrames": 2137,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 210,
+   "lines": [
+    {
+     "say": "Welcome to Class 21. Making Plans and Invitations.",
+     "audio": "m2w7c21/l000.mp3",
+     "from": 0,
+     "frames": 210,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 210,
+   "frames": 583,
+   "lines": [
+    {
+     "say": "Rule one. Use Would you like to .",
+     "audio": "m2w7c21/l001.mp3",
+     "from": 0,
+     "frames": 151,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use Would you like to .",
+      "bn": "কাউকে আমন্ত্রণ জানাতে Would you like to ... এবং Do you want to ... ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Would you like to visit the pyramids on Friday?",
+     "audio": "m2w7c21/l002.mp3",
+     "from": 151,
+     "frames": 124,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Would you like to visit the pyramids on Friday?",
+      "bn": "তুমি কি শুক্রবার পিরামিডগুলো দেখতে যেতে চাও?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice would.",
+     "audio": "m2w7c21/l003.mp3",
+     "from": 275,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Would you like to visit the pyramids on Friday?",
+      "bn": "তুমি কি শুক্রবার পিরামিডগুলো দেখতে যেতে চাও?",
+      "focus": [
+       {
+        "w": "would",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Let's have lunch after the lecture.",
+     "audio": "m2w7c21/l004.mp3",
+     "from": 368,
+     "frames": 111,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Let's have lunch after the lecture.",
+      "bn": "লেকচার শেষে চলো দুপুরের খাবার খাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice let's.",
+     "audio": "m2w7c21/l005.mp3",
+     "from": 479,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Let's have lunch after the lecture.",
+      "bn": "লেকচার শেষে চলো দুপুরের খাবার খাই।",
+      "focus": [
+       {
+        "w": "let's",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 793,
+   "frames": 167,
+   "lines": [
+    {
+     "say": "Rule two. Accept with I'd love to.",
+     "audio": "m2w7c21/l006.mp3",
+     "from": 0,
+     "frames": 167,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Accept with I'd love to.",
+      "bn": "নিয়ম ২: আমন্ত্রণ গ্রহণ করতে I'd love to বলুন। ভদ্রভাবে প্রত্যাখ্যান করতে I'm sorry, I can't বলুন এবং একটি কারণ জানান।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 960,
+   "frames": 210,
+   "lines": [
+    {
+     "say": "Not: Do you want come with me? Say: Do you want to come with me?",
+     "audio": "m2w7c21/l007.mp3",
+     "from": 0,
+     "frames": 210,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "to",
+      "wrong": "Do you want come with me?",
+      "right": "Do you want to come with me?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1170,
+   "frames": 405,
+   "lines": [
+    {
+     "say": "I want to invite you to lunch.",
+     "audio": "m2w7c21/l008.mp3",
+     "from": 0,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I want to invite you to lunch.",
+      "bn": "আমি আপনাকে দুপুরের খাবারের দাওয়াত দিতে চাই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Invite.",
+     "audio": "m2w7c21/l009.mp3",
+     "from": 107,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I want to invite you to lunch.",
+      "bn": "আমি আপনাকে দুপুরের খাবারের দাওয়াত দিতে চাই।",
+      "focus": [
+       {
+        "w": "invite",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "What are you doing this weekend?",
+     "audio": "m2w7c21/l010.mp3",
+     "from": 200,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "What are you doing this weekend?",
+      "bn": "এই সপ্তাহান্তে তুমি কী করছ?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Weekend.",
+     "audio": "m2w7c21/l011.mp3",
+     "from": 304,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "What are you doing this weekend?",
+      "bn": "এই সপ্তাহান্তে তুমি কী করছ?",
+      "focus": [
+       {
+        "w": "weekend",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1575,
+   "frames": 409,
+   "lines": [
+    {
+     "say": "Sound corner. Question intonation in invitations.",
+     "audio": "m2w7c21/l012.mp3",
+     "from": 0,
+     "frames": 188,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "question intonation in invitations.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: কাউকে আমন্ত্রণ জানানোর সময় প্রশ্নের সুর।"
+     }
+    },
+    {
+     "say": "Would you like to come?",
+     "audio": "m2w7c21/l013.mp3",
+     "from": 188,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Would you like to come?",
+      "bn": "তুমি কি আসতে চাও?",
+      "focus": []
+     }
+    },
+    {
+     "say": "A rising voice sounds friendly.",
+     "audio": "m2w7c21/l014.mp3",
+     "from": 280,
+     "frames": 129,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Would you like to come?",
+      "bn": "তুমি কি আসতে চাও?",
+      "focus": [
+       {
+        "w": "would",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 1984,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w7c21/l015.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

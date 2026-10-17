@@ -1,0 +1,219 @@
+{
+ "classId": "m2w5c14",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 14. Getting Around: Directions and Public Transport.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use the base verb to give directions: go, turn, cross, take.",
+     "show": {
+      "kind": "text",
+      "text": "Use the base verb to give directions: go, turn, cross, take.",
+      "bn": "পথনির্দেশ দিতে ক্রিয়ার মূল রূপ ব্যবহার করুন: go, turn, cross, take।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use prepositions: next to, opposite, between, behind, in front of, on the corner.",
+     "show": {
+      "kind": "text",
+      "text": "Use prepositions: next to, opposite, between, behind, in front of, on the corner.",
+      "bn": "নিয়ম ২: next to, opposite, between, behind, in front of এবং on the corner এর মতো preposition ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The pharmacy is next to the bank.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is next to the bank.",
+      "bn": "ফার্মেসিটি ব্যাংকের পাশে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice next, and to.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is next to the bank.",
+      "bn": "ফার্মেসিটি ব্যাংকের পাশে।",
+      "focus": [
+       {
+        "w": "next",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The college is opposite the hospital.",
+     "show": {
+      "kind": "example",
+      "text": "The college is opposite the hospital.",
+      "bn": "কলেজটি হাসপাতালের বিপরীতে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice opposite.",
+     "show": {
+      "kind": "example",
+      "text": "The college is opposite the hospital.",
+      "bn": "কলেজটি হাসপাতালের বিপরীতে।",
+      "focus": [
+       {
+        "w": "opposite",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: You are going straight. Say: Go straight.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "go"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The metro station is near the hostel.",
+     "show": {
+      "kind": "example",
+      "text": "The metro station is near the hostel.",
+      "bn": "মেট্রো স্টেশনটি হোস্টেলের কাছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Station.",
+     "show": {
+      "kind": "example",
+      "text": "The metro station is near the hostel.",
+      "bn": "মেট্রো স্টেশনটি হোস্টেলের কাছে।",
+      "focus": [
+       {
+        "w": "station",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Which platform is the train to Giza?",
+     "show": {
+      "kind": "example",
+      "text": "Which platform is the train to Giza?",
+      "bn": "গিজাগামী ট্রেনটি কোন প্ল্যাটফর্ম থেকে ছাড়ে?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Platform.",
+     "show": {
+      "kind": "example",
+      "text": "Which platform is the train to Giza?",
+      "bn": "গিজাগামী ট্রেনটি কোন প্ল্যাটফর্ম থেকে ছাড়ে?",
+      "focus": [
+       {
+        "w": "platform",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The th sound in the, this and there.",
+     "show": {
+      "kind": "text",
+      "text": "the th sound in the, this and there.",
+      "bn": "Sound corner: the, this এবং there শব্দে th-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "The pharmacy is there.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is there.",
+      "bn": "ফার্মেসিটি ওখানে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacy is there.",
+      "bn": "ফার্মেসিটি ওখানে।",
+      "focus": [
+       {
+        "w": "there",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "classId": "m3w9c25",
+ "classNo": 25,
+ "title": "The Medical College: Departments, Lectures and Labs",
+ "titleBn": "মেডিকেল কলেজ: বিভাগ, লেকচার ও ল্যাব।",
+ "fps": 30,
+ "totalFrames": 2823,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 262,
+   "lines": [
+    {
+     "say": "Welcome to Class 25. The Medical College: Departments, Lectures and Labs.",
+     "audio": "m3w9c25/l000.mp3",
+     "from": 0,
+     "frames": 262,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 262,
+   "frames": 664,
+   "lines": [
+    {
+     "say": "Rule one. Use a or an for one of many things, and the for a specific thing.",
+     "audio": "m3w9c25/l001.mp3",
+     "from": 0,
+     "frames": 229,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use a or an for one of many things, and the for a specific thing.",
+      "bn": "অনেকগুলোর মধ্যে যেকোনো একটি বোঝাতে a বা an এবং নির্দিষ্ট কোনো কিছু বোঝাতে the ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I need a textbook for anatomy.",
+     "audio": "m3w9c25/l002.mp3",
+     "from": 229,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I need a textbook for anatomy.",
+      "bn": "অ্যানাটমির জন্য আমার একটি পাঠ্যবই দরকার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice a.",
+     "audio": "m3w9c25/l003.mp3",
+     "from": 342,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I need a textbook for anatomy.",
+      "bn": "অ্যানাটমির জন্য আমার একটি পাঠ্যবই দরকার।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "a",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The anatomy lab is on the second floor.",
+     "audio": "m3w9c25/l004.mp3",
+     "from": 435,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The anatomy lab is on the second floor.",
+      "bn": "অ্যানাটমি ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "audio": "m3w9c25/l005.mp3",
+     "from": 563,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The anatomy lab is on the second floor.",
+      "bn": "অ্যানাটমি ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       },
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 926,
+   "frames": 636,
+   "lines": [
+    {
+     "say": "Rule two. Ask about places and times with Where is, When does and Which room.",
+     "audio": "m3w9c25/l006.mp3",
+     "from": 0,
+     "frames": 241,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Ask about places and times with Where is, When does and Which room.",
+      "bn": "নিয়ম ২: Where is, When does এবং Which room ব্যবহার করে স্থান ও সময় সম্পর্কে প্রশ্ন করুন।"
+     }
+    },
+    {
+     "say": "Where is the anatomy lab?",
+     "audio": "m3w9c25/l007.mp3",
+     "from": 241,
+     "frames": 99,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the anatomy lab?",
+      "bn": "অ্যানাটমি ল্যাব কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "audio": "m3w9c25/l008.mp3",
+     "from": 340,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the anatomy lab?",
+      "bn": "অ্যানাটমি ল্যাব কোথায়?",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "When does the lecture start?",
+     "audio": "m3w9c25/l009.mp3",
+     "from": 433,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "When does the lecture start?",
+      "bn": "লেকচার কখন শুরু হয়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "audio": "m3w9c25/l010.mp3",
+     "from": 535,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "When does the lecture start?",
+      "bn": "লেকচার কখন শুরু হয়?",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1562,
+   "frames": 227,
+   "lines": [
+    {
+     "say": "Not: I am student of medicine. Say: I am a student of medicine.",
+     "audio": "m3w9c25/l011.mp3",
+     "from": 0,
+     "frames": 227,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "a",
+      "wrong": "I am student of medicine.",
+      "right": "I am a student of medicine."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1789,
+   "frames": 444,
+   "lines": [
+    {
+     "say": "The anatomy department is on the first floor.",
+     "audio": "m3w9c25/l012.mp3",
+     "from": 0,
+     "frames": 133,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The anatomy department is on the first floor.",
+      "bn": "অ্যানাটমি বিভাগটি প্রথম তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Department.",
+     "audio": "m3w9c25/l013.mp3",
+     "from": 133,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The anatomy department is on the first floor.",
+      "bn": "অ্যানাটমি বিভাগটি প্রথম তলায়।",
+      "focus": [
+       {
+        "w": "department",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The lecture hall is very large.",
+     "audio": "m3w9c25/l014.mp3",
+     "from": 226,
+     "frames": 117,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture hall is very large.",
+      "bn": "লেকচার হলটি অনেক বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Lecture hall.",
+     "audio": "m3w9c25/l015.mp3",
+     "from": 343,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lecture hall is very large.",
+      "bn": "লেকচার হলটি অনেক বড়।",
+      "focus": [
+       {
+        "w": "lecture",
+        "role": "verb"
+       },
+       {
+        "w": "hall",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2233,
+   "frames": 437,
+   "lines": [
+    {
+     "say": "Sound corner. The weak a and the in fast speech.",
+     "audio": "m3w9c25/l016.mp3",
+     "from": 0,
+     "frames": 179,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the weak a and the in fast speech.",
+      "bn": "Sound corner: দ্রুত কথা বলার সময় a এবং the-এর দুর্বল উচ্চারণ।"
+     }
+    },
+    {
+     "say": "The lab is on the second floor.",
+     "audio": "m3w9c25/l017.mp3",
+     "from": 179,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lab is on the second floor.",
+      "bn": "ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Use weak a and the, and stress the noun.",
+     "audio": "m3w9c25/l018.mp3",
+     "from": 291,
+     "frames": 146,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lab is on the second floor.",
+      "bn": "ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2670,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w9c25/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

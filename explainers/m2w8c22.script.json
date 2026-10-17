@@ -1,0 +1,291 @@
+{
+ "classId": "m2w8c22",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 22. Telling Stories: The Past Continuous.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use was or were with a verb-ing for an action in progress in the past.",
+     "show": {
+      "kind": "text",
+      "text": "Use was or were with a verb-ing for an action in progress in the past.",
+      "bn": "অতীতে চলমান কোনো কাজ বোঝাতে was বা were-এর সঙ্গে verb-ing ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I was walking to the metro at eight o'clock.",
+     "show": {
+      "kind": "example",
+      "text": "I was walking to the metro at eight o'clock.",
+      "bn": "আমি রাত আটটায় মেট্রো স্টেশনে হেঁটে যাচ্ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "show": {
+      "kind": "example",
+      "text": "I was walking to the metro at eight o'clock.",
+      "bn": "আমি রাত আটটায় মেট্রো স্টেশনে হেঁটে যাচ্ছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She was studying in the library.",
+     "show": {
+      "kind": "example",
+      "text": "She was studying in the library.",
+      "bn": "সে লাইব্রেরিতে পড়াশোনা করছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "show": {
+      "kind": "example",
+      "text": "She was studying in the library.",
+      "bn": "সে লাইব্রেরিতে পড়াশোনা করছিল।",
+      "focus": [
+       {
+        "w": "she",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use while for the longer action and when for the shorter action.",
+     "show": {
+      "kind": "text",
+      "text": "Use while for the longer action and when for the shorter action.",
+      "bn": "নিয়ম ২: দীর্ঘ সময় ধরে চলা কাজ বোঝাতে while এবং স্বল্প সময়ের ঘটনা বোঝাতে when ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "While I was walking, it started to rain.",
+     "show": {
+      "kind": "example",
+      "text": "While I was walking, it started to rain.",
+      "bn": "হাঁটার সময় বৃষ্টি শুরু হয়েছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice while, and was.",
+     "show": {
+      "kind": "example",
+      "text": "While I was walking, it started to rain.",
+      "bn": "হাঁটার সময় বৃষ্টি শুরু হয়েছিল।",
+      "focus": [
+       {
+        "w": "while",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I was reading when she called.",
+     "show": {
+      "kind": "example",
+      "text": "I was reading when she called.",
+      "bn": "আমি বই পড়ছিলাম, এমন সময় সে ফোন করল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "show": {
+      "kind": "example",
+      "text": "I was reading when she called.",
+      "bn": "আমি বই পড়ছিলাম, এমন সময় সে ফোন করল।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       },
+       {
+        "w": "she",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I was walk to the metro. Say: I was walking to the metro.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "walking"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "Meanwhile, Mariam was waiting outside.",
+     "show": {
+      "kind": "example",
+      "text": "Meanwhile, Mariam was waiting outside.",
+      "bn": "এদিকে, মারিয়াম বাইরে অপেক্ষা করছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Meanwhile.",
+     "show": {
+      "kind": "example",
+      "text": "Meanwhile, Mariam was waiting outside.",
+      "bn": "এদিকে, মারিয়াম বাইরে অপেক্ষা করছিল।",
+      "focus": [
+       {
+        "w": "meanwhile",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Suddenly, it started to rain.",
+     "show": {
+      "kind": "example",
+      "text": "Suddenly, it started to rain.",
+      "bn": "হঠাৎ বৃষ্টি শুরু হলো।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Suddenly.",
+     "show": {
+      "kind": "example",
+      "text": "Suddenly, it started to rain.",
+      "bn": "হঠাৎ বৃষ্টি শুরু হলো।",
+      "focus": [
+       {
+        "w": "suddenly",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The -ing ending and linking was.",
+     "show": {
+      "kind": "text",
+      "text": "the -ing ending and linking was.",
+      "bn": "Sound corner: -ing-এর শেষাংশ এবং was-এর সঙ্গে যুক্ত করে উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I was reading a book.",
+     "show": {
+      "kind": "example",
+      "text": "I was reading a book.",
+      "bn": "আমি একটি বই পড়ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Do not drop the -ing ending.",
+     "show": {
+      "kind": "example",
+      "text": "I was reading a book.",
+      "bn": "আমি একটি বই পড়ছিলাম।",
+      "focus": [
+       {
+        "w": "was",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

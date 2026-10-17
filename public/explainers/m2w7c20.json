@@ -1,0 +1,383 @@
+{
+ "classId": "m2w7c20",
+ "classNo": 20,
+ "title": "Phone Calls, Messages and Appointments",
+ "titleBn": "ফোন কল, বার্তা ও অ্যাপয়েন্টমেন্ট",
+ "fps": 30,
+ "totalFrames": 2843,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 222,
+   "lines": [
+    {
+     "say": "Welcome to Class 20. Phone Calls, Messages and Appointments.",
+     "audio": "m2w7c20/l000.mp3",
+     "from": 0,
+     "frames": 222,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 222,
+   "frames": 697,
+   "lines": [
+    {
+     "say": "Rule one. Use polite phone phrases: This is ..., Could I speak to ..., Can I take a message?.",
+     "audio": "m2w7c20/l001.mp3",
+     "from": 0,
+     "frames": 262,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use polite phone phrases: This is ..., Could I speak to ..., Can I take a message?.",
+      "bn": "ফোনে ভদ্রভাবে কথা বলার বাক্যাংশ ব্যবহার করুন: This is ..., Could I speak to ..., Can I take a message?"
+     }
+    },
+    {
+     "say": "Could I speak to Dr. Hassan, please?",
+     "audio": "m2w7c20/l002.mp3",
+     "from": 262,
+     "frames": 126,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could I speak to Dr. Hassan, please?",
+      "bn": "আমি কি দয়া করে ডা. হাসানের সঙ্গে কথা বলতে পারি?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m2w7c20/l003.mp3",
+     "from": 388,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could I speak to Dr. Hassan, please?",
+      "bn": "আমি কি দয়া করে ডা. হাসানের সঙ্গে কথা বলতে পারি?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I am calling about my appointment.",
+     "audio": "m2w7c20/l004.mp3",
+     "from": 481,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am calling about my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্টের বিষয়ে জানতে ফোন করছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am.",
+     "audio": "m2w7c20/l005.mp3",
+     "from": 596,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am calling about my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্টের বিষয়ে জানতে ফোন করছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 919,
+   "frames": 634,
+   "lines": [
+    {
+     "say": "Rule two. Use the present continuous for fixed arrangements.",
+     "audio": "m2w7c20/l006.mp3",
+     "from": 0,
+     "frames": 200,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use the present continuous for fixed arrangements.",
+      "bn": "নিয়ম ২: আগে থেকে নির্ধারিত পরিকল্পনা বোঝাতে present continuous ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I am meeting the doctor on Tuesday at ten.",
+     "audio": "m2w7c20/l007.mp3",
+     "from": 200,
+     "frames": 129,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am meeting the doctor on Tuesday at ten.",
+      "bn": "আমি মঙ্গলবার সকাল দশটায় ডাক্তারের সঙ্গে দেখা করছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am.",
+     "audio": "m2w7c20/l008.mp3",
+     "from": 329,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I am meeting the doctor on Tuesday at ten.",
+      "bn": "আমি মঙ্গলবার সকাল দশটায় ডাক্তারের সঙ্গে দেখা করছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We are having a test on Monday.",
+     "audio": "m2w7c20/l009.mp3",
+     "from": 422,
+     "frames": 111,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We are having a test on Monday.",
+      "bn": "সোমবার আমাদের একটি পরীক্ষা আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice are.",
+     "audio": "m2w7c20/l010.mp3",
+     "from": 533,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "We are having a test on Monday.",
+      "bn": "সোমবার আমাদের একটি পরীক্ষা আছে।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "are",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1553,
+   "frames": 211,
+   "lines": [
+    {
+     "say": "Not: Who are you? Say: Who is calling, please?",
+     "audio": "m2w7c20/l011.mp3",
+     "from": 0,
+     "frames": 211,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "is",
+      "wrong": "Who are you?",
+      "right": "Who is calling, please?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1764,
+   "frames": 414,
+   "lines": [
+    {
+     "say": "I have an appointment at ten.",
+     "audio": "m2w7c20/l012.mp3",
+     "from": 0,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have an appointment at ten.",
+      "bn": "সকাল দশটায় আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Appointment.",
+     "audio": "m2w7c20/l013.mp3",
+     "from": 107,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have an appointment at ten.",
+      "bn": "সকাল দশটায় আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": [
+       {
+        "w": "appointment",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I need to cancel my appointment.",
+     "audio": "m2w7c20/l014.mp3",
+     "from": 200,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I need to cancel my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্ট বাতিল করতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Cancel.",
+     "audio": "m2w7c20/l015.mp3",
+     "from": 313,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I need to cancel my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্ট বাতিল করতে হবে।",
+      "focus": [
+       {
+        "w": "cancel",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2178,
+   "frames": 512,
+   "lines": [
+    {
+     "say": "Sound corner. Numbers and times: thirteen and thirty.",
+     "audio": "m2w7c20/l016.mp3",
+     "from": 0,
+     "frames": 195,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "numbers and times: thirteen and thirty.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: সংখ্যা ও সময়, বিশেষ করে thirteen এবং thirty।"
+     }
+    },
+    {
+     "say": "The appointment is at thirteen thirty.",
+     "audio": "m2w7c20/l017.mp3",
+     "from": 195,
+     "frames": 120,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The appointment is at thirteen thirty.",
+      "bn": "অ্যাপয়েন্টমেন্টটি তেরোটা ত্রিশে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Fifteen and fifty sound different. Listen to the stress.",
+     "audio": "m2w7c20/l018.mp3",
+     "from": 315,
+     "frames": 197,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The appointment is at thirteen thirty.",
+      "bn": "অ্যাপয়েন্টমেন্টটি তেরোটা ত্রিশে।",
+      "focus": [
+       {
+        "w": "thirteen",
+        "role": "key"
+       },
+       {
+        "w": "thirty",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2690,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w7c20/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

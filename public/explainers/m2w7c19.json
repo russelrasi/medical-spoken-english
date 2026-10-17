@@ -1,0 +1,379 @@
+{
+ "classId": "m2w7c19",
+ "classNo": 19,
+ "title": "Health Basics: At the Pharmacy and the Clinic",
+ "titleBn": "স্বাস্থ্যের প্রাথমিক বিষয়: ফার্মেসি ও ক্লিনিকে।",
+ "fps": 30,
+ "totalFrames": 2469,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 233,
+   "lines": [
+    {
+     "say": "Welcome to Class 19. Health Basics: At the Pharmacy and the Clinic.",
+     "audio": "m2w7c19/l000.mp3",
+     "from": 0,
+     "frames": 233,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 233,
+   "frames": 518,
+   "lines": [
+    {
+     "say": "Rule one. Use I have a .",
+     "audio": "m2w7c19/l001.mp3",
+     "from": 0,
+     "frames": 146,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use I have a .",
+      "bn": "কোনো উপসর্গের নাম বলতে I have a ... এবং ব্যথা বোঝাতে My ... hurts ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I have a headache.",
+     "audio": "m2w7c19/l002.mp3",
+     "from": 146,
+     "frames": 87,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "audio": "m2w7c19/l003.mp3",
+     "from": 233,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a fever.",
+     "audio": "m2w7c19/l004.mp3",
+     "from": 327,
+     "frames": 89,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a fever.",
+      "bn": "আমার জ্বর হয়েছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "audio": "m2w7c19/l005.mp3",
+     "from": 416,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a fever.",
+      "bn": "আমার জ্বর হয়েছে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 751,
+   "frames": 566,
+   "lines": [
+    {
+     "say": "Rule two. Use should and shouldn't to give advice.",
+     "audio": "m2w7c19/l006.mp3",
+     "from": 0,
+     "frames": 175,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use should and shouldn't to give advice.",
+      "bn": "নিয়ম ২: পরামর্শ দিতে should এবং shouldn't ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "You should rest today.",
+     "audio": "m2w7c19/l007.mp3",
+     "from": 175,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should rest today.",
+      "bn": "আজ আপনার বিশ্রাম নেওয়া উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "audio": "m2w7c19/l008.mp3",
+     "from": 268,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should rest today.",
+      "bn": "আজ আপনার বিশ্রাম নেওয়া উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "You should drink more water.",
+     "audio": "m2w7c19/l009.mp3",
+     "from": 362,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "audio": "m2w7c19/l010.mp3",
+     "from": 464,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1317,
+   "frames": 203,
+   "lines": [
+    {
+     "say": "Not: I am having headache. Say: I have a headache.",
+     "audio": "m2w7c19/l011.mp3",
+     "from": 0,
+     "frames": 203,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "have",
+      "wrong": "I am having headache.",
+      "right": "I have a headache."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1520,
+   "frames": 408,
+   "lines": [
+    {
+     "say": "The pharmacist gave me advice.",
+     "audio": "m2w7c19/l012.mp3",
+     "from": 0,
+     "frames": 116,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacist gave me advice.",
+      "bn": "ফার্মাসিস্ট আমাকে পরামর্শ দিয়েছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pharmacist.",
+     "audio": "m2w7c19/l013.mp3",
+     "from": 116,
+     "frames": 95,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pharmacist gave me advice.",
+      "bn": "ফার্মাসিস্ট আমাকে পরামর্শ দিয়েছেন।",
+      "focus": [
+       {
+        "w": "pharmacist",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a bad headache.",
+     "audio": "m2w7c19/l014.mp3",
+     "from": 211,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a bad headache.",
+      "bn": "আমার প্রচণ্ড মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Headache.",
+     "audio": "m2w7c19/l015.mp3",
+     "from": 307,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a bad headache.",
+      "bn": "আমার প্রচণ্ড মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "headache",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1928,
+   "frames": 388,
+   "lines": [
+    {
+     "say": "Sound corner. The ache and ch sounds in headache and cough.",
+     "audio": "m2w7c19/l016.mp3",
+     "from": 0,
+     "frames": 197,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the ache and ch sounds in headache and cough.",
+      "bn": "Sound corner: headache ও cough শব্দে ache এবং ch-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "I have a headache.",
+     "audio": "m2w7c19/l017.mp3",
+     "from": 197,
+     "frames": 87,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Ache says ayk.",
+     "audio": "m2w7c19/l018.mp3",
+     "from": 284,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "headache",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2316,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w7c19/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

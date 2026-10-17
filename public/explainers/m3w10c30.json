@@ -1,0 +1,307 @@
+{
+ "classId": "m3w10c30",
+ "classNo": 30,
+ "title": "Describing Symptoms and Pain",
+ "titleBn": "উপসর্গ ও ব্যথার বর্ণনা",
+ "fps": 30,
+ "totalFrames": 2221,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 194,
+   "lines": [
+    {
+     "say": "Welcome to Class 30. Describing Symptoms and Pain.",
+     "audio": "m3w10c30/l000.mp3",
+     "from": 0,
+     "frames": 194,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 194,
+   "frames": 224,
+   "lines": [
+    {
+     "say": "Rule one. Describe pain with an adjective, a place and a number.",
+     "audio": "m3w10c30/l001.mp3",
+     "from": 0,
+     "frames": 224,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Describe pain with an adjective, a place and a number.",
+      "bn": "নিয়ম ১: একটি বিশেষণ, ব্যথার স্থান এবং একটি সংখ্যা ব্যবহার করে ব্যথার বর্ণনা দিন।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 418,
+   "frames": 638,
+   "lines": [
+    {
+     "say": "Rule two. Adverbs of frequency go before the main verb and after be.",
+     "audio": "m3w10c30/l002.mp3",
+     "from": 0,
+     "frames": 215,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Adverbs of frequency go before the main verb and after be.",
+      "bn": "ঘনঘন কোনো কাজ হওয়া বোঝানো Adverb of frequency মূল ক্রিয়ার আগে এবং be ক্রিয়ার পরে বসে।"
+     }
+    },
+    {
+     "say": "I always get headaches in the morning.",
+     "audio": "m3w10c30/l003.mp3",
+     "from": 215,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I always get headaches in the morning.",
+      "bn": "সকালে আমার সব সময় মাথাব্যথা হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice always.",
+     "audio": "m3w10c30/l004.mp3",
+     "from": 330,
+     "frames": 100,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I always get headaches in the morning.",
+      "bn": "সকালে আমার সব সময় মাথাব্যথা হয়।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "always",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "It is often worse at night.",
+     "audio": "m3w10c30/l005.mp3",
+     "from": 430,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is often worse at night.",
+      "bn": "রাতে এটি প্রায়ই আরও খারাপ হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice often.",
+     "audio": "m3w10c30/l006.mp3",
+     "from": 535,
+     "frames": 103,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is often worse at night.",
+      "bn": "রাতে এটি প্রায়ই আরও খারাপ হয়।",
+      "focus": [
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "often",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1056,
+   "frames": 219,
+   "lines": [
+    {
+     "say": "Not: My pain is very much. Say: My pain is severe.",
+     "audio": "m3w10c30/l007.mp3",
+     "from": 0,
+     "frames": 219,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "severe",
+      "wrong": "My pain is very much.",
+      "right": "My pain is severe."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1275,
+   "frames": 377,
+   "lines": [
+    {
+     "say": "The pain is sharp.",
+     "audio": "m3w10c30/l008.mp3",
+     "from": 0,
+     "frames": 91,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Sharp.",
+     "audio": "m3w10c30/l009.mp3",
+     "from": 91,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The pain is sharp.",
+      "bn": "ব্যথাটি তীক্ষ্ণ, যেন কিছু বিঁধছে।",
+      "focus": [
+       {
+        "w": "sharp",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a dull ache.",
+     "audio": "m3w10c30/l010.mp3",
+     "from": 184,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a dull ache.",
+      "bn": "আমার মৃদু ব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Dull.",
+     "audio": "m3w10c30/l011.mp3",
+     "from": 276,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a dull ache.",
+      "bn": "আমার মৃদু ব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "dull",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1652,
+   "frames": 416,
+   "lines": [
+    {
+     "say": "Sound corner. The th sound in throbbing and breath.",
+     "audio": "m3w10c30/l012.mp3",
+     "from": 0,
+     "frames": 184,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the th sound in throbbing and breath.",
+      "bn": "Sound corner: throbbing এবং breath শব্দে th-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "It is a throbbing pain.",
+     "audio": "m3w10c30/l013.mp3",
+     "from": 184,
+     "frames": 98,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is a throbbing pain.",
+      "bn": "এটি স্পন্দনশীল ব্যথা।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Tongue between your teeth for th.",
+     "audio": "m3w10c30/l014.mp3",
+     "from": 282,
+     "frames": 134,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "It is a throbbing pain.",
+      "bn": "এটি স্পন্দনশীল ব্যথা।",
+      "focus": [
+       {
+        "w": "throbbing",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2068,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w10c30/l015.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

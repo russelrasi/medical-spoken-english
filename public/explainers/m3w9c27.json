@@ -1,0 +1,371 @@
+{
+ "classId": "m3w9c27",
+ "classNo": 27,
+ "title": "Body Systems and Locating Parts of the Body",
+ "titleBn": "শরীরের বিভিন্ন অঙ্গতন্ত্র ও শরীরের অঙ্গের অবস্থান চেনা",
+ "fps": 30,
+ "totalFrames": 2745,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 233,
+   "lines": [
+    {
+     "say": "Welcome to Class 27. Body Systems and Locating Parts of the Body.",
+     "audio": "m3w9c27/l000.mp3",
+     "from": 0,
+     "frames": 233,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 233,
+   "frames": 610,
+   "lines": [
+    {
+     "say": "Rule one. Use location words to say where an organ is.",
+     "audio": "m3w9c27/l001.mp3",
+     "from": 0,
+     "frames": 195,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use location words to say where an organ is.",
+      "bn": "কোনো অঙ্গ কোথায় অবস্থিত, তা বোঝাতে অবস্থান নির্দেশক শব্দ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The heart is in the chest.",
+     "audio": "m3w9c27/l002.mp3",
+     "from": 195,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart is in the chest.",
+      "bn": "হৃদ্‌যন্ত্র বুকের ভেতরে থাকে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice in.",
+     "audio": "m3w9c27/l003.mp3",
+     "from": 297,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart is in the chest.",
+      "bn": "হৃদ্‌যন্ত্র বুকের ভেতরে থাকে।",
+      "focus": [
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The stomach is below the diaphragm.",
+     "audio": "m3w9c27/l004.mp3",
+     "from": 390,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The stomach is below the diaphragm.",
+      "bn": "পাকস্থলী ডায়াফ্রামের নিচে থাকে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice below.",
+     "audio": "m3w9c27/l005.mp3",
+     "from": 505,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The stomach is below the diaphragm.",
+      "bn": "পাকস্থলী ডায়াফ্রামের নিচে থাকে।",
+      "focus": [
+       {
+        "w": "below",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 843,
+   "frames": 728,
+   "lines": [
+    {
+     "say": "Rule two. Use is or are with the past participle to describe where something is located or what it does.",
+     "audio": "m3w9c27/l006.mp3",
+     "from": 0,
+     "frames": 264,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use is or are with the past participle to describe where something is located or what it does.",
+      "bn": "নিয়ম ২: কোনো কিছুর অবস্থান বা কাজ বোঝাতে is অথবা are-এর সঙ্গে past participle ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The heart is located in the chest.",
+     "audio": "m3w9c27/l007.mp3",
+     "from": 264,
+     "frames": 116,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart is located in the chest.",
+      "bn": "হৃৎপিণ্ড বুকের ভেতরে অবস্থিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is, located, and in.",
+     "audio": "m3w9c27/l008.mp3",
+     "from": 380,
+     "frames": 132,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart is located in the chest.",
+      "bn": "হৃৎপিণ্ড বুকের ভেতরে অবস্থিত।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "located",
+        "role": "verb"
+       },
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Food is digested in the stomach.",
+     "audio": "m3w9c27/l009.mp3",
+     "from": 512,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Food is digested in the stomach.",
+      "bn": "পাকস্থলীতে খাবার হজম হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice in.",
+     "audio": "m3w9c27/l010.mp3",
+     "from": 627,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Food is digested in the stomach.",
+      "bn": "পাকস্থলীতে খাবার হজম হয়।",
+      "focus": [
+       {
+        "w": "in",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1571,
+   "frames": 226,
+   "lines": [
+    {
+     "say": "Not: The heart is at the chest. Say: The heart is in the chest.",
+     "audio": "m3w9c27/l011.mp3",
+     "from": 0,
+     "frames": 226,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "in",
+      "wrong": "The heart is at the chest.",
+      "right": "The heart is in the chest."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1797,
+   "frames": 392,
+   "lines": [
+    {
+     "say": "The heart pumps blood.",
+     "audio": "m3w9c27/l012.mp3",
+     "from": 0,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart pumps blood.",
+      "bn": "হৃৎপিণ্ড রক্ত পাম্প করে সারা শরীরে পাঠায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Heart.",
+     "audio": "m3w9c27/l013.mp3",
+     "from": 97,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The heart pumps blood.",
+      "bn": "হৃৎপিণ্ড রক্ত পাম্প করে সারা শরীরে পাঠায়।",
+      "focus": [
+       {
+        "w": "heart",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The lungs help us breathe.",
+     "audio": "m3w9c27/l014.mp3",
+     "from": 190,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lungs help us breathe.",
+      "bn": "ফুসফুস আমাদের শ্বাস নিতে সাহায্য করে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Lungs.",
+     "audio": "m3w9c27/l015.mp3",
+     "from": 291,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The lungs help us breathe.",
+      "bn": "ফুসফুস আমাদের শ্বাস নিতে সাহায্য করে।",
+      "focus": [
+       {
+        "w": "lungs",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2189,
+   "frames": 403,
+   "lines": [
+    {
+     "say": "Sound corner. The vowel in liver and live.",
+     "audio": "m3w9c27/l016.mp3",
+     "from": 0,
+     "frames": 169,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the vowel in liver and live.",
+      "bn": "Sound corner: liver এবং live শব্দের স্বরধ্বনি।"
+     }
+    },
+    {
+     "say": "The liver is large.",
+     "audio": "m3w9c27/l017.mp3",
+     "from": 169,
+     "frames": 95,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The liver is large.",
+      "bn": "যকৃৎটি বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Use a short i sound, like give.",
+     "audio": "m3w9c27/l018.mp3",
+     "from": 264,
+     "frames": 139,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The liver is large.",
+      "bn": "যকৃৎটি বড়।",
+      "focus": [
+       {
+        "w": "liver",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2592,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w9c27/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

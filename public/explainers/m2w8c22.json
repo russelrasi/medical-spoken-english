@@ -1,0 +1,391 @@
+{
+ "classId": "m2w8c22",
+ "classNo": 22,
+ "title": "Telling Stories: The Past Continuous",
+ "titleBn": "গল্প বলা: Past Continuous Tense।",
+ "fps": 30,
+ "totalFrames": 2806,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 231,
+   "lines": [
+    {
+     "say": "Welcome to Class 22. Telling Stories: The Past Continuous.",
+     "audio": "m2w8c22/l000.mp3",
+     "from": 0,
+     "frames": 231,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 231,
+   "frames": 679,
+   "lines": [
+    {
+     "say": "Rule one. Use was or were with a verb-ing for an action in progress in the past.",
+     "audio": "m2w8c22/l001.mp3",
+     "from": 0,
+     "frames": 241,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use was or were with a verb-ing for an action in progress in the past.",
+      "bn": "অতীতে চলমান কোনো কাজ বোঝাতে was বা were-এর সঙ্গে verb-ing ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I was walking to the metro at eight o'clock.",
+     "audio": "m2w8c22/l002.mp3",
+     "from": 241,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was walking to the metro at eight o'clock.",
+      "bn": "আমি রাত আটটায় মেট্রো স্টেশনে হেঁটে যাচ্ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "audio": "m2w8c22/l003.mp3",
+     "from": 369,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was walking to the metro at eight o'clock.",
+      "bn": "আমি রাত আটটায় মেট্রো স্টেশনে হেঁটে যাচ্ছিলাম।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "She was studying in the library.",
+     "audio": "m2w8c22/l004.mp3",
+     "from": 465,
+     "frames": 110,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "She was studying in the library.",
+      "bn": "সে লাইব্রেরিতে পড়াশোনা করছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "audio": "m2w8c22/l005.mp3",
+     "from": 575,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "She was studying in the library.",
+      "bn": "সে লাইব্রেরিতে পড়াশোনা করছিল।",
+      "focus": [
+       {
+        "w": "she",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 910,
+   "frames": 670,
+   "lines": [
+    {
+     "say": "Rule two. Use while for the longer action and when for the shorter action.",
+     "audio": "m2w8c22/l006.mp3",
+     "from": 0,
+     "frames": 217,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use while for the longer action and when for the shorter action.",
+      "bn": "নিয়ম ২: দীর্ঘ সময় ধরে চলা কাজ বোঝাতে while এবং স্বল্প সময়ের ঘটনা বোঝাতে when ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "While I was walking, it started to rain.",
+     "audio": "m2w8c22/l007.mp3",
+     "from": 217,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "While I was walking, it started to rain.",
+      "bn": "হাঁটার সময় বৃষ্টি শুরু হয়েছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice while, and was.",
+     "audio": "m2w8c22/l008.mp3",
+     "from": 345,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "While I was walking, it started to rain.",
+      "bn": "হাঁটার সময় বৃষ্টি শুরু হয়েছিল।",
+      "focus": [
+       {
+        "w": "while",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I was reading when she called.",
+     "audio": "m2w8c22/l009.mp3",
+     "from": 460,
+     "frames": 106,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was reading when she called.",
+      "bn": "আমি বই পড়ছিলাম, এমন সময় সে ফোন করল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice was.",
+     "audio": "m2w8c22/l010.mp3",
+     "from": 566,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was reading when she called.",
+      "bn": "আমি বই পড়ছিলাম, এমন সময় সে ফোন করল।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "was",
+        "role": "verb"
+       },
+       {
+        "w": "she",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1580,
+   "frames": 224,
+   "lines": [
+    {
+     "say": "Not: I was walk to the metro. Say: I was walking to the metro.",
+     "audio": "m2w8c22/l011.mp3",
+     "from": 0,
+     "frames": 224,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "walking",
+      "wrong": "I was walk to the metro.",
+      "right": "I was walking to the metro."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1804,
+   "frames": 438,
+   "lines": [
+    {
+     "say": "Meanwhile, Mariam was waiting outside.",
+     "audio": "m2w8c22/l012.mp3",
+     "from": 0,
+     "frames": 128,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Meanwhile, Mariam was waiting outside.",
+      "bn": "এদিকে, মারিয়াম বাইরে অপেক্ষা করছিল।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Meanwhile.",
+     "audio": "m2w8c22/l013.mp3",
+     "from": 128,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Meanwhile, Mariam was waiting outside.",
+      "bn": "এদিকে, মারিয়াম বাইরে অপেক্ষা করছিল।",
+      "focus": [
+       {
+        "w": "meanwhile",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Suddenly, it started to rain.",
+     "audio": "m2w8c22/l014.mp3",
+     "from": 221,
+     "frames": 116,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Suddenly, it started to rain.",
+      "bn": "হঠাৎ বৃষ্টি শুরু হলো।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Suddenly.",
+     "audio": "m2w8c22/l015.mp3",
+     "from": 337,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Suddenly, it started to rain.",
+      "bn": "হঠাৎ বৃষ্টি শুরু হলো।",
+      "focus": [
+       {
+        "w": "suddenly",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2242,
+   "frames": 411,
+   "lines": [
+    {
+     "say": "Sound corner. The -ing ending and linking was.",
+     "audio": "m2w8c22/l016.mp3",
+     "from": 0,
+     "frames": 188,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the -ing ending and linking was.",
+      "bn": "Sound corner: -ing-এর শেষাংশ এবং was-এর সঙ্গে যুক্ত করে উচ্চারণ।"
+     }
+    },
+    {
+     "say": "I was reading a book.",
+     "audio": "m2w8c22/l017.mp3",
+     "from": 188,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was reading a book.",
+      "bn": "আমি একটি বই পড়ছিলাম।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Do not drop the -ing ending.",
+     "audio": "m2w8c22/l018.mp3",
+     "from": 284,
+     "frames": 127,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I was reading a book.",
+      "bn": "আমি একটি বই পড়ছিলাম।",
+      "focus": [
+       {
+        "w": "was",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2653,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w8c22/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Spoken English for Medical Students (prototype)
 
-A static, backend-free Duolingo-style lesson player for the Medical Student Spoken English course (Classes 1-12). Vite + React + TypeScript. Progress (XP, streak, per-class results) is kept in `localStorage`.
+A static, backend-free Duolingo-style lesson player for the Medical Student Spoken English course (Classes 1-36: Months 1 to 3). Vite + React + TypeScript. Progress (XP, streak, per-class results) is kept in `localStorage`.
 
 ## Run
 
@@ -12,7 +12,7 @@ npm run build    # outputs dist/
 
 ## What is in it
 
-- Path of 12 classes grouped by week. Tap a class for Start lesson, Guidebook, Speaking practice.
+- Path of 36 classes grouped by month and week. Tap a class for Start lesson, Guidebook, Speaking practice.
 - Lesson: about 10 exercises per session, graded in the browser, with correct/incorrect feedback and the right answer. Missed items come back once at the end.
 - Exercise types: vocab select, match pairs, fill in the blank, sentence ordering, listen and choose (neural voice audio).
 - Guidebook per class: grammar rule, examples, common mistakes, vocab, model dialogue.

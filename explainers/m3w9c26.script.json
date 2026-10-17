@@ -1,0 +1,279 @@
+{
+ "classId": "m3w9c26",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 26. Following a Lecture and Taking Notes.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use polite phrases to ask for repetition and meaning.",
+     "show": {
+      "kind": "text",
+      "text": "Use polite phrases to ask for repetition and meaning.",
+      "bn": "কোনো কথা আবার বলতে এবং তার অর্থ বুঝিয়ে দিতে ভদ্রভাবে অনুরোধ করার বাক্যাংশ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Could you repeat that, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you speak more slowly?",
+     "show": {
+      "kind": "example",
+      "text": "Could you speak more slowly?",
+      "bn": "আপনি কি একটু ধীরে কথা বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could you speak more slowly?",
+      "bn": "আপনি কি একটু ধীরে কথা বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Listen for signal words: first, then, next, finally, in conclusion.",
+     "show": {
+      "kind": "text",
+      "text": "Listen for signal words: first, then, next, finally, in conclusion.",
+      "bn": "নিয়ম ২: first, then, next, finally এবং in conclusion এর মতো সংকেতবাচক শব্দগুলো শুনে বুঝুন।"
+     }
+    },
+    {
+     "say": "First, we study the bones.",
+     "show": {
+      "kind": "example",
+      "text": "First, we study the bones.",
+      "bn": "প্রথমে, আমরা হাড় সম্পর্কে পড়ি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice first.",
+     "show": {
+      "kind": "example",
+      "text": "First, we study the bones.",
+      "bn": "প্রথমে, আমরা হাড় সম্পর্কে পড়ি।",
+      "focus": [
+       {
+        "w": "first",
+        "role": "verb"
+       },
+       {
+        "w": "we",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Then, we study the muscles.",
+     "show": {
+      "kind": "example",
+      "text": "Then, we study the muscles.",
+      "bn": "তারপর, আমরা পেশিগুলো পড়ি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice then.",
+     "show": {
+      "kind": "example",
+      "text": "Then, we study the muscles.",
+      "bn": "তারপর, আমরা পেশিগুলো পড়ি।",
+      "focus": [
+       {
+        "w": "then",
+        "role": "verb"
+       },
+       {
+        "w": "we",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Repeat again. Say: Could you repeat that, please?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "could"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I take notes in every lecture.",
+     "show": {
+      "kind": "example",
+      "text": "I take notes in every lecture.",
+      "bn": "আমি প্রতিটি লেকচারে নোট নিই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notes.",
+     "show": {
+      "kind": "example",
+      "text": "I take notes in every lecture.",
+      "bn": "আমি প্রতিটি লেকচারে নোট নিই।",
+      "focus": [
+       {
+        "w": "notes",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Write the keyword in the margin.",
+     "show": {
+      "kind": "example",
+      "text": "Write the keyword in the margin.",
+      "bn": "পাতার পাশে থাকা মার্জিনে keyword-টি লিখুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Keyword.",
+     "show": {
+      "kind": "example",
+      "text": "Write the keyword in the margin.",
+      "bn": "পাতার পাশে থাকা মার্জিনে keyword-টি লিখুন।",
+      "focus": [
+       {
+        "w": "keyword",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Word stress in long words.",
+     "show": {
+      "kind": "text",
+      "text": "word stress in long words.",
+      "bn": "Sound corner: দীর্ঘ শব্দে জোর দিয়ে উচ্চারণের নিয়ম।"
+     }
+    },
+    {
+     "say": "Anatomy is an important subject.",
+     "show": {
+      "kind": "example",
+      "text": "Anatomy is an important subject.",
+      "bn": "অ্যানাটমি একটি গুরুত্বপূর্ণ বিষয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Stress the second syllable: a-NAT-o-my.",
+     "show": {
+      "kind": "example",
+      "text": "Anatomy is an important subject.",
+      "bn": "অ্যানাটমি একটি গুরুত্বপূর্ণ বিষয়।",
+      "focus": [
+       {
+        "w": "anatomy",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

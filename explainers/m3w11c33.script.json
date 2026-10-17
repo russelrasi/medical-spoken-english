@@ -1,0 +1,223 @@
+{
+ "classId": "m3w11c33",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 33. Ward Round Language: Possibilities and Plans.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use may, might or could for possibility.",
+     "show": {
+      "kind": "text",
+      "text": "Use may, might or could for possibility.",
+      "bn": "সম্ভাবনা বোঝাতে may, might অথবা could ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "It may be an infection.",
+     "show": {
+      "kind": "example",
+      "text": "It may be an infection.",
+      "bn": "এটি সংক্রমণ হতে পারে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice may.",
+     "show": {
+      "kind": "example",
+      "text": "It may be an infection.",
+      "bn": "এটি সংক্রমণ হতে পারে।",
+      "focus": [
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "may",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "It could be a virus.",
+     "show": {
+      "kind": "example",
+      "text": "It could be a virus.",
+      "bn": "এটি কোনো ভাইরাস হতে পারে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "It could be a virus.",
+      "bn": "এটি কোনো ভাইরাস হতে পারে।",
+      "focus": [
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "could",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use if with the present simple, and will or can for the result.",
+     "show": {
+      "kind": "text",
+      "text": "Use if with the present simple, and will or can for the result.",
+      "bn": "নিয়ম ২: if-এর সঙ্গে present simple এবং ফলাফল বোঝাতে will অথবা can ব্যবহার করুন।"
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: It maybe a virus. Say: It may be a virus.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "may"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The ward round starts at eight.",
+     "show": {
+      "kind": "example",
+      "text": "The ward round starts at eight.",
+      "bn": "ওয়ার্ড রাউন্ড সকাল আটটায় শুরু হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Round.",
+     "show": {
+      "kind": "example",
+      "text": "The ward round starts at eight.",
+      "bn": "ওয়ার্ড রাউন্ড সকাল আটটায় শুরু হয়।",
+      "focus": [
+       {
+        "w": "round",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "It is a possible cause.",
+     "show": {
+      "kind": "example",
+      "text": "It is a possible cause.",
+      "bn": "এটি একটি সম্ভাব্য কারণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Possible.",
+     "show": {
+      "kind": "example",
+      "text": "It is a possible cause.",
+      "bn": "এটি একটি সম্ভাব্য কারণ।",
+      "focus": [
+       {
+        "w": "possible",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Linking words in fast speech.",
+     "show": {
+      "kind": "text",
+      "text": "linking words in fast speech.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: দ্রুত কথা বলার সময় শব্দগুলোর সংযোগ।"
+     }
+    },
+    {
+     "say": "If it continues, call me.",
+     "show": {
+      "kind": "example",
+      "text": "If it continues, call me.",
+      "bn": "এটা চলতে থাকলে আমাকে ফোন করবেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the words as one smooth group.",
+     "show": {
+      "kind": "example",
+      "text": "If it continues, call me.",
+      "bn": "এটা চলতে থাকলে আমাকে ফোন করবেন।",
+      "focus": [
+       {
+        "w": "if",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

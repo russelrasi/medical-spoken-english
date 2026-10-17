@@ -1,0 +1,379 @@
+{
+ "classId": "m3w9c26",
+ "classNo": 26,
+ "title": "Following a Lecture and Taking Notes",
+ "titleBn": "লেকচার অনুসরণ করা ও নোট নেওয়া",
+ "fps": 30,
+ "totalFrames": 2771,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 219,
+   "lines": [
+    {
+     "say": "Welcome to Class 26. Following a Lecture and Taking Notes.",
+     "audio": "m3w9c26/l000.mp3",
+     "from": 0,
+     "frames": 219,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 219,
+   "frames": 616,
+   "lines": [
+    {
+     "say": "Rule one. Use polite phrases to ask for repetition and meaning.",
+     "audio": "m3w9c26/l001.mp3",
+     "from": 0,
+     "frames": 208,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use polite phrases to ask for repetition and meaning.",
+      "bn": "কোনো কথা আবার বলতে এবং তার অর্থ বুঝিয়ে দিতে ভদ্রভাবে অনুরোধ করার বাক্যাংশ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Could you repeat that, please?",
+     "audio": "m3w9c26/l002.mp3",
+     "from": 208,
+     "frames": 112,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m3w9c26/l003.mp3",
+     "from": 320,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you repeat that, please?",
+      "bn": "দয়া করে কি কথাটি আবার বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Could you speak more slowly?",
+     "audio": "m3w9c26/l004.mp3",
+     "from": 413,
+     "frames": 102,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you speak more slowly?",
+      "bn": "আপনি কি একটু ধীরে কথা বলবেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "audio": "m3w9c26/l005.mp3",
+     "from": 515,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you speak more slowly?",
+      "bn": "আপনি কি একটু ধীরে কথা বলবেন?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 835,
+   "frames": 703,
+   "lines": [
+    {
+     "say": "Rule two. Listen for signal words: first, then, next, finally, in conclusion.",
+     "audio": "m3w9c26/l006.mp3",
+     "from": 0,
+     "frames": 275,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Listen for signal words: first, then, next, finally, in conclusion.",
+      "bn": "নিয়ম ২: first, then, next, finally এবং in conclusion এর মতো সংকেতবাচক শব্দগুলো শুনে বুঝুন।"
+     }
+    },
+    {
+     "say": "First, we study the bones.",
+     "audio": "m3w9c26/l007.mp3",
+     "from": 275,
+     "frames": 116,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "First, we study the bones.",
+      "bn": "প্রথমে, আমরা হাড় সম্পর্কে পড়ি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice first.",
+     "audio": "m3w9c26/l008.mp3",
+     "from": 391,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "First, we study the bones.",
+      "bn": "প্রথমে, আমরা হাড় সম্পর্কে পড়ি।",
+      "focus": [
+       {
+        "w": "first",
+        "role": "verb"
+       },
+       {
+        "w": "we",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Then, we study the muscles.",
+     "audio": "m3w9c26/l009.mp3",
+     "from": 487,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Then, we study the muscles.",
+      "bn": "তারপর, আমরা পেশিগুলো পড়ি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice then.",
+     "audio": "m3w9c26/l010.mp3",
+     "from": 602,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Then, we study the muscles.",
+      "bn": "তারপর, আমরা পেশিগুলো পড়ি।",
+      "focus": [
+       {
+        "w": "then",
+        "role": "verb"
+       },
+       {
+        "w": "we",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1538,
+   "frames": 218,
+   "lines": [
+    {
+     "say": "Not: Repeat again. Say: Could you repeat that, please?",
+     "audio": "m3w9c26/l011.mp3",
+     "from": 0,
+     "frames": 218,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "could",
+      "wrong": "Repeat again.",
+      "right": "Could you repeat that, please?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1756,
+   "frames": 414,
+   "lines": [
+    {
+     "say": "I take notes in every lecture.",
+     "audio": "m3w9c26/l012.mp3",
+     "from": 0,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I take notes in every lecture.",
+      "bn": "আমি প্রতিটি লেকচারে নোট নিই।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notes.",
+     "audio": "m3w9c26/l013.mp3",
+     "from": 113,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I take notes in every lecture.",
+      "bn": "আমি প্রতিটি লেকচারে নোট নিই।",
+      "focus": [
+       {
+        "w": "notes",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Write the keyword in the margin.",
+     "audio": "m3w9c26/l014.mp3",
+     "from": 206,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Write the keyword in the margin.",
+      "bn": "পাতার পাশে থাকা মার্জিনে keyword-টি লিখুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Keyword.",
+     "audio": "m3w9c26/l015.mp3",
+     "from": 313,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Write the keyword in the margin.",
+      "bn": "পাতার পাশে থাকা মার্জিনে keyword-টি লিখুন।",
+      "focus": [
+       {
+        "w": "keyword",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2170,
+   "frames": 448,
+   "lines": [
+    {
+     "say": "Sound corner. Word stress in long words.",
+     "audio": "m3w9c26/l016.mp3",
+     "from": 0,
+     "frames": 172,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "word stress in long words.",
+      "bn": "Sound corner: দীর্ঘ শব্দে জোর দিয়ে উচ্চারণের নিয়ম।"
+     }
+    },
+    {
+     "say": "Anatomy is an important subject.",
+     "audio": "m3w9c26/l017.mp3",
+     "from": 172,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Anatomy is an important subject.",
+      "bn": "অ্যানাটমি একটি গুরুত্বপূর্ণ বিষয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Stress the second syllable: a-NAT-o-my.",
+     "audio": "m3w9c26/l018.mp3",
+     "from": 290,
+     "frames": 158,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Anatomy is an important subject.",
+      "bn": "অ্যানাটমি একটি গুরুত্বপূর্ণ বিষয়।",
+      "focus": [
+       {
+        "w": "anatomy",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2618,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w9c26/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

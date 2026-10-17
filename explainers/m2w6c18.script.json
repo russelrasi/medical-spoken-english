@@ -1,0 +1,255 @@
+{
+ "classId": "m2w6c18",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 18. Hostel and Housing: Rooms, Rules and Problems.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use have to or must for rules, and do not have to when something is not necessary.",
+     "show": {
+      "kind": "text",
+      "text": "Use have to or must for rules, and do not have to when something is not necessary.",
+      "bn": "নিয়ম বোঝাতে have to বা must এবং কোনো কিছু করা জরুরি নয় বোঝাতে do not have to ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "You must sign in at the gate.",
+     "show": {
+      "kind": "example",
+      "text": "You must sign in at the gate.",
+      "bn": "আপনাকে গেটে নাম নিবন্ধন করতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice must.",
+     "show": {
+      "kind": "example",
+      "text": "You must sign in at the gate.",
+      "bn": "আপনাকে গেটে নাম নিবন্ধন করতে হবে।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "must",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Students have to be back by eleven.",
+     "show": {
+      "kind": "example",
+      "text": "Students have to be back by eleven.",
+      "bn": "শিক্ষার্থীদের এগারোটার মধ্যে ফিরে আসতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have, and to.",
+     "show": {
+      "kind": "example",
+      "text": "Students have to be back by eleven.",
+      "bn": "শিক্ষার্থীদের এগারোটার মধ্যে ফিরে আসতে হবে।",
+      "focus": [
+       {
+        "w": "have",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Report a problem with There is no or The .",
+     "show": {
+      "kind": "text",
+      "text": "Report a problem with There is no or The .",
+      "bn": "নিয়ম ২: There is no অথবা The ... does not work ব্যবহার করে কোনো সমস্যার কথা জানান।"
+     }
+    },
+    {
+     "say": "The air conditioner does not work.",
+     "show": {
+      "kind": "example",
+      "text": "The air conditioner does not work.",
+      "bn": "এয়ার কন্ডিশনারটি কাজ করছে না।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice does, and not.",
+     "show": {
+      "kind": "example",
+      "text": "The air conditioner does not work.",
+      "bn": "এয়ার কন্ডিশনারটি কাজ করছে না।",
+      "focus": [
+       {
+        "w": "does",
+        "role": "verb"
+       },
+       {
+        "w": "not",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: You must to sign in. Say: You must sign in.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "in"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "My hostel is near the college.",
+     "show": {
+      "kind": "example",
+      "text": "My hostel is near the college.",
+      "bn": "আমার হোস্টেল কলেজের কাছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Hostel.",
+     "show": {
+      "kind": "example",
+      "text": "My hostel is near the college.",
+      "bn": "আমার হোস্টেল কলেজের কাছে।",
+      "focus": [
+       {
+        "w": "hostel",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The rent is due on the first.",
+     "show": {
+      "kind": "example",
+      "text": "The rent is due on the first.",
+      "bn": "মাসের প্রথম দিনে ভাড়া দিতে হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Rent.",
+     "show": {
+      "kind": "example",
+      "text": "The rent is due on the first.",
+      "bn": "মাসের প্রথম দিনে ভাড়া দিতে হয়।",
+      "focus": [
+       {
+        "w": "rent",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The h sound in hot, hostel and have.",
+     "show": {
+      "kind": "text",
+      "text": "the h sound in hot, hostel and have.",
+      "bn": "Sound corner: hot, hostel এবং have শব্দে h-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "The hostel has hot water.",
+     "show": {
+      "kind": "example",
+      "text": "The hostel has hot water.",
+      "bn": "হোস্টেলে গরম পানির ব্যবস্থা আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the h at the start.",
+     "show": {
+      "kind": "example",
+      "text": "The hostel has hot water.",
+      "bn": "হোস্টেলে গরম পানির ব্যবস্থা আছে।",
+      "focus": [
+       {
+        "w": "hostel",
+        "role": "key"
+       },
+       {
+        "w": "hot",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

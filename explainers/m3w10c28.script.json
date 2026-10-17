@@ -1,0 +1,303 @@
+{
+ "classId": "m3w10c28",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 28. Asking and Answering Questions in Class.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use indirect questions to sound polite: Could you tell me .",
+     "show": {
+      "kind": "text",
+      "text": "Use indirect questions to sound polite: Could you tell me .",
+      "bn": "ভদ্রভাবে প্রশ্ন করতে পরোক্ষ প্রশ্ন ব্যবহার করুন: Could you tell me ...?"
+     }
+    },
+    {
+     "say": "Could you tell me where the lab is?",
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could, and is.",
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Do you know what time it starts?",
+     "show": {
+      "kind": "example",
+      "text": "Do you know what time it starts?",
+      "bn": "এটি কখন শুরু হয়, তা কি আপনি জানেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice do, you, and know.",
+     "show": {
+      "kind": "example",
+      "text": "Do you know what time it starts?",
+      "bn": "এটি কখন শুরু হয়, তা কি আপনি জানেন?",
+      "focus": [
+       {
+        "w": "do",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "verb"
+       },
+       {
+        "w": "know",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Answer in full sentences in class, and use short answers in conversation.",
+     "show": {
+      "kind": "text",
+      "text": "Answer in full sentences in class, and use short answers in conversation.",
+      "bn": "ক্লাসে পূর্ণ বাক্যে উত্তর দিন এবং কথোপকথনে সংক্ষিপ্ত উত্তর ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Is the heart a muscle? Yes, it is.",
+     "show": {
+      "kind": "example",
+      "text": "Is the heart a muscle? Yes, it is.",
+      "bn": "হৃৎপিণ্ড কি একটি পেশি? হ্যাঁ, এটি একটি পেশি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "show": {
+      "kind": "example",
+      "text": "Is the heart a muscle? Yes, it is.",
+      "bn": "হৃৎপিণ্ড কি একটি পেশি? হ্যাঁ, এটি একটি পেশি।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Is it correct? No, it is not.",
+     "show": {
+      "kind": "example",
+      "text": "Is it correct? No, it is not.",
+      "bn": "এটি কি সঠিক? না, এটি সঠিক নয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "show": {
+      "kind": "example",
+      "text": "Is it correct? No, it is not.",
+      "bn": "এটি কি সঠিক? না, এটি সঠিক নয়।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Could you tell me where is the lab? Say: Could you tell me where the lab is?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "is"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I have a question.",
+     "show": {
+      "kind": "example",
+      "text": "I have a question.",
+      "bn": "আমার একটি প্রশ্ন আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Question.",
+     "show": {
+      "kind": "example",
+      "text": "I have a question.",
+      "bn": "আমার একটি প্রশ্ন আছে।",
+      "focus": [
+       {
+        "w": "question",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The answer is correct.",
+     "show": {
+      "kind": "example",
+      "text": "The answer is correct.",
+      "bn": "উত্তরটি সঠিক।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Answer.",
+     "show": {
+      "kind": "example",
+      "text": "The answer is correct.",
+      "bn": "উত্তরটি সঠিক।",
+      "focus": [
+       {
+        "w": "answer",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Intonation in questions.",
+     "show": {
+      "kind": "text",
+      "text": "intonation in questions.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: প্রশ্ন করার সময় কণ্ঠস্বরের ওঠানামা।"
+     }
+    },
+    {
+     "say": "Where is the lab?",
+     "show": {
+      "kind": "example",
+      "text": "Where is the lab?",
+      "bn": "ল্যাব কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Let the voice fall in wh-questions.",
+     "show": {
+      "kind": "example",
+      "text": "Where is the lab?",
+      "bn": "ল্যাব কোথায়?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "classId": "m3w11c31",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 31. Giving Instructions and Explaining Procedures.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use the imperative and sequence words for steps.",
+     "show": {
+      "kind": "text",
+      "text": "Use the imperative and sequence words for steps.",
+      "bn": "কোনো কাজের ধাপ বোঝাতে আদেশসূচক বাক্য এবং ধারাবাহিকতা নির্দেশক শব্দ ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "First, please sit down.",
+     "show": {
+      "kind": "example",
+      "text": "First, please sit down.",
+      "bn": "প্রথমে, দয়া করে বসুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice first.",
+     "show": {
+      "kind": "example",
+      "text": "First, please sit down.",
+      "bn": "প্রথমে, দয়া করে বসুন।",
+      "focus": [
+       {
+        "w": "first",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Then, relax your arm.",
+     "show": {
+      "kind": "example",
+      "text": "Then, relax your arm.",
+      "bn": "তারপর, আপনার বাহু শিথিল করুন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice then.",
+     "show": {
+      "kind": "example",
+      "text": "Then, relax your arm.",
+      "bn": "তারপর, আপনার বাহু শিথিল করুন।",
+      "focus": [
+       {
+        "w": "then",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use the passive to describe a procedure: is checked, is measured, is recorded.",
+     "show": {
+      "kind": "text",
+      "text": "Use the passive to describe a procedure: is checked, is measured, is recorded.",
+      "bn": "নিয়ম ২: কোনো প্রক্রিয়া বর্ণনা করতে passive voice ব্যবহার করুন: is checked, is measured, is recorded।"
+     }
+    },
+    {
+     "say": "The blood pressure is measured with a cuff.",
+     "show": {
+      "kind": "example",
+      "text": "The blood pressure is measured with a cuff.",
+      "bn": "কাফ ব্যবহার করে রক্তচাপ মাপা হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "show": {
+      "kind": "example",
+      "text": "The blood pressure is measured with a cuff.",
+      "bn": "কাফ ব্যবহার করে রক্তচাপ মাপা হয়।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The pulse is checked at the wrist.",
+     "show": {
+      "kind": "example",
+      "text": "The pulse is checked at the wrist.",
+      "bn": "কবজিতে নাড়ি পরীক্ষা করা হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "show": {
+      "kind": "example",
+      "text": "The pulse is checked at the wrist.",
+      "bn": "কবজিতে নাড়ি পরীক্ষা করা হয়।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: You are sitting down first. Say: First, please sit down.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "please"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I will explain the procedure.",
+     "show": {
+      "kind": "example",
+      "text": "I will explain the procedure.",
+      "bn": "আমি পদ্ধতিটি ব্যাখ্যা করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Procedure.",
+     "show": {
+      "kind": "example",
+      "text": "I will explain the procedure.",
+      "bn": "আমি পদ্ধতিটি ব্যাখ্যা করব।",
+      "focus": [
+       {
+        "w": "procedure",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I will put the cuff on your arm.",
+     "show": {
+      "kind": "example",
+      "text": "I will put the cuff on your arm.",
+      "bn": "আমি আপনার বাহুতে কাফটি পরিয়ে দেব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Cuff.",
+     "show": {
+      "kind": "example",
+      "text": "I will put the cuff on your arm.",
+      "bn": "আমি আপনার বাহুতে কাফটি পরিয়ে দেব।",
+      "focus": [
+       {
+        "w": "cuff",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Stress in noun and verb pairs.",
+     "show": {
+      "kind": "text",
+      "text": "stress in noun and verb pairs.",
+      "bn": "Sound corner: বিশেষ্য ও ক্রিয়ার জোড়া শব্দে জোর দেওয়ার নিয়ম।"
+     }
+    },
+    {
+     "say": "I will reCORD the result.",
+     "show": {
+      "kind": "example",
+      "text": "I will reCORD the result.",
+      "bn": "আমি ফলাফলটি রেকর্ড করব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Verbs often stress the second syllable.",
+     "show": {
+      "kind": "example",
+      "text": "I will reCORD the result.",
+      "bn": "আমি ফলাফলটি রেকর্ড করব।",
+      "focus": [
+       {
+        "w": "record",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

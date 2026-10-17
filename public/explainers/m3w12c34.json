@@ -1,0 +1,339 @@
+{
+ "classId": "m3w12c34",
+ "classNo": 34,
+ "title": "Giving a Short Presentation",
+ "titleBn": "সংক্ষিপ্ত উপস্থাপনা দেওয়া।",
+ "fps": 30,
+ "totalFrames": 2618,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 202,
+   "lines": [
+    {
+     "say": "Welcome to Class 34. Giving a Short Presentation.",
+     "audio": "m3w12c34/l000.mp3",
+     "from": 0,
+     "frames": 202,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 202,
+   "frames": 685,
+   "lines": [
+    {
+     "say": "Rule one. Open with a greeting, the topic and the plan: Today I will talk about .",
+     "audio": "m3w12c34/l001.mp3",
+     "from": 0,
+     "frames": 243,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Open with a greeting, the topic and the plan: Today I will talk about .",
+      "bn": "নিয়ম ১: শুভেচ্ছা, আলোচনার বিষয় এবং পরিকল্পনা দিয়ে উপস্থাপনা শুরু করুন: Today I will talk about ..."
+     }
+    },
+    {
+     "say": "Today I will talk about hand washing.",
+     "audio": "m3w12c34/l002.mp3",
+     "from": 243,
+     "frames": 122,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice today.",
+     "audio": "m3w12c34/l003.mp3",
+     "from": 365,
+     "frames": 94,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": [
+       {
+        "w": "today",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Firstly, why it is important.",
+     "audio": "m3w12c34/l004.mp3",
+     "from": 459,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Firstly, why it is important.",
+      "bn": "প্রথমত, এটি কেন গুরুত্বপূর্ণ।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice firstly.",
+     "audio": "m3w12c34/l005.mp3",
+     "from": 577,
+     "frames": 108,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Firstly, why it is important.",
+      "bn": "প্রথমত, এটি কেন গুরুত্বপূর্ণ।",
+      "focus": [
+       {
+        "w": "firstly",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 887,
+   "frames": 487,
+   "lines": [
+    {
+     "say": "Rule two. Use numbers and trends: increased, decreased, stayed the same.",
+     "audio": "m3w12c34/l006.mp3",
+     "from": 0,
+     "frames": 237,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use numbers and trends: increased, decreased, stayed the same.",
+      "bn": "নিয়ম ২: সংখ্যা ও প্রবণতা বোঝাতে increased, decreased এবং stayed the same ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "The number of cases increased from ten to twenty.",
+     "audio": "m3w12c34/l007.mp3",
+     "from": 237,
+     "frames": 141,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The number of cases increased from ten to twenty.",
+      "bn": "কেসের সংখ্যা দশ থেকে বেড়ে বিশ হয়েছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice increased.",
+     "audio": "m3w12c34/l008.mp3",
+     "from": 378,
+     "frames": 109,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The number of cases increased from ten to twenty.",
+      "bn": "কেসের সংখ্যা দশ থেকে বেড়ে বিশ হয়েছে।",
+      "focus": [
+       {
+        "w": "increased",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1374,
+   "frames": 255,
+   "lines": [
+    {
+     "say": "Not: I talk now about hand washing. Say: Today I will talk about hand washing.",
+     "audio": "m3w12c34/l009.mp3",
+     "from": 0,
+     "frames": 255,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "today",
+      "wrong": "I talk now about hand washing.",
+      "right": "Today I will talk about hand washing."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1629,
+   "frames": 424,
+   "lines": [
+    {
+     "say": "My presentation is about hygiene.",
+     "audio": "m3w12c34/l010.mp3",
+     "from": 0,
+     "frames": 121,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My presentation is about hygiene.",
+      "bn": "আমার উপস্থাপনার বিষয় হলো স্বাস্থ্যবিধি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Presentation.",
+     "audio": "m3w12c34/l011.mp3",
+     "from": 121,
+     "frames": 97,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My presentation is about hygiene.",
+      "bn": "আমার উপস্থাপনার বিষয় হলো স্বাস্থ্যবিধি।",
+      "focus": [
+       {
+        "w": "presentation",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The topic is hand washing.",
+     "audio": "m3w12c34/l012.mp3",
+     "from": 218,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The topic is hand washing.",
+      "bn": "বিষয়টি হলো হাত ধোয়া।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Topic.",
+     "audio": "m3w12c34/l013.mp3",
+     "from": 323,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The topic is hand washing.",
+      "bn": "বিষয়টি হলো হাত ধোয়া।",
+      "focus": [
+       {
+        "w": "topic",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2053,
+   "frames": 412,
+   "lines": [
+    {
+     "say": "Sound corner. Pausing and stress in a talk.",
+     "audio": "m3w12c34/l014.mp3",
+     "from": 0,
+     "frames": 172,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "pausing and stress in a talk.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: কথা বলার সময় বিরতি ও জোর দেওয়ার নিয়ম।"
+     }
+    },
+    {
+     "say": "Today I will talk about hand washing.",
+     "audio": "m3w12c34/l015.mp3",
+     "from": 172,
+     "frames": 122,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pause between ideas.",
+     "audio": "m3w12c34/l016.mp3",
+     "from": 294,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Today I will talk about hand washing.",
+      "bn": "আজ আমি হাত ধোয়া নিয়ে কথা বলব।",
+      "focus": [
+       {
+        "w": "talk",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2465,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w12c34/l017.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

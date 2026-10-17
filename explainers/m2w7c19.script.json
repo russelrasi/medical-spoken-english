@@ -1,0 +1,279 @@
+{
+ "classId": "m2w7c19",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 19. Health Basics: At the Pharmacy and the Clinic.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use I have a .",
+     "show": {
+      "kind": "text",
+      "text": "Use I have a .",
+      "bn": "কোনো উপসর্গের নাম বলতে I have a ... এবং ব্যথা বোঝাতে My ... hurts ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I have a headache.",
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a fever.",
+     "show": {
+      "kind": "example",
+      "text": "I have a fever.",
+      "bn": "আমার জ্বর হয়েছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have.",
+     "show": {
+      "kind": "example",
+      "text": "I have a fever.",
+      "bn": "আমার জ্বর হয়েছে।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "have",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use should and shouldn't to give advice.",
+     "show": {
+      "kind": "text",
+      "text": "Use should and shouldn't to give advice.",
+      "bn": "নিয়ম ২: পরামর্শ দিতে should এবং shouldn't ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "You should rest today.",
+     "show": {
+      "kind": "example",
+      "text": "You should rest today.",
+      "bn": "আজ আপনার বিশ্রাম নেওয়া উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "show": {
+      "kind": "example",
+      "text": "You should rest today.",
+      "bn": "আজ আপনার বিশ্রাম নেওয়া উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "You should drink more water.",
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I am having headache. Say: I have a headache.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "have"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The pharmacist gave me advice.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacist gave me advice.",
+      "bn": "ফার্মাসিস্ট আমাকে পরামর্শ দিয়েছেন।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Pharmacist.",
+     "show": {
+      "kind": "example",
+      "text": "The pharmacist gave me advice.",
+      "bn": "ফার্মাসিস্ট আমাকে পরামর্শ দিয়েছেন।",
+      "focus": [
+       {
+        "w": "pharmacist",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I have a bad headache.",
+     "show": {
+      "kind": "example",
+      "text": "I have a bad headache.",
+      "bn": "আমার প্রচণ্ড মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Headache.",
+     "show": {
+      "kind": "example",
+      "text": "I have a bad headache.",
+      "bn": "আমার প্রচণ্ড মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "headache",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The ache and ch sounds in headache and cough.",
+     "show": {
+      "kind": "text",
+      "text": "the ache and ch sounds in headache and cough.",
+      "bn": "Sound corner: headache ও cough শব্দে ache এবং ch-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "I have a headache.",
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Ache says ayk.",
+     "show": {
+      "kind": "example",
+      "text": "I have a headache.",
+      "bn": "আমার মাথাব্যথা হচ্ছে।",
+      "focus": [
+       {
+        "w": "headache",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

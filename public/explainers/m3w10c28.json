@@ -1,0 +1,403 @@
+{
+ "classId": "m3w10c28",
+ "classNo": 28,
+ "title": "Asking and Answering Questions in Class",
+ "titleBn": "ক্লাসে প্রশ্ন করা ও উত্তর দেওয়া",
+ "fps": 30,
+ "totalFrames": 2845,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 224,
+   "lines": [
+    {
+     "say": "Welcome to Class 28. Asking and Answering Questions in Class.",
+     "audio": "m3w10c28/l000.mp3",
+     "from": 0,
+     "frames": 224,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 224,
+   "frames": 681,
+   "lines": [
+    {
+     "say": "Rule one. Use indirect questions to sound polite: Could you tell me .",
+     "audio": "m3w10c28/l001.mp3",
+     "from": 0,
+     "frames": 215,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use indirect questions to sound polite: Could you tell me .",
+      "bn": "ভদ্রভাবে প্রশ্ন করতে পরোক্ষ প্রশ্ন ব্যবহার করুন: Could you tell me ...?"
+     }
+    },
+    {
+     "say": "Could you tell me where the lab is?",
+     "audio": "m3w10c28/l002.mp3",
+     "from": 215,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could, and is.",
+     "audio": "m3w10c28/l003.mp3",
+     "from": 322,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Could you tell me where the lab is?",
+      "bn": "আপনি কি আমাকে বলতে পারবেন, ল্যাবটি কোথায়?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Do you know what time it starts?",
+     "audio": "m3w10c28/l004.mp3",
+     "from": 437,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Do you know what time it starts?",
+      "bn": "এটি কখন শুরু হয়, তা কি আপনি জানেন?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice do, you, and know.",
+     "audio": "m3w10c28/l005.mp3",
+     "from": 542,
+     "frames": 139,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Do you know what time it starts?",
+      "bn": "এটি কখন শুরু হয়, তা কি আপনি জানেন?",
+      "focus": [
+       {
+        "w": "do",
+        "role": "verb"
+       },
+       {
+        "w": "you",
+        "role": "verb"
+       },
+       {
+        "w": "know",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 905,
+   "frames": 760,
+   "lines": [
+    {
+     "say": "Rule two. Answer in full sentences in class, and use short answers in conversation.",
+     "audio": "m3w10c28/l006.mp3",
+     "from": 0,
+     "frames": 249,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Answer in full sentences in class, and use short answers in conversation.",
+      "bn": "ক্লাসে পূর্ণ বাক্যে উত্তর দিন এবং কথোপকথনে সংক্ষিপ্ত উত্তর ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "Is the heart a muscle? Yes, it is.",
+     "audio": "m3w10c28/l007.mp3",
+     "from": 249,
+     "frames": 157,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Is the heart a muscle? Yes, it is.",
+      "bn": "হৃৎপিণ্ড কি একটি পেশি? হ্যাঁ, এটি একটি পেশি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "audio": "m3w10c28/l008.mp3",
+     "from": 406,
+     "frames": 96,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Is the heart a muscle? Yes, it is.",
+      "bn": "হৃৎপিণ্ড কি একটি পেশি? হ্যাঁ, এটি একটি পেশি।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Is it correct? No, it is not.",
+     "audio": "m3w10c28/l009.mp3",
+     "from": 502,
+     "frames": 154,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Is it correct? No, it is not.",
+      "bn": "এটি কি সঠিক? না, এটি সঠিক নয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice is.",
+     "audio": "m3w10c28/l010.mp3",
+     "from": 656,
+     "frames": 104,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Is it correct? No, it is not.",
+      "bn": "এটি কি সঠিক? না, এটি সঠিক নয়।",
+      "focus": [
+       {
+        "w": "is",
+        "role": "verb"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "it",
+        "role": "subj"
+       },
+       {
+        "w": "is",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1665,
+   "frames": 235,
+   "lines": [
+    {
+     "say": "Not: Could you tell me where is the lab? Say: Could you tell me where the lab is?",
+     "audio": "m3w10c28/l011.mp3",
+     "from": 0,
+     "frames": 235,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "is",
+      "wrong": "Could you tell me where is the lab?",
+      "right": "Could you tell me where the lab is?"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1900,
+   "frames": 384,
+   "lines": [
+    {
+     "say": "I have a question.",
+     "audio": "m3w10c28/l012.mp3",
+     "from": 0,
+     "frames": 92,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a question.",
+      "bn": "আমার একটি প্রশ্ন আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Question.",
+     "audio": "m3w10c28/l013.mp3",
+     "from": 92,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "I have a question.",
+      "bn": "আমার একটি প্রশ্ন আছে।",
+      "focus": [
+       {
+        "w": "question",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The answer is correct.",
+     "audio": "m3w10c28/l014.mp3",
+     "from": 185,
+     "frames": 98,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The answer is correct.",
+      "bn": "উত্তরটি সঠিক।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Answer.",
+     "audio": "m3w10c28/l015.mp3",
+     "from": 283,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The answer is correct.",
+      "bn": "উত্তরটি সঠিক।",
+      "focus": [
+       {
+        "w": "answer",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 2284,
+   "frames": 408,
+   "lines": [
+    {
+     "say": "Sound corner. Intonation in questions.",
+     "audio": "m3w10c28/l016.mp3",
+     "from": 0,
+     "frames": 170,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "intonation in questions.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: প্রশ্ন করার সময় কণ্ঠস্বরের ওঠানামা।"
+     }
+    },
+    {
+     "say": "Where is the lab?",
+     "audio": "m3w10c28/l017.mp3",
+     "from": 170,
+     "frames": 86,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the lab?",
+      "bn": "ল্যাব কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Let the voice fall in wh-questions.",
+     "audio": "m3w10c28/l018.mp3",
+     "from": 256,
+     "frames": 152,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Where is the lab?",
+      "bn": "ল্যাব কোথায়?",
+      "focus": [
+       {
+        "w": "where",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2692,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m3w10c28/l019.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

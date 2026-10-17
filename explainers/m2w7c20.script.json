@@ -1,0 +1,283 @@
+{
+ "classId": "m2w7c20",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 20. Phone Calls, Messages and Appointments.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use polite phone phrases: This is ..., Could I speak to ..., Can I take a message?.",
+     "show": {
+      "kind": "text",
+      "text": "Use polite phone phrases: This is ..., Could I speak to ..., Can I take a message?.",
+      "bn": "ফোনে ভদ্রভাবে কথা বলার বাক্যাংশ ব্যবহার করুন: This is ..., Could I speak to ..., Can I take a message?"
+     }
+    },
+    {
+     "say": "Could I speak to Dr. Hassan, please?",
+     "show": {
+      "kind": "example",
+      "text": "Could I speak to Dr. Hassan, please?",
+      "bn": "আমি কি দয়া করে ডা. হাসানের সঙ্গে কথা বলতে পারি?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice could.",
+     "show": {
+      "kind": "example",
+      "text": "Could I speak to Dr. Hassan, please?",
+      "bn": "আমি কি দয়া করে ডা. হাসানের সঙ্গে কথা বলতে পারি?",
+      "focus": [
+       {
+        "w": "could",
+        "role": "verb"
+       },
+       {
+        "w": "i",
+        "role": "subj"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I am calling about my appointment.",
+     "show": {
+      "kind": "example",
+      "text": "I am calling about my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্টের বিষয়ে জানতে ফোন করছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am.",
+     "show": {
+      "kind": "example",
+      "text": "I am calling about my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্টের বিষয়ে জানতে ফোন করছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Use the present continuous for fixed arrangements.",
+     "show": {
+      "kind": "text",
+      "text": "Use the present continuous for fixed arrangements.",
+      "bn": "নিয়ম ২: আগে থেকে নির্ধারিত পরিকল্পনা বোঝাতে present continuous ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I am meeting the doctor on Tuesday at ten.",
+     "show": {
+      "kind": "example",
+      "text": "I am meeting the doctor on Tuesday at ten.",
+      "bn": "আমি মঙ্গলবার সকাল দশটায় ডাক্তারের সঙ্গে দেখা করছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice am.",
+     "show": {
+      "kind": "example",
+      "text": "I am meeting the doctor on Tuesday at ten.",
+      "bn": "আমি মঙ্গলবার সকাল দশটায় ডাক্তারের সঙ্গে দেখা করছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "am",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "We are having a test on Monday.",
+     "show": {
+      "kind": "example",
+      "text": "We are having a test on Monday.",
+      "bn": "সোমবার আমাদের একটি পরীক্ষা আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice are.",
+     "show": {
+      "kind": "example",
+      "text": "We are having a test on Monday.",
+      "bn": "সোমবার আমাদের একটি পরীক্ষা আছে।",
+      "focus": [
+       {
+        "w": "we",
+        "role": "subj"
+       },
+       {
+        "w": "are",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: Who are you? Say: Who is calling, please?",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "is"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "I have an appointment at ten.",
+     "show": {
+      "kind": "example",
+      "text": "I have an appointment at ten.",
+      "bn": "সকাল দশটায় আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Appointment.",
+     "show": {
+      "kind": "example",
+      "text": "I have an appointment at ten.",
+      "bn": "সকাল দশটায় আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+      "focus": [
+       {
+        "w": "appointment",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I need to cancel my appointment.",
+     "show": {
+      "kind": "example",
+      "text": "I need to cancel my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্ট বাতিল করতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Cancel.",
+     "show": {
+      "kind": "example",
+      "text": "I need to cancel my appointment.",
+      "bn": "আমার অ্যাপয়েন্টমেন্ট বাতিল করতে হবে।",
+      "focus": [
+       {
+        "w": "cancel",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Numbers and times: thirteen and thirty.",
+     "show": {
+      "kind": "text",
+      "text": "numbers and times: thirteen and thirty.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: সংখ্যা ও সময়, বিশেষ করে thirteen এবং thirty।"
+     }
+    },
+    {
+     "say": "The appointment is at thirteen thirty.",
+     "show": {
+      "kind": "example",
+      "text": "The appointment is at thirteen thirty.",
+      "bn": "অ্যাপয়েন্টমেন্টটি তেরোটা ত্রিশে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Fifteen and fifty sound different. Listen to the stress.",
+     "show": {
+      "kind": "example",
+      "text": "The appointment is at thirteen thirty.",
+      "bn": "অ্যাপয়েন্টমেন্টটি তেরোটা ত্রিশে।",
+      "focus": [
+       {
+        "w": "thirteen",
+        "role": "key"
+       },
+       {
+        "w": "thirty",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

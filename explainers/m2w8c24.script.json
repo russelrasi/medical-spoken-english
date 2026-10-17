@@ -1,0 +1,215 @@
+{
+ "classId": "m2w8c24",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 24. Month 2 Revision and Evaluation Test.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Month 2 skills",
+   "lines": [
+    {
+     "say": "In Month 2 you learned to travel, ask for directions and shop in Egypt.",
+     "show": {
+      "kind": "text",
+      "text": "Travel, directions and shopping"
+     }
+    },
+    {
+     "say": "You learned to order food, and to compare places and prices.",
+     "show": {
+      "kind": "text",
+      "text": "Order food and compare things"
+     }
+    },
+    {
+     "say": "You learned to report problems, describe symptoms and use the phone.",
+     "show": {
+      "kind": "text",
+      "text": "Housing, health and phone calls"
+     }
+    },
+    {
+     "say": "You learned to make plans, tell stories and talk about your experiences.",
+     "show": {
+      "kind": "text",
+      "text": "Plans, stories and experiences"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Revision checklist: everything the student must be able to do by the end of Month 2.",
+     "show": {
+      "kind": "text",
+      "text": "Revision checklist: everything the student must be able to do by the end of Month 2.",
+      "bn": "নিয়ম ১: পুনরালোচনার যাচাইতালিকা। দ্বিতীয় মাসের শেষে শিক্ষার্থীকে যেসব কাজ করতে সক্ষম হতে হবে, তার সবকিছু।"
+     }
+    },
+    {
+     "say": "You should drink more water and rest.",
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water and rest.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত এবং বিশ্রাম নেওয়া উচিত।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice should.",
+     "show": {
+      "kind": "example",
+      "text": "You should drink more water and rest.",
+      "bn": "আপনার আরও বেশি পানি পান করা উচিত এবং বিশ্রাম নেওয়া উচিত।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "should",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I have went to Luxor. Say: I have gone to Luxor.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "gone"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "We have a revision class today.",
+     "show": {
+      "kind": "example",
+      "text": "We have a revision class today.",
+      "bn": "আজ আমাদের পড়া রিভিশনের ক্লাস আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Revision.",
+     "show": {
+      "kind": "example",
+      "text": "We have a revision class today.",
+      "bn": "আজ আমাদের পড়া রিভিশনের ক্লাস আছে।",
+      "focus": [
+       {
+        "w": "revision",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "I practise English every day.",
+     "show": {
+      "kind": "example",
+      "text": "I practise English every day.",
+      "bn": "আমি প্রতিদিন ইংরেজি অনুশীলন করি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Practise.",
+     "show": {
+      "kind": "example",
+      "text": "I practise English every day.",
+      "bn": "আমি প্রতিদিন ইংরেজি অনুশীলন করি।",
+      "focus": [
+       {
+        "w": "practise",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. Review of v, th and final consonants.",
+     "show": {
+      "kind": "text",
+      "text": "review of v, th and final consonants.",
+      "bn": "উচ্চারণ অনুশীলনের অংশ: v, th এবং শব্দের শেষের ব্যঞ্জনধ্বনির পুনরালোচনা।"
+     }
+    },
+    {
+     "say": "I have visited the third museum.",
+     "show": {
+      "kind": "example",
+      "text": "I have visited the third museum.",
+      "bn": "আমি তৃতীয় জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Put your tongue between your teeth for th.",
+     "show": {
+      "kind": "example",
+      "text": "I have visited the third museum.",
+      "bn": "আমি তৃতীয় জাদুঘরটি ঘুরে দেখেছি।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

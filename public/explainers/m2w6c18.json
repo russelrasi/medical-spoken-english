@@ -1,0 +1,347 @@
+{
+ "classId": "m2w6c18",
+ "classNo": 18,
+ "title": "Hostel and Housing: Rooms, Rules and Problems",
+ "titleBn": "হোস্টেল ও আবাসন: কক্ষ, নিয়মকানুন ও সমস্যা।",
+ "fps": 30,
+ "totalFrames": 2541,
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "from": 0,
+   "frames": 239,
+   "lines": [
+    {
+     "say": "Welcome to Class 18. Hostel and Housing: Rooms, Rules and Problems.",
+     "audio": "m2w6c18/l000.mp3",
+     "from": 0,
+     "frames": 239,
+     "lead": 12,
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "from": 239,
+   "frames": 688,
+   "lines": [
+    {
+     "say": "Rule one. Use have to or must for rules, and do not have to when something is not necessary.",
+     "audio": "m2w6c18/l001.mp3",
+     "from": 0,
+     "frames": 252,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Use have to or must for rules, and do not have to when something is not necessary.",
+      "bn": "নিয়ম বোঝাতে have to বা must এবং কোনো কিছু করা জরুরি নয় বোঝাতে do not have to ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "You must sign in at the gate.",
+     "audio": "m2w6c18/l002.mp3",
+     "from": 252,
+     "frames": 106,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You must sign in at the gate.",
+      "bn": "আপনাকে গেটে নাম নিবন্ধন করতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice must.",
+     "audio": "m2w6c18/l003.mp3",
+     "from": 358,
+     "frames": 95,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "You must sign in at the gate.",
+      "bn": "আপনাকে গেটে নাম নিবন্ধন করতে হবে।",
+      "focus": [
+       {
+        "w": "you",
+        "role": "subj"
+       },
+       {
+        "w": "must",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "Students have to be back by eleven.",
+     "audio": "m2w6c18/l004.mp3",
+     "from": 453,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Students have to be back by eleven.",
+      "bn": "শিক্ষার্থীদের এগারোটার মধ্যে ফিরে আসতে হবে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice have, and to.",
+     "audio": "m2w6c18/l005.mp3",
+     "from": 571,
+     "frames": 117,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "Students have to be back by eleven.",
+      "bn": "শিক্ষার্থীদের এগারোটার মধ্যে ফিরে আসতে হবে।",
+      "focus": [
+       {
+        "w": "have",
+        "role": "verb"
+       },
+       {
+        "w": "to",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "from": 927,
+   "frames": 423,
+   "lines": [
+    {
+     "say": "Rule two. Report a problem with There is no or The .",
+     "audio": "m2w6c18/l006.mp3",
+     "from": 0,
+     "frames": 182,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "Report a problem with There is no or The .",
+      "bn": "নিয়ম ২: There is no অথবা The ... does not work ব্যবহার করে কোনো সমস্যার কথা জানান।"
+     }
+    },
+    {
+     "say": "The air conditioner does not work.",
+     "audio": "m2w6c18/l007.mp3",
+     "from": 182,
+     "frames": 115,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The air conditioner does not work.",
+      "bn": "এয়ার কন্ডিশনারটি কাজ করছে না।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice does, and not.",
+     "audio": "m2w6c18/l008.mp3",
+     "from": 297,
+     "frames": 126,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The air conditioner does not work.",
+      "bn": "এয়ার কন্ডিশনারটি কাজ করছে না।",
+      "focus": [
+       {
+        "w": "does",
+        "role": "verb"
+       },
+       {
+        "w": "not",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "from": 1350,
+   "frames": 204,
+   "lines": [
+    {
+     "say": "Not: You must to sign in. Say: You must sign in.",
+     "audio": "m2w6c18/l009.mp3",
+     "from": 0,
+     "frames": 204,
+     "lead": 12,
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "in",
+      "wrong": "You must to sign in.",
+      "right": "You must sign in."
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "from": 1554,
+   "frames": 414,
+   "lines": [
+    {
+     "say": "My hostel is near the college.",
+     "audio": "m2w6c18/l010.mp3",
+     "from": 0,
+     "frames": 113,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My hostel is near the college.",
+      "bn": "আমার হোস্টেল কলেজের কাছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Hostel.",
+     "audio": "m2w6c18/l011.mp3",
+     "from": 113,
+     "frames": 93,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "My hostel is near the college.",
+      "bn": "আমার হোস্টেল কলেজের কাছে।",
+      "focus": [
+       {
+        "w": "hostel",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The rent is due on the first.",
+     "audio": "m2w6c18/l012.mp3",
+     "from": 206,
+     "frames": 107,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The rent is due on the first.",
+      "bn": "মাসের প্রথম দিনে ভাড়া দিতে হয়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Rent.",
+     "audio": "m2w6c18/l013.mp3",
+     "from": 313,
+     "frames": 101,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The rent is due on the first.",
+      "bn": "মাসের প্রথম দিনে ভাড়া দিতে হয়।",
+      "focus": [
+       {
+        "w": "rent",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "from": 1968,
+   "frames": 420,
+   "lines": [
+    {
+     "say": "Sound corner. The h sound in hot, hostel and have.",
+     "audio": "m2w6c18/l014.mp3",
+     "from": 0,
+     "frames": 197,
+     "lead": 12,
+     "show": {
+      "kind": "text",
+      "text": "the h sound in hot, hostel and have.",
+      "bn": "Sound corner: hot, hostel এবং have শব্দে h-এর ধ্বনি।"
+     }
+    },
+    {
+     "say": "The hostel has hot water.",
+     "audio": "m2w6c18/l015.mp3",
+     "from": 197,
+     "frames": 105,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The hostel has hot water.",
+      "bn": "হোস্টেলে গরম পানির ব্যবস্থা আছে।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Say the h at the start.",
+     "audio": "m2w6c18/l016.mp3",
+     "from": 302,
+     "frames": 118,
+     "lead": 12,
+     "show": {
+      "kind": "example",
+      "text": "The hostel has hot water.",
+      "bn": "হোস্টেলে গরম পানির ব্যবস্থা আছে।",
+      "focus": [
+       {
+        "w": "hostel",
+        "role": "key"
+       },
+       {
+        "w": "hot",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "from": 2388,
+   "frames": 153,
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "audio": "m2w6c18/l017.mp3",
+     "from": 0,
+     "frames": 153,
+     "lead": 12,
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}

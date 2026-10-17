@@ -1,0 +1,275 @@
+{
+ "classId": "m3w9c25",
+ "voice": "en-US-JennyNeural",
+ "scenes": [
+  {
+   "type": "title",
+   "heading": "",
+   "lines": [
+    {
+     "say": "Welcome to Class 25. The Medical College: Departments, Lectures and Labs.",
+     "show": {
+      "kind": "title"
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 1",
+   "lines": [
+    {
+     "say": "Rule one. Use a or an for one of many things, and the for a specific thing.",
+     "show": {
+      "kind": "text",
+      "text": "Use a or an for one of many things, and the for a specific thing.",
+      "bn": "অনেকগুলোর মধ্যে যেকোনো একটি বোঝাতে a বা an এবং নির্দিষ্ট কোনো কিছু বোঝাতে the ব্যবহার করুন।"
+     }
+    },
+    {
+     "say": "I need a textbook for anatomy.",
+     "show": {
+      "kind": "example",
+      "text": "I need a textbook for anatomy.",
+      "bn": "অ্যানাটমির জন্য আমার একটি পাঠ্যবই দরকার।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice a.",
+     "show": {
+      "kind": "example",
+      "text": "I need a textbook for anatomy.",
+      "bn": "অ্যানাটমির জন্য আমার একটি পাঠ্যবই দরকার।",
+      "focus": [
+       {
+        "w": "i",
+        "role": "subj"
+       },
+       {
+        "w": "a",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The anatomy lab is on the second floor.",
+     "show": {
+      "kind": "example",
+      "text": "The anatomy lab is on the second floor.",
+      "bn": "অ্যানাটমি ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "show": {
+      "kind": "example",
+      "text": "The anatomy lab is on the second floor.",
+      "bn": "অ্যানাটমি ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       },
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "rule",
+   "heading": "Rule 2",
+   "lines": [
+    {
+     "say": "Rule two. Ask about places and times with Where is, When does and Which room.",
+     "show": {
+      "kind": "text",
+      "text": "Ask about places and times with Where is, When does and Which room.",
+      "bn": "নিয়ম ২: Where is, When does এবং Which room ব্যবহার করে স্থান ও সময় সম্পর্কে প্রশ্ন করুন।"
+     }
+    },
+    {
+     "say": "Where is the anatomy lab?",
+     "show": {
+      "kind": "example",
+      "text": "Where is the anatomy lab?",
+      "bn": "অ্যানাটমি ল্যাব কোথায়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "show": {
+      "kind": "example",
+      "text": "Where is the anatomy lab?",
+      "bn": "অ্যানাটমি ল্যাব কোথায়?",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "When does the lecture start?",
+     "show": {
+      "kind": "example",
+      "text": "When does the lecture start?",
+      "bn": "লেকচার কখন শুরু হয়?",
+      "focus": []
+     }
+    },
+    {
+     "say": "Notice the.",
+     "show": {
+      "kind": "example",
+      "text": "When does the lecture start?",
+      "bn": "লেকচার কখন শুরু হয়?",
+      "focus": [
+       {
+        "w": "the",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "mistakes",
+   "heading": "Common mistake",
+   "lines": [
+    {
+     "say": "Not: I am student of medicine. Say: I am a student of medicine.",
+     "show": {
+      "kind": "mistake",
+      "ref": [
+       0,
+       0
+      ],
+      "focus": "a"
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Key words",
+   "lines": [
+    {
+     "say": "The anatomy department is on the first floor.",
+     "show": {
+      "kind": "example",
+      "text": "The anatomy department is on the first floor.",
+      "bn": "অ্যানাটমি বিভাগটি প্রথম তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Department.",
+     "show": {
+      "kind": "example",
+      "text": "The anatomy department is on the first floor.",
+      "bn": "অ্যানাটমি বিভাগটি প্রথম তলায়।",
+      "focus": [
+       {
+        "w": "department",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    },
+    {
+     "say": "The lecture hall is very large.",
+     "show": {
+      "kind": "example",
+      "text": "The lecture hall is very large.",
+      "bn": "লেকচার হলটি অনেক বড়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Lecture hall.",
+     "show": {
+      "kind": "example",
+      "text": "The lecture hall is very large.",
+      "bn": "লেকচার হলটি অনেক বড়।",
+      "focus": [
+       {
+        "w": "lecture",
+        "role": "verb"
+       },
+       {
+        "w": "hall",
+        "role": "verb"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "heading": "Sound corner",
+   "lines": [
+    {
+     "say": "Sound corner. The weak a and the in fast speech.",
+     "show": {
+      "kind": "text",
+      "text": "the weak a and the in fast speech.",
+      "bn": "Sound corner: দ্রুত কথা বলার সময় a এবং the-এর দুর্বল উচ্চারণ।"
+     }
+    },
+    {
+     "say": "The lab is on the second floor.",
+     "show": {
+      "kind": "example",
+      "text": "The lab is on the second floor.",
+      "bn": "ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": []
+     }
+    },
+    {
+     "say": "Use weak a and the, and stress the noun.",
+     "show": {
+      "kind": "example",
+      "text": "The lab is on the second floor.",
+      "bn": "ল্যাবটি দ্বিতীয় তলায়।",
+      "focus": [
+       {
+        "w": "the",
+        "role": "key"
+       }
+      ],
+      "keep": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "heading": "Recap",
+   "lines": [
+    {
+     "say": "Review the examples, then try the lesson!",
+     "show": {
+      "kind": "outro"
+     }
+    }
+   ]
+  }
+ ]
+}
