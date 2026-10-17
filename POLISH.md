@@ -106,3 +106,7 @@ First render downloads a headless Chrome. Explainer props for other classes: edi
 - Pipeline: `build_curriculum.py` (Month 1) then `build_months23.py` (Months 2 and 3), then `generate_audio.py` and `pad_audio.sh`, then `make_explainer_scripts.py` and `build_explainer.py <classId>` per class, then `build_lesson_plan.py`.
 - Bangla for Months 2 and 3: `build_months23.py --strings` writes `revised/bn_review_m2m3.md` (English lines to translate). A ChatGPT draft was produced through the browser and saved as `revised/bn_m2m3.json` (`revised/bn_review_m2m3_draft.md` is the readable version). To use a teacher-corrected sheet, convert it to the same English-to-Bangla JSON (see `merge_bn.py`) and re-run `build_months23.py`.
 - `LESSON_PLAN.md` now covers all 36 classes.
+
+## Revision 10: teacher-gated classes
+
+- Class 1 is open; every other class needs a per-class unlock code from the teacher (`make_unlock_codes.py`, `TEACHER_GUIDE.md`). The app ships only salted SHA-256 hashes (`public/gates.json`); the codes are in the git-ignored `teacher/` folder. Unlocks are stored in the browser (own key; resets do not re-lock). Started classes stay open. Locked deep links redirect home.

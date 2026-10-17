@@ -3,6 +3,9 @@ import { AnimatePresence, LazyMotion, domAnimation, m } from 'framer-motion'
 import { ExplainerClip } from './clips/lazy'
 import type { Script } from './clips/Explainer'
 import { applyTheme, loadTheme, THEMES, themeById } from './theme'
+import { checkCode, isOpen, loadGates, loadUnlocked, saveUnlocked } from './gate'
+import { burst } from './fx'
+import { playCorrect, playWrong } from './sound'
 import type { ClassUnit, Course } from './types'
 import { emptyProgress, liveStreak, loadProgress, resetClasses, saveProgress, touchStreak, type Progress } from './storage'
 import { getVoice, loadAudio, setVoice, voices } from './speech'
@@ -26,11 +29,13 @@ export default function App() {
   const [error, setError] = useState('')
   const [progress, setProgress] = useState<Progress>(loadProgress)
   const hash = useHash()
+  const [unlocked, setUnlocked] = useState<string[]>(loadUnlocked)
 
   useEffect(() => {
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}course.json`).then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json() }),
       loadAudio(),
+      loadGates(),
     ]).then(([c]) => c)
       .then(setCourse)
       .catch((e) => setError(`Could not load the course (${e.message}).`))
@@ -43,6 +48,18 @@ export default function App() {
   const units = useMemo(
     () => course?.course.months.flatMap((m) => m.weeks.flatMap((w) => w.classes)) ?? [], [course])
 
+  const [, groute, gid] = hash.split('/')
+  const lockedRoute = !!course && ['lesson', 'guide', 'speak', 'homework'].includes(groute) && (() => {
+    const u = units.find((x) => x.id === gid)
+    return !!u && !isOpen(u, unlocked, progress)
+  })()
+  useEffect(() => { if (lockedRoute) go('#/') }, [lockedRoute])
+  const unlock = useCallback(async (u: ClassUnit, code: string): Promise<boolean> => {
+    if (!(await checkCode(u.id, code))) return false
+    setUnlocked((l) => { const n = l.includes(u.id) ? l : [...l, u.id]; saveUnlocked(n); return n })
+    return true
+  }, [])
+
   if (error) return <div className="screen center"><div className="notice">{error}</div></div>
   if (!course) return <div className="screen center"><p>Loading...</p></div>
 
@@ -50,7 +67,9 @@ export default function App() {
   const unit = units.find((u) => u.id === id)
 
   let view: React.ReactNode
-  if (route === 'homework' && unit) {
+  if (lockedRoute) {
+    view = <Home course={course} progress={progress} units={units} update={update} unlocked={unlocked} unlock={unlock} />
+  } else if (route === 'homework' && unit) {
     // Revision class: draw homework from every class of that month.
     const pool = unit.revision ? units.filter((x) => x.month === unit.month) : [unit]
     const hwUnit: ClassUnit = pool.length === 1 ? unit : {
@@ -80,7 +99,7 @@ export default function App() {
     )
   } else if (route === 'guide' && unit) view = <Guidebook unit={unit} onBack={() => go('#/')} />
   else if (route === 'speak' && unit) view = <Speaking unit={unit} onBack={() => go('#/')} />
-  else view = <Home course={course} progress={progress} units={units} update={update} />
+  else view = <Home course={course} progress={progress} units={units} update={update} unlocked={unlocked} unlock={unlock} />
 
   const key = unit && route ? `${route}/${unit.id}` : 'home'
   return (
@@ -94,7 +113,10 @@ export default function App() {
   )
 }
 
-function Home({ course, progress, units, update }: { course: Course; progress: Progress; units: ClassUnit[]; update: (fn: (p: Progress) => Progress) => void }) {
+function Home({ course, progress, units, update, unlocked, unlock }: { course: Course; progress: Progress; units: ClassUnit[]; update: (fn: (p: Progress) => Progress) => void; unlocked: string[]; unlock: (u: ClassUnit, code: string) => Promise<boolean> }) {
+  const open_ = (u: ClassUnit) => isOpen(u, unlocked, progress)
+  const [code, setCode] = useState('')
+  const [codeMsg, setCodeMsg] = useState('')
   const [open, setOpen] = useState<ClassUnit | null>(null)
   const [explain, setExplain] = useState(false)
   const [avail, setAvail] = useState<string[]>([])
@@ -111,7 +133,8 @@ function Home({ course, progress, units, update }: { course: Course; progress: P
     fetch(`${base}explainers/${open.id}.json`).then((r) => r.json()).then(setScript).catch(() => setExplain(false))
   }, [explain, open, base])
   const core = units.filter((u) => !u.variant)
-  const next = core.find((u) => !progress.classes[u.id]?.done)
+  const next = core.find((u) => !progress.classes[u.id]?.done && open_(u))
+  const waiting = !next ? core.find((u) => !progress.classes[u.id]?.done) : undefined
   const streak = liveStreak(progress)
   const [voice, setV] = useState(getVoice())
   const doneCount = core.filter((u) => progress.classes[u.id]?.done).length
@@ -155,6 +178,15 @@ function Home({ course, progress, units, update }: { course: Course; progress: P
       </div>
       <div className="overall" aria-label={`Course progress ${pct}%`}><m.div initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.8 }} /></div>
 
+      {waiting && (
+        <section className="continue waiting">
+          <div>
+            <div className="eyebrow light">Next up · Class {waiting.no}</div>
+            <h2>{waiting.title.en}</h2>
+            <p className="bn">Send your voice recording to your teacher on WhatsApp. She will give you the code to unlock this class.</p>
+          </div>
+        </section>
+      )}
       {next && (
         <section className="continue">
           <div>
@@ -184,15 +216,16 @@ function Home({ course, progress, units, update }: { course: Course; progress: P
               <div className="grid">
                 {w.classes.map((u) => {
                   const cp = progress.classes[u.id]
-                  const state = cp?.done ? 'done' : u === next ? 'next' : ''
+                  const isLocked = !open_(u)
+                  const state = isLocked ? 'locked' : cp?.done ? 'done' : u === next ? 'next' : ''
                   return (
-                    <m.button key={u.id} className={`ccard ${state}`} onClick={() => { setExplain(false); setOpen(u) }}
+                    <m.button key={u.id} className={`ccard ${state}`} onClick={() => { setExplain(false); setCode(''); setCodeMsg(''); setOpen(u) }}
                       whileTap={{ scale: 0.97 }} aria-label={`Class ${u.no}: ${u.title.en}`}>
-                      <span className="badge">{cp?.done ? '✓' : u.variant ? `${u.no}R` : u.no}</span>
+                      <span className="badge">{isLocked ? '🔒' : cp?.done ? '✓' : u.variant ? `${u.no}R` : u.no}</span>
                       <span className="ctext">
                         <span className="ctitle">{u.title.en}</span>
                         <span className="cbn bn">{u.title.bn}</span>
-                        <span className="cmeta">{cp ? `Best ${cp.bestPct}% · ${cp.sessions} session${cp.sessions === 1 ? '' : 's'}` : u.grammar.en}</span>
+                        <span className="cmeta">{isLocked ? 'Locked. Ask your teacher for the code.' : cp ? `Best ${cp.bestPct}% · ${cp.sessions} session${cp.sessions === 1 ? '' : 's'}` : u.grammar.en}</span>
                       </span>
                     </m.button>
                   )
@@ -210,9 +243,26 @@ function Home({ course, progress, units, update }: { course: Course; progress: P
             <h2>{open.title.en}</h2>
             <p className="bn">{open.title.bn}</p>
             <p className="gram">{open.grammar.en}</p>
-            {progress.classes[open.id] && (
+            {!open_(open) && (
+              <div className="lock-box">
+                <p className="lock-msg">🔒 This class is locked. After you send your recordings, your teacher will give you the code for Class {open.no}.</p>
+                <form className={`code-row ${codeMsg ? 'bad' : ''}`} onSubmit={async (e) => {
+                  e.preventDefault()
+                  const ok = await unlock(open, code)
+                  if (ok) { playCorrect(); burst(true, { x: 0.5, y: 0.6 }); setCodeMsg(''); setCode('') }
+                  else { playWrong(); setCodeMsg('That code is not right. Check it with your teacher.') }
+                }}>
+                  <input className="code-input" value={code} onChange={(e) => { setCode(e.target.value); setCodeMsg('') }} placeholder="Enter code"
+                    aria-label="Unlock code" autoCapitalize="characters" autoComplete="off" autoCorrect="off" spellCheck={false} maxLength={12} />
+                  <button className="btn primary" type="submit" disabled={!code.trim()}>Unlock</button>
+                </form>
+                {codeMsg && <p className="code-err" role="alert">{codeMsg}</p>}
+              </div>
+            )}
+            {open_(open) && progress.classes[open.id] && (
               <p className="best">Best score {progress.classes[open.id].bestPct}% · {progress.classes[open.id].sessions} sessions</p>
             )}
+            {open_(open) && (<>
             {explain && (
               <div className="explain">
                 {script ? <ExplainerClip script={script} audioBase={`${base}explainers/`} palette={themeById(theme).palette} label={`Class ${open.no} explainer`} /> : <div className="clip-skel" aria-hidden="true" />}
@@ -227,6 +277,7 @@ function Home({ course, progress, units, update }: { course: Course; progress: P
             {open.speaking.length > 0 && (
               <button className="btn ghost" onClick={() => go(`#/speak/${open.id}`)}>Speaking practice</button>
             )}
+            </>)}
             <button className="link" onClick={() => setOpen(null)}>Close</button>
           </m.div>
         </m.div>

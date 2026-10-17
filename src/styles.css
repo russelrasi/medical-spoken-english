@@ -180,3 +180,16 @@ body { background: var(--page); }
 .rep-mistake { margin-top: 6px; }
 .rep-link { display: inline-block; margin-top: 8px; font-size: .85rem; font-weight: 700; color: var(--blue); }
 .clip-skel.loading { display: grid; place-items: center; color: var(--mute); font-weight: 700; }
+
+/* class gate */
+.ccard.locked { opacity: .62; background: var(--page); border-style: dashed; border-color: var(--line); }
+.ccard.locked .badge { background: var(--line); font-size: 1.1rem; }
+.continue.waiting { background: linear-gradient(135deg, #6f7b76, #4f5a56); }
+.lock-box { background: var(--green-bg); border-radius: 14px; padding: 12px; margin: 10px 0; }
+.lock-msg { font-weight: 700; margin-bottom: 8px; }
+.code-row { display: flex; gap: 8px; align-items: stretch; }
+.code-row .btn { margin: 0; width: auto; padding: 10px 18px; }
+.code-input { flex: 1; min-width: 0; font: inherit; font-size: 1.1rem; letter-spacing: .12em; text-transform: uppercase; padding: 10px 12px; border-radius: 12px; border: 2px solid var(--line); background: var(--card); color: var(--ink); }
+.code-input:focus { outline: none; border-color: var(--blue); }
+.code-row.bad { animation: shake .4s; } .code-row.bad .code-input { border-color: var(--red); }
+.code-err { color: var(--red-d); font-weight: 700; margin: 8px 0 0; font-size: .9rem; }
